@@ -1,0 +1,6 @@
+Encoder g722 [G.722 ADPCM]:
+    General capabilities: small 
+    Threading capabilities: none
+    Supported sample formats: s16
+    Supported channel layouts: mono
+

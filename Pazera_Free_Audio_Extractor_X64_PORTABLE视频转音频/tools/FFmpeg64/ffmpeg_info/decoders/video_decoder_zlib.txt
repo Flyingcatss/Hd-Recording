@@ -1,0 +1,4 @@
+Decoder zlib [LCL (LossLess Codec Library) ZLIB]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame
+

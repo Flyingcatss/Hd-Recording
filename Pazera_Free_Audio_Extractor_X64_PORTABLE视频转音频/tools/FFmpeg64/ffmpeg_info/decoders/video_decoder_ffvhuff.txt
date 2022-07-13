@@ -1,0 +1,4 @@
+Decoder ffvhuff [Huffyuv FFmpeg variant]:
+    General capabilities: horizband dr1 threads 
+    Threading capabilities: frame
+

@@ -1,0 +1,5 @@
+Decoder vp8 [On2 VP8]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame and slice
+    Supported hardware devices: cuda 
+

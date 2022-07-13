@@ -1,0 +1,5 @@
+Encoder xface [X-face image]:
+    General capabilities: intraonly 
+    Threading capabilities: none
+    Supported pixel formats: monow
+

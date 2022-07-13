@@ -1,0 +1,4 @@
+Decoder roqvideo [id RoQ video]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

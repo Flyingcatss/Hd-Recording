@@ -1,0 +1,4 @@
+Decoder xan_wc4 [Wing Commander IV / Xxan]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

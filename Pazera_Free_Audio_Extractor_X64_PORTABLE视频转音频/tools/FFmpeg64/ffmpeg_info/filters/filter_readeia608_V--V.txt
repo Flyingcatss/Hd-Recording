@@ -1,0 +1,22 @@
+Filter readeia608
+  Read EIA-608 Closed Caption codes from input video and write them to frame metadata.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+readeia608 AVOptions:
+  scan_min          <int>        ..FV..... set from which line to scan for codes (from 0 to INT_MAX) (default 0)
+  scan_max          <int>        ..FV..... set to which line to scan for codes (from 0 to INT_MAX) (default 29)
+  mac               <float>      ..FV..... set minimal acceptable amplitude change for sync codes detection (from 0.001 to 1) (default 0.2)
+  spw               <float>      ..FV..... set ratio of width reserved for sync code detection (from 0.1 to 0.7) (default 0.27)
+  mhd               <float>      ..FV..... set max peaks height difference for sync code detection (from 0 to 0.5) (default 0.1)
+  mpd               <float>      ..FV..... set max peaks period difference for sync code detection (from 0 to 0.5) (default 0.1)
+  msd               <float>      ..FV..... set first two max start code bits differences (from 0 to 0.5) (default 0.02)
+  bhd               <float>      ..FV..... set min ratio of bits height compared to 3rd start code bit (from 0.01 to 1) (default 0.75)
+  th_w              <float>      ..FV..... set white color threshold (from 0.1 to 1) (default 0.35)
+  th_b              <float>      ..FV..... set black color threshold (from 0 to 0.5) (default 0.15)
+  chp               <boolean>    ..FV..... check and apply parity bit (default false)
+  lp                <boolean>    ..FV..... lowpass line prior to processing (default false)
+
+This filter has support for timeline through the 'enable' option.
+

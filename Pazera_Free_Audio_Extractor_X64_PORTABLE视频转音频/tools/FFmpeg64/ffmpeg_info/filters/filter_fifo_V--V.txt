@@ -1,0 +1,7 @@
+Filter fifo
+  Buffer input images and send them when they are requested.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+

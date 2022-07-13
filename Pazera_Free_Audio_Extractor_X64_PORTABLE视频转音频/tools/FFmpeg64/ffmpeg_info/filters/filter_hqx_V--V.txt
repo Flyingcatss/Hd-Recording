@@ -1,0 +1,11 @@
+Filter hqx
+  Scale the input by 2, 3 or 4 using the hq*x magnification algorithm.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+hqx AVOptions:
+  n                 <int>        ..FV..... set scale factor (from 2 to 4) (default 3)
+
+

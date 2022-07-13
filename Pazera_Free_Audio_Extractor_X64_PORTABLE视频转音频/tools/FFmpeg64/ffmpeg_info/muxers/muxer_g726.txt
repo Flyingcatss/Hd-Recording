@@ -1,0 +1,3 @@
+Muxer g726 [raw big-endian G.726 ("left-justified")]:
+    Default audio codec: adpcm_g726.
+

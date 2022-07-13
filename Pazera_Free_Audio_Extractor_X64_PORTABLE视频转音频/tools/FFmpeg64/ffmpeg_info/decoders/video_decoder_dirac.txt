@@ -1,0 +1,4 @@
+Decoder dirac [BBC Dirac VC-2]:
+    General capabilities: dr1 delay threads 
+    Threading capabilities: slice
+

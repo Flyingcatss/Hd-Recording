@@ -1,0 +1,81 @@
+Filter surround
+  Apply audio surround upmix filter.
+    slice threading supported
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+surround AVOptions:
+  chl_out           <string>     ..F.A.... set output channel layout (default "5.1")
+  chl_in            <string>     ..F.A.... set input channel layout (default "stereo")
+  level_in          <float>      ..F.A.... set input level (from 0 to 10) (default 1)
+  level_out         <float>      ..F.A.... set output level (from 0 to 10) (default 1)
+  lfe               <boolean>    ..F.A.... output LFE (default true)
+  lfe_low           <int>        ..F.A.... LFE low cut off (from 0 to 256) (default 128)
+  lfe_high          <int>        ..F.A.... LFE high cut off (from 0 to 512) (default 256)
+  lfe_mode          <int>        ..F.A.... set LFE channel mode (from 0 to 1) (default add)
+     add             0            ..F.A.... just add LFE channel
+     sub             1            ..F.A.... substract LFE channel with others
+  angle             <float>      ..F.A.... set soundfield transform angle (from 0 to 360) (default 90)
+  fc_in             <float>      ..F.A.... set front center channel input level (from 0 to 10) (default 1)
+  fc_out            <float>      ..F.A.... set front center channel output level (from 0 to 10) (default 1)
+  fl_in             <float>      ..F.A.... set front left channel input level (from 0 to 10) (default 1)
+  fl_out            <float>      ..F.A.... set front left channel output level (from 0 to 10) (default 1)
+  fr_in             <float>      ..F.A.... set front right channel input level (from 0 to 10) (default 1)
+  fr_out            <float>      ..F.A.... set front right channel output level (from 0 to 10) (default 1)
+  sl_in             <float>      ..F.A.... set side left channel input level (from 0 to 10) (default 1)
+  sl_out            <float>      ..F.A.... set side left channel output level (from 0 to 10) (default 1)
+  sr_in             <float>      ..F.A.... set side right channel input level (from 0 to 10) (default 1)
+  sr_out            <float>      ..F.A.... set side right channel output level (from 0 to 10) (default 1)
+  bl_in             <float>      ..F.A.... set back left channel input level (from 0 to 10) (default 1)
+  bl_out            <float>      ..F.A.... set back left channel output level (from 0 to 10) (default 1)
+  br_in             <float>      ..F.A.... set back right channel input level (from 0 to 10) (default 1)
+  br_out            <float>      ..F.A.... set back right channel output level (from 0 to 10) (default 1)
+  bc_in             <float>      ..F.A.... set back center channel input level (from 0 to 10) (default 1)
+  bc_out            <float>      ..F.A.... set back center channel output level (from 0 to 10) (default 1)
+  lfe_in            <float>      ..F.A.... set lfe channel input level (from 0 to 10) (default 1)
+  lfe_out           <float>      ..F.A.... set lfe channel output level (from 0 to 10) (default 1)
+  allx              <float>      ..F.A.... set all channel's x spread (from -1 to 15) (default -1)
+  ally              <float>      ..F.A.... set all channel's y spread (from -1 to 15) (default -1)
+  fcx               <float>      ..F.A.... set front center channel x spread (from 0 to 15) (default 1)
+  flx               <float>      ..F.A.... set front left channel x spread (from 0 to 15) (default 1)
+  frx               <float>      ..F.A.... set front right channel x spread (from 0 to 15) (default 1)
+  blx               <float>      ..F.A.... set back left channel x spread (from 0 to 15) (default 1)
+  brx               <float>      ..F.A.... set back right channel x spread (from 0 to 15) (default 1)
+  slx               <float>      ..F.A.... set side left channel x spread (from 0 to 15) (default 1)
+  srx               <float>      ..F.A.... set side right channel x spread (from 0 to 15) (default 1)
+  bcx               <float>      ..F.A.... set back center channel x spread (from 0 to 15) (default 1)
+  fcy               <float>      ..F.A.... set front center channel y spread (from 0 to 15) (default 1)
+  fly               <float>      ..F.A.... set front left channel y spread (from 0 to 15) (default 1)
+  fry               <float>      ..F.A.... set front right channel y spread (from 0 to 15) (default 1)
+  bly               <float>      ..F.A.... set back left channel y spread (from 0 to 15) (default 1)
+  bry               <float>      ..F.A.... set back right channel y spread (from 0 to 15) (default 1)
+  sly               <float>      ..F.A.... set side left channel y spread (from 0 to 15) (default 1)
+  sry               <float>      ..F.A.... set side right channel y spread (from 0 to 15) (default 1)
+  bcy               <float>      ..F.A.... set back center channel y spread (from 0 to 15) (default 1)
+  win_size          <int>        ..F.A.... set window size (from 1024 to 65536) (default 4096)
+  win_func          <int>        ..F.A.... set window function (from 0 to 19) (default hann)
+     rect            0            ..F.A.... Rectangular
+     bartlett        4            ..F.A.... Bartlett
+     hann            1            ..F.A.... Hann
+     hanning         1            ..F.A.... Hanning
+     hamming         2            ..F.A.... Hamming
+     blackman        3            ..F.A.... Blackman
+     welch           5            ..F.A.... Welch
+     flattop         6            ..F.A.... Flat-top
+     bharris         7            ..F.A.... Blackman-Harris
+     bnuttall        8            ..F.A.... Blackman-Nuttall
+     bhann           11           ..F.A.... Bartlett-Hann
+     sine            9            ..F.A.... Sine
+     nuttall         10           ..F.A.... Nuttall
+     lanczos         12           ..F.A.... Lanczos
+     gauss           13           ..F.A.... Gauss
+     tukey           14           ..F.A.... Tukey
+     dolph           15           ..F.A.... Dolph-Chebyshev
+     cauchy          16           ..F.A.... Cauchy
+     parzen          17           ..F.A.... Parzen
+     poisson         18           ..F.A.... Poisson
+     bohman          19           ..F.A.... Bohman
+  overlap           <float>      ..F.A.... set window overlap (from 0 to 1) (default 0.5)
+
+

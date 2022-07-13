@@ -1,0 +1,4 @@
+Decoder sanm [LucasArts SANM/Smush video]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

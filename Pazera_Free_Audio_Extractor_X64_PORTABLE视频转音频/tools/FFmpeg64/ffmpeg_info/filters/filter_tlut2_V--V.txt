@@ -1,0 +1,15 @@
+Filter tlut2
+  Compute and apply a lookup table from two successive frames.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+tlut2 AVOptions:
+  c0                <string>     ..FV..... set component #0 expression (default "x")
+  c1                <string>     ..FV..... set component #1 expression (default "x")
+  c2                <string>     ..FV..... set component #2 expression (default "x")
+  c3                <string>     ..FV..... set component #3 expression (default "x")
+
+This filter has support for timeline through the 'enable' option.
+

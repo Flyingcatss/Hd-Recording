@@ -1,0 +1,4 @@
+Decoder mts2 [MS Expression Encoder Screen]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

@@ -1,0 +1,6 @@
+Demuxer vfwcap [VfW video capture]:
+VFW indev AVOptions:
+  -video_size        <string>     .D....... A string describing frame size, such as 640x480 or hd720.
+  -framerate         <string>     .D.......  (default "ntsc")
+
+

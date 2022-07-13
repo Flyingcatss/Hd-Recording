@@ -1,0 +1,7 @@
+Filter copy
+  Copy the input video unchanged to the output.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+

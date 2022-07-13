@@ -1,0 +1,11 @@
+Filter adelay
+  Delay one or more audio channels.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+adelay AVOptions:
+  delays            <string>     ..F.A.... set list of delays for each channel
+
+This filter has support for timeline through the 'enable' option.
+

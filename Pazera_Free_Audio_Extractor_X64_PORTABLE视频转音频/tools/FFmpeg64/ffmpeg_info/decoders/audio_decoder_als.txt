@@ -1,0 +1,4 @@
+Decoder als [MPEG-4 Audio Lossless Coding (ALS)]:
+    General capabilities: dr1 subframes 
+    Threading capabilities: none
+

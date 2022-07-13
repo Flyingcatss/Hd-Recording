@@ -1,0 +1,7 @@
+Decoder g723_1 [G.723.1]:
+    General capabilities: dr1 subframes 
+    Threading capabilities: none
+G.723.1 decoder AVOptions:
+  -postfilter        <boolean>    .D..A.... enable postfilter (default true)
+
+

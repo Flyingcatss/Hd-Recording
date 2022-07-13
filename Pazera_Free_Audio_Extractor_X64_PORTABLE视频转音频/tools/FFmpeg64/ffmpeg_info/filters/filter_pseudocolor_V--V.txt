@@ -1,0 +1,15 @@
+Filter pseudocolor
+  Make pseudocolored video frames.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+pseudocolor AVOptions:
+  c0                <string>     ..FV..... set component #0 expression (default "val")
+  c1                <string>     ..FV..... set component #1 expression (default "val")
+  c2                <string>     ..FV..... set component #2 expression (default "val")
+  c3                <string>     ..FV..... set component #3 expression (default "val")
+  i                 <int>        ..FV..... set component as base (from 0 to 3) (default 0)
+
+This filter has support for timeline through the 'enable' option.
+

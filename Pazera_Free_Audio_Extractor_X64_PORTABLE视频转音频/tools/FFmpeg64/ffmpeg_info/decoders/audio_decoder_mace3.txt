@@ -1,0 +1,5 @@
+Decoder mace3 [MACE (Macintosh Audio Compression/Expansion) 3:1]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: s16p
+

@@ -1,0 +1,7 @@
+Demuxer mjpeg [raw MJPEG video]:
+    Common extensions: mjpg,mjpeg,mpo.
+mjpeg demuxer AVOptions:
+  -framerate         <video_rate> .D.......  (default "25")
+  -raw_packet_size   <int>        .D.......  (from 1 to INT_MAX) (default 1024)
+
+

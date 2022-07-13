@@ -1,0 +1,4 @@
+Decoder mpegvideo [MPEG-1 video]:
+    General capabilities: horizband dr1 trunc delay threads 
+    Threading capabilities: slice
+

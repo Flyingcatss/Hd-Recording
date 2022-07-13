@@ -1,0 +1,7 @@
+Encoder mp2fixed [MP2 fixed point (MPEG audio layer 2)]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported sample rates: 44100 48000 32000 22050 24000 16000
+    Supported sample formats: s16
+    Supported channel layouts: mono stereo
+

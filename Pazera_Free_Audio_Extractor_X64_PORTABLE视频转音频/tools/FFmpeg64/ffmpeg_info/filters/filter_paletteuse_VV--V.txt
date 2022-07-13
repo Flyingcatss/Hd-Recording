@@ -1,0 +1,28 @@
+Filter paletteuse
+  Use a palette to downsample an input video stream.
+    Inputs:
+       #0: default (video)
+       #1: palette (video)
+    Outputs:
+       #0: default (video)
+paletteuse AVOptions:
+  dither            <int>        ..FV..... select dithering mode (from 0 to 5) (default sierra2_4a)
+     bayer           1            ..FV..... ordered 8x8 bayer dithering (deterministic)
+     heckbert        2            ..FV..... dithering as defined by Paul Heckbert in 1982 (simple error diffusion)
+     floyd_steinberg 3            ..FV..... Floyd and Steingberg dithering (error diffusion)
+     sierra2         4            ..FV..... Frankie Sierra dithering v2 (error diffusion)
+     sierra2_4a      5            ..FV..... Frankie Sierra dithering v2 "Lite" (error diffusion)
+  bayer_scale       <int>        ..FV..... set scale for bayer dithering (from 0 to 5) (default 2)
+  diff_mode         <int>        ..FV..... set frame difference mode (from 0 to 1) (default 0)
+     rectangle       1            ..FV..... process smallest different rectangle
+  new               <boolean>    ..FV..... take new palette for each output frame (default false)
+  alpha_threshold   <int>        ..FV..... set the alpha threshold for transparency (from 0 to 255) (default 128)
+  debug_kdtree      <string>     ..FV..... save Graphviz graph of the kdtree in specified file
+  color_search      <int>        ..FV..... set reverse colormap color search method (from 0 to 2) (default nns_iterative)
+     nns_iterative   0            ..FV..... iterative search
+     nns_recursive   1            ..FV..... recursive search
+     bruteforce      2            ..FV..... brute-force into the palette
+  mean_err          <boolean>    ..FV..... compute and print mean error (default false)
+  debug_accuracy    <boolean>    ..FV..... test color search accuracy (default false)
+
+

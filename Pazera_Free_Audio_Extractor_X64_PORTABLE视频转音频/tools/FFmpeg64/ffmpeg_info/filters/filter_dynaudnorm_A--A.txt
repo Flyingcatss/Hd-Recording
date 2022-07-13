@@ -1,0 +1,28 @@
+Filter dynaudnorm
+  Dynamic Audio Normalizer.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+dynaudnorm AVOptions:
+  framelen          <int>        ..F.A.... set the frame length in msec (from 10 to 8000) (default 500)
+  f                 <int>        ..F.A.... set the frame length in msec (from 10 to 8000) (default 500)
+  gausssize         <int>        ..F.A.... set the filter size (from 3 to 301) (default 31)
+  g                 <int>        ..F.A.... set the filter size (from 3 to 301) (default 31)
+  peak              <double>     ..F.A.... set the peak value (from 0 to 1) (default 0.95)
+  p                 <double>     ..F.A.... set the peak value (from 0 to 1) (default 0.95)
+  maxgain           <double>     ..F.A.... set the max amplification (from 1 to 100) (default 10)
+  m                 <double>     ..F.A.... set the max amplification (from 1 to 100) (default 10)
+  targetrms         <double>     ..F.A.... set the target RMS (from 0 to 1) (default 0)
+  r                 <double>     ..F.A.... set the target RMS (from 0 to 1) (default 0)
+  coupling          <boolean>    ..F.A.... set channel coupling (default true)
+  n                 <boolean>    ..F.A.... set channel coupling (default true)
+  correctdc         <boolean>    ..F.A.... set DC correction (default false)
+  c                 <boolean>    ..F.A.... set DC correction (default false)
+  altboundary       <boolean>    ..F.A.... set alternative boundary mode (default false)
+  b                 <boolean>    ..F.A.... set alternative boundary mode (default false)
+  compress          <double>     ..F.A.... set the compress factor (from 0 to 30) (default 0)
+  s                 <double>     ..F.A.... set the compress factor (from 0 to 30) (default 0)
+
+This filter has support for timeline through the 'enable' option.
+

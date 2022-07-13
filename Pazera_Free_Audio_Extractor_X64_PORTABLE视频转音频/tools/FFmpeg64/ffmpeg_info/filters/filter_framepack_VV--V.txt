@@ -1,0 +1,16 @@
+Filter framepack
+  Generate a frame packed stereoscopic video.
+    Inputs:
+       #0: left (video)
+       #1: right (video)
+    Outputs:
+       #0: packed (video)
+framepack AVOptions:
+  -format            <int>        ...V..... Frame pack output format (from 0 to INT_MAX) (default sbs)
+     sbs             1            ...V..... Views are packed next to each other
+     tab             2            ...V..... Views are packed on top of each other
+     frameseq        3            ...V..... Views are one after the other
+     lines           6            ...V..... Views are interleaved by lines
+     columns         7            ...V..... Views are interleaved by columns
+
+

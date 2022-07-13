@@ -1,0 +1,16 @@
+Filter tile
+  Tile several successive frames together.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+tile AVOptions:
+  layout            <image_size> ..FV..... set grid size (default "6x5")
+  nb_frames         <int>        ..FV..... set maximum number of frame to render (from 0 to INT_MAX) (default 0)
+  margin            <int>        ..FV..... set outer border margin in pixels (from 0 to 1024) (default 0)
+  padding           <int>        ..FV..... set inner border thickness in pixels (from 0 to 1024) (default 0)
+  color             <color>      ..FV..... set the color of the unused area (default "black")
+  overlap           <int>        ..FV..... set how many frames to overlap for each render (from 0 to INT_MAX) (default 0)
+  init_padding      <int>        ..FV.....  set how many frames to initially pad (from 0 to INT_MAX) (default 0)
+
+

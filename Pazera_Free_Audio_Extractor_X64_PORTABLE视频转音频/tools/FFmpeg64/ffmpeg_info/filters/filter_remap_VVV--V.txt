@@ -1,0 +1,16 @@
+Filter remap
+  Remap pixels.
+    slice threading supported
+    Inputs:
+       #0: source (video)
+       #1: xmap (video)
+       #2: ymap (video)
+    Outputs:
+       #0: default (video)
+remap AVOptions:
+  format            <int>        ..FV..... set output format (from 0 to 1) (default color)
+     color           0            ..FV..... 
+     gray            1            ..FV..... 
+
+This filter has support for timeline through the 'enable' option.
+

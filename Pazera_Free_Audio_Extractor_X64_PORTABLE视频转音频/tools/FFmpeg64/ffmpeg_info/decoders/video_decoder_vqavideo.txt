@@ -1,0 +1,4 @@
+Decoder vqavideo [Westwood Studios VQA (Vector Quantized Animation) video]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

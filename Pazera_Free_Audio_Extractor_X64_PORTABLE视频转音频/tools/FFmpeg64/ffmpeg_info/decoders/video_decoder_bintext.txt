@@ -1,0 +1,4 @@
+Decoder bintext [Binary text]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

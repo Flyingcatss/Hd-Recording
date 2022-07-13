@@ -1,0 +1,4 @@
+Decoder sol_dpcm [DPCM Sol]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

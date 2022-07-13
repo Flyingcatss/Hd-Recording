@@ -1,0 +1,15 @@
+Filter blackdetect
+  Detect video intervals that are (almost) black.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+blackdetect AVOptions:
+  d                 <double>     ..FV..... set minimum detected black duration in seconds (from 0 to DBL_MAX) (default 2)
+  black_min_duration <double>     ..FV..... set minimum detected black duration in seconds (from 0 to DBL_MAX) (default 2)
+  picture_black_ratio_th <double>     ..FV..... set the picture black ratio threshold (from 0 to 1) (default 0.98)
+  pic_th            <double>     ..FV..... set the picture black ratio threshold (from 0 to 1) (default 0.98)
+  pixel_black_th    <double>     ..FV..... set the pixel black threshold (from 0 to 1) (default 0.1)
+  pix_th            <double>     ..FV..... set the pixel black threshold (from 0 to 1) (default 0.1)
+
+

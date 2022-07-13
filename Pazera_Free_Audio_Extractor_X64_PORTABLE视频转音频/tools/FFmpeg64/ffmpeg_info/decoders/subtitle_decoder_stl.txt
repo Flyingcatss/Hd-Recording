@@ -1,0 +1,6 @@
+Decoder stl [Spruce subtitle format]:
+    General capabilities: none
+stl decoder AVOptions:
+  -keep_ass_markup   <boolean>    .D...S... Set if ASS tags must be escaped (default false)
+
+

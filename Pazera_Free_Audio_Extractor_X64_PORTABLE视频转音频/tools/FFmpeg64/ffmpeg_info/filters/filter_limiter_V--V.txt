@@ -1,0 +1,14 @@
+Filter limiter
+  Limit pixels components to the specified range.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+limiter AVOptions:
+  min               <int>        ..FV..... set min value (from 0 to 65535) (default 0)
+  max               <int>        ..FV..... set max value (from 0 to 65535) (default 65535)
+  planes            <int>        ..FV..... set planes (from 0 to 15) (default 15)
+
+This filter has support for timeline through the 'enable' option.
+

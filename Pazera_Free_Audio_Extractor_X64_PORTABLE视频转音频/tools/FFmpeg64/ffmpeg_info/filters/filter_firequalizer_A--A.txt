@@ -1,0 +1,40 @@
+Filter firequalizer
+  Finite Impulse Response Equalizer.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+firequalizer AVOptions:
+  gain              <string>     ..F.A.... set gain curve (default "gain_interpolate(f)")
+  gain_entry        <string>     ..F.A.... set gain entry
+  delay             <double>     ..F.A.... set delay (from 0 to 1e+010) (default 0.01)
+  accuracy          <double>     ..F.A.... set accuracy (from 0 to 1e+010) (default 5)
+  wfunc             <int>        ..F.A.... set window function (from 0 to 9) (default hann)
+     rectangular     0            ..F.A.... rectangular window
+     hann            1            ..F.A.... hann window
+     hamming         2            ..F.A.... hamming window
+     blackman        3            ..F.A.... blackman window
+     nuttall3        4            ..F.A.... 3-term nuttall window
+     mnuttall3       5            ..F.A.... minimum 3-term nuttall window
+     nuttall         6            ..F.A.... nuttall window
+     bnuttall        7            ..F.A.... blackman-nuttall window
+     bharris         8            ..F.A.... blackman-harris window
+     tukey           9            ..F.A.... tukey window
+  fixed             <boolean>    ..F.A.... set fixed frame samples (default false)
+  multi             <boolean>    ..F.A.... set multi channels mode (default false)
+  zero_phase        <boolean>    ..F.A.... set zero phase mode (default false)
+  scale             <int>        ..F.A.... set gain scale (from 0 to 3) (default linlog)
+     linlin          0            ..F.A.... linear-freq linear-gain
+     linlog          1            ..F.A.... linear-freq logarithmic-gain
+     loglin          2            ..F.A.... logarithmic-freq linear-gain
+     loglog          3            ..F.A.... logarithmic-freq logarithmic-gain
+  dumpfile          <string>     ..F.A.... set dump file
+  dumpscale         <int>        ..F.A.... set dump scale (from 0 to 3) (default linlog)
+     linlin          0            ..F.A.... linear-freq linear-gain
+     linlog          1            ..F.A.... linear-freq logarithmic-gain
+     loglin          2            ..F.A.... logarithmic-freq linear-gain
+     loglog          3            ..F.A.... logarithmic-freq logarithmic-gain
+  fft2              <boolean>    ..F.A.... set 2-channels fft (default false)
+  min_phase         <boolean>    ..F.A.... set minimum phase mode (default false)
+
+

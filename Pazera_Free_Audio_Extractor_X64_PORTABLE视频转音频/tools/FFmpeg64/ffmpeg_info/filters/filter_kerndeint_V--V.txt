@@ -1,0 +1,14 @@
+Filter kerndeint
+  Apply kernel deinterlacing to the input.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+kerndeint AVOptions:
+  thresh            <int>        ..FV..... set the threshold (from 0 to 255) (default 10)
+  map               <boolean>    ..FV..... set the map (default false)
+  order             <boolean>    ..FV..... set the order (default false)
+  sharp             <boolean>    ..FV..... set sharpening (default false)
+  twoway            <boolean>    ..FV..... set twoway (default false)
+
+

@@ -1,0 +1,16 @@
+Filter aperms
+  Set permissions for the output audio frame.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+aperms AVOptions:
+  mode              <int>        ..FVA.... select permissions mode (from 0 to 4) (default none)
+     none            0            ..FVA.... do nothing
+     ro              1            ..FVA.... set all output frames read-only
+     rw              2            ..FVA.... set all output frames writable
+     toggle          3            ..FVA.... switch permissions
+     random          4            ..FVA.... set permissions randomly
+  seed              <int64>      ..FVA.... set the seed for the random mode (from -1 to UINT32_MAX) (default -1)
+
+

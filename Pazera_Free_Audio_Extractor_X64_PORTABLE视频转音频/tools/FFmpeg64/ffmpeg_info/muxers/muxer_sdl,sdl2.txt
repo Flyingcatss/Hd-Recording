@@ -1,0 +1,12 @@
+Muxer sdl,sdl2 [SDL2 output device]:
+    Default video codec: rawvideo.
+sdl2 outdev AVOptions:
+  -window_title      <string>     E........ set SDL window title
+  -window_size       <image_size> E........ set SDL window forced size
+  -window_x          <int>        E........ set SDL window x position (from INT_MIN to INT_MAX) (default 805240832)
+  -window_y          <int>        E........ set SDL window y position (from INT_MIN to INT_MAX) (default 805240832)
+  -window_fullscreen <boolean>    E........ set SDL window fullscreen (default false)
+  -window_borderless <boolean>    E........ set SDL window border off (default false)
+  -window_enable_quit <int>        E........ set if quit action is available (from 0 to 1) (default 1)
+
+

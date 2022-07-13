@@ -1,0 +1,4 @@
+Encoder rawvideo [raw video]:
+    General capabilities: none
+    Threading capabilities: none
+

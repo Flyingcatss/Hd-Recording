@@ -1,0 +1,5 @@
+Decoder adpcm_agm [ADPCM AmuseGraphics Movie]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: s16
+

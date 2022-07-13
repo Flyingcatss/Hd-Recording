@@ -1,0 +1,3 @@
+Demuxer redspark [RedSpark]:
+    Common extensions: rsd.
+

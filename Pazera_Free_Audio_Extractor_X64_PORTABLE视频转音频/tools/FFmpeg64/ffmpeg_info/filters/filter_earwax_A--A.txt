@@ -1,0 +1,7 @@
+Filter earwax
+  Widen the stereo image.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+

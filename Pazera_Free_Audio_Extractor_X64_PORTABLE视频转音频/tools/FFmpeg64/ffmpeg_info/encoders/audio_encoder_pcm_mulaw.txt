@@ -1,0 +1,5 @@
+Encoder pcm_mulaw [PCM mu-law / G.711 mu-law]:
+    General capabilities: variable 
+    Threading capabilities: none
+    Supported sample formats: s16
+

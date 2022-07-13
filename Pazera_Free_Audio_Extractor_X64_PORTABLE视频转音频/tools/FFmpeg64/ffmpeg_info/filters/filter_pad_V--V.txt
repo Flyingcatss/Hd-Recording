@@ -1,0 +1,20 @@
+Filter pad
+  Pad the input video.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+pad AVOptions:
+  width             <string>     ..FV..... set the pad area width expression (default "iw")
+  w                 <string>     ..FV..... set the pad area width expression (default "iw")
+  height            <string>     ..FV..... set the pad area height expression (default "ih")
+  h                 <string>     ..FV..... set the pad area height expression (default "ih")
+  x                 <string>     ..FV..... set the x offset expression for the input image position (default "0")
+  y                 <string>     ..FV..... set the y offset expression for the input image position (default "0")
+  color             <color>      ..FV..... set the color of the padded area border (default "black")
+  eval              <int>        ..FV..... specify when to evaluate expressions (from 0 to 1) (default init)
+     init            0            ..FV..... eval expressions once during initialization
+     frame           1            ..FV..... eval expressions during initialization and per-frame
+  aspect            <rational>   ..FV..... pad to fit an aspect instead of a resolution (from 0 to DBL_MAX) (default 0/1)
+
+

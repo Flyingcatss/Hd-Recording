@@ -1,0 +1,4 @@
+Decoder targa_y216 [Pinnacle TARGA CineWave YUV16]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

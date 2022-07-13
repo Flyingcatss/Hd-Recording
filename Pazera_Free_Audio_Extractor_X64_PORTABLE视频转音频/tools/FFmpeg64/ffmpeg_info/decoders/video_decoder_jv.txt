@@ -1,0 +1,4 @@
+Decoder jv [Bitmap Brothers JV video]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

@@ -1,0 +1,7 @@
+Filter alphaextract
+  Extract an alpha channel as a grayscale image component.
+    Inputs:
+       #0: default (video)
+    Outputs:
+        dynamic (depending on the options)
+

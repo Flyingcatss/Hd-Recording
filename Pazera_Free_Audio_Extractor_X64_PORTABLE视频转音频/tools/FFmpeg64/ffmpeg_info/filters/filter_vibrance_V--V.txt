@@ -1,0 +1,19 @@
+Filter vibrance
+  Boost or alter saturation.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+vibrance AVOptions:
+  intensity         <float>      ..FV..... set the intensity value (from -2 to 2) (default 0)
+  rbal              <float>      ..FV..... set the red balance value (from -10 to 10) (default 1)
+  gbal              <float>      ..FV..... set the green balance value (from -10 to 10) (default 1)
+  bbal              <float>      ..FV..... set the blue balance value (from -10 to 10) (default 1)
+  rlum              <float>      ..FV..... set the red luma coefficient (from 0 to 1) (default 0.072186)
+  glum              <float>      ..FV..... set the green luma coefficient (from 0 to 1) (default 0.715158)
+  blum              <float>      ..FV..... set the blue luma coefficient (from 0 to 1) (default 0.212656)
+  alternate         <boolean>    ..FV..... use alternate colors (default false)
+
+This filter has support for timeline through the 'enable' option.
+

@@ -1,0 +1,3 @@
+Demuxer aac [raw ADTS AAC (Advanced Audio Coding)]:
+    Common extensions: aac.
+

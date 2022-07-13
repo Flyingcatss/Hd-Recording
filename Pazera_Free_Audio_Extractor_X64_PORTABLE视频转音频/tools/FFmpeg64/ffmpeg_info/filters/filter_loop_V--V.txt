@@ -1,0 +1,12 @@
+Filter loop
+  Loop video frames.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+loop AVOptions:
+  loop              <int>        ..FV..... number of loops (from -1 to INT_MAX) (default 0)
+  size              <int64>      ..FV..... max number of frames to loop (from 0 to 32767) (default 0)
+  start             <int64>      ..FV..... set the loop start frame (from 0 to I64_MAX) (default 0)
+
+

@@ -1,0 +1,4 @@
+Decoder sp5x [Sunplus JPEG (SP5X)]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

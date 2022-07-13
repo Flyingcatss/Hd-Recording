@@ -1,0 +1,14 @@
+Filter crossfeed
+  Apply headphone crossfeed filter.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+crossfeed AVOptions:
+  strength          <double>     ..F.A.... set crossfeed strength (from 0 to 1) (default 0.2)
+  range             <double>     ..F.A.... set soundstage wideness (from 0 to 1) (default 0.5)
+  level_in          <double>     ..F.A.... set level in (from 0 to 1) (default 0.9)
+  level_out         <double>     ..F.A.... set level out (from 0 to 1) (default 1)
+
+This filter has support for timeline through the 'enable' option.
+

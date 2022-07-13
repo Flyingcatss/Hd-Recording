@@ -1,0 +1,4 @@
+Decoder adpcm_vima [LucasArts VIMA audio]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

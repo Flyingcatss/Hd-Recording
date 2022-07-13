@@ -1,0 +1,22 @@
+Filter psnr
+  Calculate the PSNR between two video streams.
+    Inputs:
+       #0: main (video)
+       #1: reference (video)
+    Outputs:
+       #0: default (video)
+psnr AVOptions:
+  stats_file        <string>     ..FV..... Set file where to store per-frame difference information
+  f                 <string>     ..FV..... Set file where to store per-frame difference information
+  stats_version     <int>        ..FV..... Set the format version for the stats file. (from 1 to 2) (default 1)
+  output_max        <boolean>    ..FV..... Add raw stats (max values) to the output log. (default false)
+
+framesync AVOptions:
+  eof_action        <int>        ..FV..... Action to take when encountering EOF from secondary input  (from 0 to 2) (default repeat)
+     repeat          0            ..FV..... Repeat the previous frame.
+     endall          1            ..FV..... End both streams.
+     pass            2            ..FV..... Pass through the main input.
+  shortest          <boolean>    ..FV..... force termination when the shortest input terminates (default false)
+  repeatlast        <boolean>    ..FV..... extend last frame of secondary streams beyond EOF (default true)
+
+

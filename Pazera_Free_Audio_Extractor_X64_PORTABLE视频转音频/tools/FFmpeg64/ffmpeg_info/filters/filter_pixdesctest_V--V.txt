@@ -1,0 +1,7 @@
+Filter pixdesctest
+  Test pixel format definitions.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+

@@ -1,0 +1,5 @@
+Decoder adpcm_ima_apc [ADPCM IMA CRYO APC]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: s16
+

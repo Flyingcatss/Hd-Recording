@@ -1,0 +1,7 @@
+Muxer fifo_test [Fifo test muxer]:
+Fifo test muxer AVOptions:
+  -write_header_ret  <int>        E........ write_header() return value (from INT_MIN to INT_MAX) (default 0)
+  -write_trailer_ret <int>        E........ write_trailer() return value (from INT_MIN to INT_MAX) (default 0)
+  -print_deinit_summary <boolean>    E........ print summary when deinitializing muxer (default true)
+
+

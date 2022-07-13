@@ -1,0 +1,7 @@
+Decoder rasc [RemotelyAnywhere Screen Capture]:
+    General capabilities: dr1 
+    Threading capabilities: none
+rasc decoder AVOptions:
+  -skip_cursor       <boolean>    .D.V..... skip the cursor (default false)
+
+

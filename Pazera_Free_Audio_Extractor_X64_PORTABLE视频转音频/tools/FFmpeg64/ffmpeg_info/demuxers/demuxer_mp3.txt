@@ -1,0 +1,6 @@
+Demuxer mp3 [MP2/3 (MPEG audio layer 2/3)]:
+    Common extensions: mp2,mp3,m2a,mpa.
+mp3 AVOptions:
+  -usetoc            <boolean>    .D....... use table of contents (default false)
+
+

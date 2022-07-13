@@ -1,0 +1,27 @@
+Filter colorchannelmixer
+  Adjust colors by mixing color channels.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+colorchannelmixer AVOptions:
+  rr                <double>     ..FV..... set the red gain for the red channel (from -2 to 2) (default 1)
+  rg                <double>     ..FV..... set the green gain for the red channel (from -2 to 2) (default 0)
+  rb                <double>     ..FV..... set the blue gain for the red channel (from -2 to 2) (default 0)
+  ra                <double>     ..FV..... set the alpha gain for the red channel (from -2 to 2) (default 0)
+  gr                <double>     ..FV..... set the red gain for the green channel (from -2 to 2) (default 0)
+  gg                <double>     ..FV..... set the green gain for the green channel (from -2 to 2) (default 1)
+  gb                <double>     ..FV..... set the blue gain for the green channel (from -2 to 2) (default 0)
+  ga                <double>     ..FV..... set the alpha gain for the green channel (from -2 to 2) (default 0)
+  br                <double>     ..FV..... set the red gain for the blue channel (from -2 to 2) (default 0)
+  bg                <double>     ..FV..... set the green gain for the blue channel (from -2 to 2) (default 0)
+  bb                <double>     ..FV..... set the blue gain for the blue channel (from -2 to 2) (default 1)
+  ba                <double>     ..FV..... set the alpha gain for the blue channel (from -2 to 2) (default 0)
+  ar                <double>     ..FV..... set the red gain for the alpha channel (from -2 to 2) (default 0)
+  ag                <double>     ..FV..... set the green gain for the alpha channel (from -2 to 2) (default 0)
+  ab                <double>     ..FV..... set the blue gain for the alpha channel (from -2 to 2) (default 0)
+  aa                <double>     ..FV..... set the alpha gain for the alpha channel (from -2 to 2) (default 1)
+
+This filter has support for timeline through the 'enable' option.
+

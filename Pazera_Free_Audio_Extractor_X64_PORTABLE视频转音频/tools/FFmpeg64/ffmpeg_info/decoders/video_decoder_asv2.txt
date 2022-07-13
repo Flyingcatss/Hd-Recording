@@ -1,0 +1,4 @@
+Decoder asv2 [ASUS V2]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

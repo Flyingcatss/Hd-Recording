@@ -1,0 +1,4 @@
+Decoder hqx [Canopus HQX]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame and slice
+

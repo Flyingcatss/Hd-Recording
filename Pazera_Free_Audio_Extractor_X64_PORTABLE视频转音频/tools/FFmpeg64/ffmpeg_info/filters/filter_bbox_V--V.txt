@@ -1,0 +1,11 @@
+Filter bbox
+  Compute bounding box for each frame.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+bbox AVOptions:
+  min_val           <int>        ..FV..... set minimum luminance value for bounding box (from 0 to 254) (default 16)
+
+This filter has support for timeline through the 'enable' option.
+

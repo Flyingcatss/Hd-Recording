@@ -1,0 +1,12 @@
+Filter readvitc
+  Read vertical interval timecode and write it to frame metadata.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+readvitc AVOptions:
+  scan_max          <int>        ..FV..... maximum line numbers to scan for VITC data (from -1 to INT_MAX) (default 45)
+  thr_b             <double>     ..FV..... black color threshold (from 0 to 1) (default 0.2)
+  thr_w             <double>     ..FV..... white color threshold (from 0 to 1) (default 0.6)
+
+

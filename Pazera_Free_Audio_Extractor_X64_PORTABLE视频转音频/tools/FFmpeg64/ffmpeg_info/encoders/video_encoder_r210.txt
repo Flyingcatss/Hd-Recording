@@ -1,0 +1,5 @@
+Encoder r210 [Uncompressed RGB 10-bit]:
+    General capabilities: intraonly 
+    Threading capabilities: none
+    Supported pixel formats: gbrp10le
+

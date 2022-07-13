@@ -1,0 +1,4 @@
+Decoder interplayacm [Interplay ACM]:
+    General capabilities: dr1 delay 
+    Threading capabilities: none
+

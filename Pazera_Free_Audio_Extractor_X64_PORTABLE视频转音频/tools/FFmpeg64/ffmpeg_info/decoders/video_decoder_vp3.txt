@@ -1,0 +1,4 @@
+Decoder vp3 [On2 VP3]:
+    General capabilities: horizband dr1 threads 
+    Threading capabilities: frame
+

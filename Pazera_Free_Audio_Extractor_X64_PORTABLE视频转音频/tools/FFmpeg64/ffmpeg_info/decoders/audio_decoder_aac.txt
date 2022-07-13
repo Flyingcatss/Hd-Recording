@@ -1,0 +1,13 @@
+Decoder aac [AAC (Advanced Audio Coding)]:
+    General capabilities: dr1 chconf 
+    Threading capabilities: none
+    Supported sample formats: fltp
+    Supported channel layouts: mono stereo 3.0 4.0 5.0 5.1 7.1(wide)
+AAC decoder AVOptions:
+  -dual_mono_mode    <int>        .D..A.... Select the channel to decode for dual mono (from -1 to 2) (default auto)
+     auto            -1           .D..A.... autoselection
+     main            1            .D..A.... Select Main/Left channel
+     sub             2            .D..A.... Select Sub/Right channel
+     both            0            .D..A.... Select both channels
+
+

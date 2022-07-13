@@ -1,0 +1,4 @@
+Decoder dxtory [Dxtory]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

@@ -1,0 +1,4 @@
+Decoder atrac3plusal [ATRAC3+ AL (Adaptive TRansform Acoustic Coding 3+ Advanced Lossless)]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

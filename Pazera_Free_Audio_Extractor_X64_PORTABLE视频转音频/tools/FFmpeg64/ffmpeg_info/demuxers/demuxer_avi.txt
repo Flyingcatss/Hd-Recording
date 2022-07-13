@@ -1,0 +1,6 @@
+Demuxer avi [AVI (Audio Video Interleaved)]:
+    Common extensions: avi.
+avi AVOptions:
+  -use_odml          <boolean>    .D....... use odml index (default true)
+
+

@@ -1,0 +1,5 @@
+Muxer voc [Creative Voice]:
+    Common extensions: voc.
+    Mime type: audio/x-voc.
+    Default audio codec: pcm_s16le.
+

@@ -1,0 +1,39 @@
+Filter convolution
+  Apply convolution filter.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+convolution AVOptions:
+  0m                <string>     ..FV..... set matrix for 1st plane (default "0 0 0 0 1 0 0 0 0")
+  1m                <string>     ..FV..... set matrix for 2nd plane (default "0 0 0 0 1 0 0 0 0")
+  2m                <string>     ..FV..... set matrix for 3rd plane (default "0 0 0 0 1 0 0 0 0")
+  3m                <string>     ..FV..... set matrix for 4th plane (default "0 0 0 0 1 0 0 0 0")
+  0rdiv             <float>      ..FV..... set rdiv for 1st plane (from 0 to INT_MAX) (default 0)
+  1rdiv             <float>      ..FV..... set rdiv for 2nd plane (from 0 to INT_MAX) (default 0)
+  2rdiv             <float>      ..FV..... set rdiv for 3rd plane (from 0 to INT_MAX) (default 0)
+  3rdiv             <float>      ..FV..... set rdiv for 4th plane (from 0 to INT_MAX) (default 0)
+  0bias             <float>      ..FV..... set bias for 1st plane (from 0 to INT_MAX) (default 0)
+  1bias             <float>      ..FV..... set bias for 2nd plane (from 0 to INT_MAX) (default 0)
+  2bias             <float>      ..FV..... set bias for 3rd plane (from 0 to INT_MAX) (default 0)
+  3bias             <float>      ..FV..... set bias for 4th plane (from 0 to INT_MAX) (default 0)
+  0mode             <int>        ..FV..... set matrix mode for 1st plane (from 0 to 2) (default square)
+     square          0            ..FV..... square matrix
+     row             1            ..FV..... single row matrix
+     column          2            ..FV..... single column matrix
+  1mode             <int>        ..FV..... set matrix mode for 2nd plane (from 0 to 2) (default square)
+     square          0            ..FV..... square matrix
+     row             1            ..FV..... single row matrix
+     column          2            ..FV..... single column matrix
+  2mode             <int>        ..FV..... set matrix mode for 3rd plane (from 0 to 2) (default square)
+     square          0            ..FV..... square matrix
+     row             1            ..FV..... single row matrix
+     column          2            ..FV..... single column matrix
+  3mode             <int>        ..FV..... set matrix mode for 4th plane (from 0 to 2) (default square)
+     square          0            ..FV..... square matrix
+     row             1            ..FV..... single row matrix
+     column          2            ..FV..... single column matrix
+
+This filter has support for timeline through the 'enable' option.
+

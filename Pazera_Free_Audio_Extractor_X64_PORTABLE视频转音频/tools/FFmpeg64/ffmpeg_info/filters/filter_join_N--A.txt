@@ -1,0 +1,12 @@
+Filter join
+  Join multiple audio streams into multi-channel output.
+    Inputs:
+        dynamic (depending on the options)
+    Outputs:
+       #0: default (audio)
+join AVOptions:
+  inputs            <int>        ..F.A.... Number of input streams. (from 1 to INT_MAX) (default 2)
+  channel_layout    <string>     ..F.A.... Channel layout of the output stream. (default "stereo")
+  map               <string>     ..F.A.... A comma-separated list of channels maps in the format 'input_stream.input_channel-output_channel.
+
+

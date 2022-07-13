@@ -1,0 +1,10 @@
+Demuxer gdigrab [GDI API Windows frame grabber]:
+GDIgrab indev AVOptions:
+  -draw_mouse        <int>        .D....... draw the mouse pointer (from 0 to 1) (default 1)
+  -show_region       <int>        .D....... draw border around capture area (from 0 to 1) (default 0)
+  -framerate         <video_rate> .D....... set video frame rate (default "ntsc")
+  -video_size        <image_size> .D....... set video frame size
+  -offset_x          <int>        .D....... capture area x offset (from INT_MIN to INT_MAX) (default 0)
+  -offset_y          <int>        .D....... capture area y offset (from INT_MIN to INT_MAX) (default 0)
+
+

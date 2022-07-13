@@ -1,0 +1,7 @@
+Filter volumedetect
+  Detect audio volume.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+

@@ -1,0 +1,11 @@
+Filter qp
+  Change video quantization parameters.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+qp AVOptions:
+  qp                <string>     ..FV..... set qp expression
+
+This filter has support for timeline through the 'enable' option.
+

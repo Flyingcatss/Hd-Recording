@@ -1,0 +1,4 @@
+Decoder xbm [XBM (X BitMap) image]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

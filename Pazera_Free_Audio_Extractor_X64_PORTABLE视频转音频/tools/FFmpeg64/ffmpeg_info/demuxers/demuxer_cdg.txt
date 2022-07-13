@@ -1,0 +1,3 @@
+Demuxer cdg [CD Graphics]:
+    Common extensions: cdg.
+

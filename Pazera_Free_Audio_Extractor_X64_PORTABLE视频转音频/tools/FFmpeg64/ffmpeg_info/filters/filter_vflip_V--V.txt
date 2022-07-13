@@ -1,0 +1,10 @@
+Filter vflip
+  Flip the input video vertically.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+vflip AVOptions:
+
+This filter has support for timeline through the 'enable' option.
+

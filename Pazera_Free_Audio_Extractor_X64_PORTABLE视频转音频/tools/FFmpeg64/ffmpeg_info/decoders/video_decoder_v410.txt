@@ -1,0 +1,4 @@
+Decoder v410 [Uncompressed 4:4:4 10-bit]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

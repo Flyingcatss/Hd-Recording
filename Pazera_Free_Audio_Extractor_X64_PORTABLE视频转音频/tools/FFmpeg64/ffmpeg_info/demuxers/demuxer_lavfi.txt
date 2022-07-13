@@ -1,0 +1,7 @@
+Demuxer lavfi [Libavfilter virtual input device]:
+lavfi indev AVOptions:
+  -graph             <string>     .D....... set libavfilter graph
+  -graph_file        <string>     .D....... set libavfilter graph filename
+  -dumpgraph         <string>     .D....... dump graph to stderr
+
+

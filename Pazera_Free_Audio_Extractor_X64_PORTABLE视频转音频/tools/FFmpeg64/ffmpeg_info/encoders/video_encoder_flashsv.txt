@@ -1,0 +1,5 @@
+Encoder flashsv [Flash Screen Video]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported pixel formats: bgr24
+

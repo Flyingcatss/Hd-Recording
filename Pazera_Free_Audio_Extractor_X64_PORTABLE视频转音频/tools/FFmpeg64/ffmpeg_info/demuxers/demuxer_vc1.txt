@@ -1,0 +1,7 @@
+Demuxer vc1 [raw VC-1]:
+    Common extensions: vc1.
+vc1 demuxer AVOptions:
+  -framerate         <video_rate> .D.......  (default "25")
+  -raw_packet_size   <int>        .D.......  (from 1 to INT_MAX) (default 1024)
+
+

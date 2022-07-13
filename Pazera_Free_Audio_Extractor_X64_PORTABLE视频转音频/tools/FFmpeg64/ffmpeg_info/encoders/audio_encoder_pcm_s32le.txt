@@ -1,0 +1,5 @@
+Encoder pcm_s32le [PCM signed 32-bit little-endian]:
+    General capabilities: variable 
+    Threading capabilities: none
+    Supported sample formats: s32
+

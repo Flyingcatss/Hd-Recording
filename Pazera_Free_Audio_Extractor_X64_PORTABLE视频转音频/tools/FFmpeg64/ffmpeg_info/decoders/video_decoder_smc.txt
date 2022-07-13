@@ -1,0 +1,4 @@
+Decoder smc [QuickTime Graphics (SMC)]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

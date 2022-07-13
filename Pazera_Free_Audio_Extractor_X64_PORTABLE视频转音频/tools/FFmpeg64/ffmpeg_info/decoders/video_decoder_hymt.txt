@@ -1,0 +1,4 @@
+Decoder hymt [HuffYUV MT]:
+    General capabilities: horizband dr1 threads 
+    Threading capabilities: frame
+

@@ -1,0 +1,5 @@
+Decoder flv [FLV / Sorenson Spark / Sorenson H.263 (Flash Video)]:
+    General capabilities: horizband dr1 
+    Threading capabilities: none
+    Supported pixel formats: yuv420p
+

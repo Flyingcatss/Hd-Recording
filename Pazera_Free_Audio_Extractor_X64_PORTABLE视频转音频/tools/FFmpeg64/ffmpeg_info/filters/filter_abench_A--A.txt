@@ -1,0 +1,12 @@
+Filter abench
+  Benchmark part of a filtergraph.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+abench AVOptions:
+  action            <int>        ..F.A.... set action (from 0 to 1) (default start)
+     start           0            ..F.A.... start timer
+     stop            1            ..F.A.... stop timer
+
+

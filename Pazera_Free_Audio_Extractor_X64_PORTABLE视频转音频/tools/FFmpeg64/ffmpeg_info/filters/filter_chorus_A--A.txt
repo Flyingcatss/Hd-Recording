@@ -1,0 +1,15 @@
+Filter chorus
+  Add a chorus effect to the audio.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+chorus AVOptions:
+  in_gain           <float>      ..F.A.... set input gain (from 0 to 1) (default 0.4)
+  out_gain          <float>      ..F.A.... set output gain (from 0 to 1) (default 0.4)
+  delays            <string>     ..F.A.... set delays
+  decays            <string>     ..F.A.... set decays
+  speeds            <string>     ..F.A.... set speeds
+  depths            <string>     ..F.A.... set depths
+
+

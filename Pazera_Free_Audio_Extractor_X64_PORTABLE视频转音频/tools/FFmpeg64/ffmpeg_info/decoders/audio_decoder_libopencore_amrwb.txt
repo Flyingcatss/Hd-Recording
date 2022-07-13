@@ -1,0 +1,4 @@
+Decoder libopencore_amrwb [OpenCORE AMR-WB (Adaptive Multi-Rate Wide-Band)]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

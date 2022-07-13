@@ -1,0 +1,15 @@
+Filter delogo
+  Remove logo from input video.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+delogo AVOptions:
+  x                 <string>     ..FV..... set logo x position (default "-1")
+  y                 <string>     ..FV..... set logo y position (default "-1")
+  w                 <string>     ..FV..... set logo width (default "-1")
+  h                 <string>     ..FV..... set logo height (default "-1")
+  show              <boolean>    ..FV..... show delogo area (default false)
+
+This filter has support for timeline through the 'enable' option.
+

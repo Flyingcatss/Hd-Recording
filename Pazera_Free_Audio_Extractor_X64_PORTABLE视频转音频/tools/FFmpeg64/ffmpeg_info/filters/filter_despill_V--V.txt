@@ -1,0 +1,21 @@
+Filter despill
+  Despill video.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+despill AVOptions:
+  type              <int>        ..FV..... set the screen type (from 0 to 1) (default green)
+     green           0            ..FV..... greenscreen
+     blue            1            ..FV..... bluescreen
+  mix               <float>      ..FV..... set the spillmap mix (from 0 to 1) (default 0.5)
+  expand            <float>      ..FV..... set the spillmap expand (from 0 to 1) (default 0)
+  red               <float>      ..FV..... set red scale (from -100 to 100) (default 0)
+  green             <float>      ..FV..... set green scale (from -100 to 100) (default -1)
+  blue              <float>      ..FV..... set blue scale (from -100 to 100) (default 0)
+  brightness        <float>      ..FV..... set brightness (from -10 to 10) (default 0)
+  alpha             <boolean>    ..FV..... change alpha component (default false)
+
+This filter has support for timeline through the 'enable' option.
+

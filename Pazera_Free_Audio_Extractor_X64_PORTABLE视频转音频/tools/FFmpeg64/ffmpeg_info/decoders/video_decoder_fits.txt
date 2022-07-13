@@ -1,0 +1,7 @@
+Decoder fits [Flexible Image Transport System]:
+    General capabilities: dr1 
+    Threading capabilities: none
+FITS decoder AVOptions:
+  -blank_value       <int>        .D.V..... value that is used to replace BLANK pixels in data array (from 0 to 65535) (default 0)
+
+

@@ -1,0 +1,14 @@
+Filter lumakey
+  Turns a certain luma into transparency.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+lumakey AVOptions:
+  threshold         <int>        ..FV..... set the threshold value (from 0 to 65535) (default 0)
+  tolerance         <int>        ..FV..... set the tolerance value (from 0 to 65535) (default 1)
+  softness          <int>        ..FV..... set the softness value (from 0 to 65535) (default 0)
+
+This filter has support for timeline through the 'enable' option.
+

@@ -1,0 +1,6 @@
+Decoder text [Raw text subtitle]:
+    General capabilities: none
+text decoder AVOptions:
+  -keep_ass_markup   <boolean>    .D...S... Set if ASS tags must be escaped (default false)
+
+

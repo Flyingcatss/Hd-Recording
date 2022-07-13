@@ -1,0 +1,5 @@
+Decoder pcm_f24le [PCM 24.0 floating point little-endian]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: flt
+

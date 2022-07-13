@@ -1,0 +1,20 @@
+Encoder snow [Snow]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported pixel formats: yuv420p yuv410p yuv444p gray
+snow encoder AVOptions:
+  -motion_est        <int>        E..V..... motion estimation algorithm (from 0 to 3) (default epzs)
+     zero            0            E..V.....
+     epzs            1            E..V.....
+     xone            2            E..V.....
+     iter            3            E..V.....
+  -memc_only         <boolean>    E..V..... Only do ME/MC (I frames -> ref, P frame -> ME+MC). (default false)
+  -no_bitstream      <boolean>    E..V..... Skip final bitstream writeout. (default false)
+  -intra_penalty     <int>        E..V..... Penalty for intra blocks in block decission (from 0 to INT_MAX) (default 0)
+  -iterative_dia_size <int>        E..V..... Dia size for the iterative ME (from 0 to INT_MAX) (default 0)
+  -sc_threshold      <int>        E..V..... Scene change threshold (from INT_MIN to INT_MAX) (default 0)
+  -pred              <int>        E..V..... Spatial decomposition type (from 0 to 1) (default dwt97)
+     dwt97           0            E..V.....
+     dwt53           1            E..V.....
+
+

@@ -1,0 +1,17 @@
+Filter alimiter
+  Audio lookahead limiter.
+    Inputs:
+       #0: main (audio)
+    Outputs:
+       #0: default (audio)
+alimiter AVOptions:
+  level_in          <double>     ..F.A.... set input level (from 0.015625 to 64) (default 1)
+  level_out         <double>     ..F.A.... set output level (from 0.015625 to 64) (default 1)
+  limit             <double>     ..F.A.... set limit (from 0.0625 to 1) (default 1)
+  attack            <double>     ..F.A.... set attack (from 0.1 to 80) (default 5)
+  release           <double>     ..F.A.... set release (from 1 to 8000) (default 50)
+  asc               <boolean>    ..F.A.... enable asc (default false)
+  asc_level         <double>     ..F.A.... set asc level (from 0 to 1) (default 0.5)
+  level             <boolean>    ..F.A.... auto level (default true)
+
+

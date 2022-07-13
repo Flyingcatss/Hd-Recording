@@ -1,0 +1,4 @@
+Decoder v308 [Uncompressed packed 4:4:4]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

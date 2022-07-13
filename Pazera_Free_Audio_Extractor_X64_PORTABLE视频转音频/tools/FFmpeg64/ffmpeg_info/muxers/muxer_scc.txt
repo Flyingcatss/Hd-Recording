@@ -1,0 +1,4 @@
+Muxer scc [Scenarist Closed Captions]:
+    Common extensions: scc.
+    Default subtitle codec: eia_608.
+

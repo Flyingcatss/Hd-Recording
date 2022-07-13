@@ -1,0 +1,4 @@
+Decoder magicyuv [MagicYUV video]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame and slice
+

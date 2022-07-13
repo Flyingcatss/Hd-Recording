@@ -1,0 +1,5 @@
+Decoder xma1 [Xbox Media Audio 1]:
+    General capabilities: dr1 delay subframes 
+    Threading capabilities: none
+    Supported sample formats: fltp
+

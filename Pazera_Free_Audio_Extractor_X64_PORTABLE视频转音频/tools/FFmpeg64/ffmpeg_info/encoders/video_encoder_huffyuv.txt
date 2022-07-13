@@ -1,0 +1,12 @@
+Encoder huffyuv [Huffyuv / HuffYUV]:
+    General capabilities: threads intraonly 
+    Threading capabilities: frame
+    Supported pixel formats: yuv422p rgb24 bgra
+huffyuv AVOptions:
+  -non_deterministic <boolean>    E..V..... Allow multithreading for e.g. context=1 at the expense of determinism (default true)
+  -pred              <int>        E..V..... Prediction method (from 0 to 2) (default left)
+     left            0            E..V.....
+     plane           1            E..V.....
+     median          2            E..V.....
+
+

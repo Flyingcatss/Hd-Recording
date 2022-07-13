@@ -1,0 +1,82 @@
+Filter showspectrum
+  Convert input audio to a spectrum video output.
+    slice threading supported
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (video)
+showspectrum AVOptions:
+  size              <image_size> ..FV..... set video size (default "640x512")
+  s                 <image_size> ..FV..... set video size (default "640x512")
+  slide             <int>        ..FV..... set sliding mode (from 0 to 3) (default replace)
+     replace         0            ..FV..... replace old columns with new
+     scroll          1            ..FV..... scroll from right to left
+     fullframe       2            ..FV..... return full frames
+     rscroll         3            ..FV..... scroll from left to right
+  mode              <int>        ..FV..... set channel display mode (from 0 to 1) (default combined)
+     combined        0            ..FV..... combined mode
+     separate        1            ..FV..... separate mode
+  color             <int>        ..FV..... set channel coloring (from 0 to 14) (default channel)
+     channel         0            ..FV..... separate color for each channel
+     intensity       1            ..FV..... intensity based coloring
+     rainbow         2            ..FV..... rainbow based coloring
+     moreland        3            ..FV..... moreland based coloring
+     nebulae         4            ..FV..... nebulae based coloring
+     fire            5            ..FV..... fire based coloring
+     fiery           6            ..FV..... fiery based coloring
+     fruit           7            ..FV..... fruit based coloring
+     cool            8            ..FV..... cool based coloring
+     magma           9            ..FV..... magma based coloring
+     green           10           ..FV..... green based coloring
+     viridis         11           ..FV..... viridis based coloring
+     plasma          12           ..FV..... plasma based coloring
+     cividis         13           ..FV..... cividis based coloring
+     terrain         14           ..FV..... terrain based coloring
+  scale             <int>        ..FV..... set display scale (from 0 to 5) (default sqrt)
+     lin             0            ..FV..... linear
+     sqrt            1            ..FV..... square root
+     cbrt            2            ..FV..... cubic root
+     log             3            ..FV..... logarithmic
+     4thrt           4            ..FV..... 4th root
+     5thrt           5            ..FV..... 5th root
+  fscale            <int>        ..FV..... set frequency scale (from 0 to 1) (default lin)
+     lin             0            ..FV..... linear
+     log             1            ..FV..... logarithmic
+  saturation        <float>      ..FV..... color saturation multiplier (from -10 to 10) (default 1)
+  win_func          <int>        ..FV..... set window function (from 0 to 19) (default hann)
+     rect            0            ..FV..... Rectangular
+     bartlett        4            ..FV..... Bartlett
+     hann            1            ..FV..... Hann
+     hanning         1            ..FV..... Hanning
+     hamming         2            ..FV..... Hamming
+     blackman        3            ..FV..... Blackman
+     welch           5            ..FV..... Welch
+     flattop         6            ..FV..... Flat-top
+     bharris         7            ..FV..... Blackman-Harris
+     bnuttall        8            ..FV..... Blackman-Nuttall
+     bhann           11           ..FV..... Bartlett-Hann
+     sine            9            ..FV..... Sine
+     nuttall         10           ..FV..... Nuttall
+     lanczos         12           ..FV..... Lanczos
+     gauss           13           ..FV..... Gauss
+     tukey           14           ..FV..... Tukey
+     dolph           15           ..FV..... Dolph-Chebyshev
+     cauchy          16           ..FV..... Cauchy
+     parzen          17           ..FV..... Parzen
+     poisson         18           ..FV..... Poisson
+     bohman          19           ..FV..... Bohman
+  orientation       <int>        ..FV..... set orientation (from 0 to 1) (default vertical)
+     vertical        0            ..FV.....
+     horizontal      1            ..FV.....
+  overlap           <float>      ..FV..... set window overlap (from 0 to 1) (default 0)
+  gain              <float>      ..FV..... set scale gain (from 0 to 128) (default 1)
+  data              <int>        ..FV..... set data mode (from 0 to 1) (default magnitude)
+     magnitude       0            ..FV.....
+     phase           1            ..FV.....
+  rotation          <float>      ..FV..... color rotation (from -1 to 1) (default 0)
+  start             <int>        ..FV..... start frequency (from 0 to INT_MAX) (default 0)
+  stop              <int>        ..FV..... stop frequency (from 0 to INT_MAX) (default 0)
+  fps               <string>     ..FV..... set video rate (default "auto")
+  legend            <boolean>    ..FV..... draw legend (default false)
+
+

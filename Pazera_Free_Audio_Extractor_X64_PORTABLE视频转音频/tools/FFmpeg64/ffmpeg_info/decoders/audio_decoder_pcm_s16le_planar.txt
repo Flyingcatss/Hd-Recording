@@ -1,0 +1,5 @@
+Decoder pcm_s16le_planar [PCM signed 16-bit little-endian planar]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: s16p
+

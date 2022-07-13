@@ -1,0 +1,5 @@
+Encoder ayuv [Uncompressed packed MS 4:4:4:4]:
+    General capabilities: intraonly 
+    Threading capabilities: none
+    Supported pixel formats: yuva444p
+

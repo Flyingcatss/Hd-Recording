@@ -1,0 +1,13 @@
+Filter asetnsamples
+  Set the number of samples for each output audio frames.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+asetnsamples AVOptions:
+  nb_out_samples    <int>        ..F.A.... set the number of per-frame output samples (from 1 to INT_MAX) (default 1024)
+  n                 <int>        ..F.A.... set the number of per-frame output samples (from 1 to INT_MAX) (default 1024)
+  pad               <boolean>    ..F.A.... pad last frame with zeros (default true)
+  p                 <boolean>    ..F.A.... pad last frame with zeros (default true)
+
+

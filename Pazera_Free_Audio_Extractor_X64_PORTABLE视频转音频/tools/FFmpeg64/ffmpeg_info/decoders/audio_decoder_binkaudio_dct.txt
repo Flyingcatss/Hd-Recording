@@ -1,0 +1,4 @@
+Decoder binkaudio_dct [Bink Audio (DCT)]:
+    General capabilities: dr1 delay 
+    Threading capabilities: none
+

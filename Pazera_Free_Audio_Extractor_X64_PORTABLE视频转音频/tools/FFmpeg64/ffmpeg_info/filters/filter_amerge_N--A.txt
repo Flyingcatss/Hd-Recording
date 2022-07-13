@@ -1,0 +1,10 @@
+Filter amerge
+  Merge two or more audio streams into a single multi-channel stream.
+    Inputs:
+        dynamic (depending on the options)
+    Outputs:
+       #0: default (audio)
+amerge AVOptions:
+  inputs            <int>        ..F.A.... specify the number of inputs (from 1 to 64) (default 2)
+
+

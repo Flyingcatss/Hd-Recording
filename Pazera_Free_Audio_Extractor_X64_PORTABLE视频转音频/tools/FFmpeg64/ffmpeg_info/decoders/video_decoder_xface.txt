@@ -1,0 +1,5 @@
+Decoder xface [X-face image]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported pixel formats: monow
+

@@ -1,0 +1,4 @@
+Decoder ws_snd1 [Westwood Audio (SND1)]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

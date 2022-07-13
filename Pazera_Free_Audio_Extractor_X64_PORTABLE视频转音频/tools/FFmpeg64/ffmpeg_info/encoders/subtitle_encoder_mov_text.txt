@@ -1,0 +1,3 @@
+Encoder mov_text [3GPP Timed Text subtitle]:
+    General capabilities: none
+

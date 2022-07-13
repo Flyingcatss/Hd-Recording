@@ -1,0 +1,4 @@
+Decoder r10k [AJA Kona 10-bit RGB Codec]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

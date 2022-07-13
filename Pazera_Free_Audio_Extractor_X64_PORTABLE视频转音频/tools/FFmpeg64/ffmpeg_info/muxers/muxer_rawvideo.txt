@@ -1,0 +1,4 @@
+Muxer rawvideo [raw video]:
+    Common extensions: yuv,rgb.
+    Default video codec: rawvideo.
+

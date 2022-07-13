@@ -1,0 +1,7 @@
+Encoder truehd [TrueHD]:
+    General capabilities: delay small exp 
+    Threading capabilities: none
+    Supported sample rates: 44100 48000 88200 96000 176400 192000
+    Supported sample formats: s16
+    Supported channel layouts: stereo 5.0 5.1
+

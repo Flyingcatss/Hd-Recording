@@ -1,0 +1,4 @@
+Decoder cavs [Chinese AVS (Audio Video Standard) (AVS1-P2, JiZhun profile)]:
+    General capabilities: dr1 delay 
+    Threading capabilities: none
+

@@ -1,0 +1,5 @@
+Encoder pcx [PC Paintbrush PCX image]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported pixel formats: rgb24 rgb8 bgr8 rgb4_byte bgr4_byte gray pal8 monob
+

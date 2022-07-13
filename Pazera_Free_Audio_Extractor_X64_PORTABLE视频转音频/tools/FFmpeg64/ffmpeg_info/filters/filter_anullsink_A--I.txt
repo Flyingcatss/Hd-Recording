@@ -1,0 +1,7 @@
+Filter anullsink
+  Do absolutely nothing with the input audio.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+        none (sink filter)
+

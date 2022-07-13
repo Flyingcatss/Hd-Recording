@@ -1,0 +1,11 @@
+Decoder ac3 [ATSC A/52A (AC-3)]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: fltp
+AC3 decoder AVOptions:
+  -cons_noisegen     <boolean>    .D..A.... enable consistent noise generation (default false)
+  -drc_scale         <float>      .D..A.... percentage of dynamic range compression to apply (from 0 to 6) (default 1)
+  -heavy_compr       <boolean>    .D..A.... enable heavy dynamic range compression (default false)
+  -target_level      <int>        .D..A.... target level in -dBFS (0 not applied) (from -31 to 0) (default 0)
+
+

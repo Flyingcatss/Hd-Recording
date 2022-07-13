@@ -1,0 +1,44 @@
+Filter avectorscope
+  Convert input audio to vectorscope video output.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (video)
+avectorscope AVOptions:
+  mode              <int>        ..FV..... set mode (from 0 to 2) (default lissajous)
+     lissajous       0            ..FV..... 
+     lissajous_xy    1            ..FV..... 
+     polar           2            ..FV..... 
+  m                 <int>        ..FV..... set mode (from 0 to 2) (default lissajous)
+     lissajous       0            ..FV..... 
+     lissajous_xy    1            ..FV..... 
+     polar           2            ..FV..... 
+  rate              <video_rate> ..FV..... set video rate (default "25")
+  r                 <video_rate> ..FV..... set video rate (default "25")
+  size              <image_size> ..FV..... set video size (default "400x400")
+  s                 <image_size> ..FV..... set video size (default "400x400")
+  rc                <int>        ..FV..... set red contrast (from 0 to 255) (default 40)
+  gc                <int>        ..FV..... set green contrast (from 0 to 255) (default 160)
+  bc                <int>        ..FV..... set blue contrast (from 0 to 255) (default 80)
+  ac                <int>        ..FV..... set alpha contrast (from 0 to 255) (default 255)
+  rf                <int>        ..FV..... set red fade (from 0 to 255) (default 15)
+  gf                <int>        ..FV..... set green fade (from 0 to 255) (default 10)
+  bf                <int>        ..FV..... set blue fade (from 0 to 255) (default 5)
+  af                <int>        ..FV..... set alpha fade (from 0 to 255) (default 5)
+  zoom              <double>     ..FV..... set zoom factor (from 0 to 10) (default 1)
+  draw              <int>        ..FV..... set draw mode (from 0 to 1) (default dot)
+     dot             0            ..FV..... 
+     line            1            ..FV..... 
+  scale             <int>        ..FV..... set amplitude scale mode (from 0 to 3) (default lin)
+     lin             0            ..FV..... linear
+     sqrt            1            ..FV..... square root
+     cbrt            2            ..FV..... cube root
+     log             3            ..FV..... logarithmic
+  swap              <boolean>    ..FV..... swap x axis with y axis (default true)
+  mirror            <int>        ..FV..... mirror axis (from 0 to 3) (default none)
+     none            0            ..FV..... no mirror
+     x               1            ..FV..... mirror x
+     y               2            ..FV..... mirror y
+     xy              3            ..FV..... mirror both
+
+

@@ -1,0 +1,19 @@
+Filter fillborders
+  Fill borders of the input video.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+fillborders AVOptions:
+  left              <int>        ..FV..... set the left fill border (from 0 to INT_MAX) (default 0)
+  right             <int>        ..FV..... set the right fill border (from 0 to INT_MAX) (default 0)
+  top               <int>        ..FV..... set the top fill border (from 0 to INT_MAX) (default 0)
+  bottom            <int>        ..FV..... set the bottom fill border (from 0 to INT_MAX) (default 0)
+  mode              <int>        ..FV..... set the fill borders mode (from 0 to 2) (default smear)
+     smear           0            ..FV.....
+     mirror          1            ..FV.....
+     fixed           2            ..FV.....
+  color             <color>      ..FV..... set the color for the fixed mode (default "black")
+
+This filter has support for timeline through the 'enable' option.
+

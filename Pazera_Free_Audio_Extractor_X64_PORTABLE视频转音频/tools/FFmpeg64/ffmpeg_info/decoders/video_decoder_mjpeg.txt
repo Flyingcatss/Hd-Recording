@@ -1,0 +1,8 @@
+Decoder mjpeg [MJPEG (Motion JPEG)]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported hardware devices: cuda 
+MJPEG decoder AVOptions:
+  -extern_huff       <boolean>    .D.V..... Use external huffman table. (default false)
+
+

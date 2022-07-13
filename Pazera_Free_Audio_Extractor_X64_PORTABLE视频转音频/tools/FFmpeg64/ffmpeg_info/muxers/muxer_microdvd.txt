@@ -1,0 +1,5 @@
+Muxer microdvd [MicroDVD subtitle format]:
+    Common extensions: sub.
+    Mime type: text/x-microdvd.
+    Default subtitle codec: microdvd.
+

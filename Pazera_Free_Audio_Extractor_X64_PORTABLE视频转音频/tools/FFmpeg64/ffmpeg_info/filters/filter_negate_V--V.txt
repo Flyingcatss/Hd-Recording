@@ -1,0 +1,12 @@
+Filter negate
+  Negate input video.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+negate AVOptions:
+  negate_alpha      <boolean>    ..FV..... (default false)
+
+This filter has support for timeline through the 'enable' option.
+

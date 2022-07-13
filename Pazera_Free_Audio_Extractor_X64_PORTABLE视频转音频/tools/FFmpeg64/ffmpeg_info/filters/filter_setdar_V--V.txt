@@ -1,0 +1,13 @@
+Filter setdar
+  Set the frame display aspect ratio.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+setdar AVOptions:
+  dar               <string>     ..FV..... set display aspect ratio (default "0")
+  ratio             <string>     ..FV..... set display aspect ratio (default "0")
+  r                 <string>     ..FV..... set display aspect ratio (default "0")
+  max               <int>        ..FV..... set max value for nominator or denominator in the ratio (from 1 to INT_MAX) (default 100)
+
+

@@ -1,0 +1,4 @@
+Decoder vp7 [On2 VP7]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

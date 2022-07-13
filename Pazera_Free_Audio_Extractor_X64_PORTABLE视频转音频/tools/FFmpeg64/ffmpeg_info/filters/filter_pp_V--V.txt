@@ -1,0 +1,11 @@
+Filter pp
+  Filter video using libpostproc.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+pp AVOptions:
+  subfilters        <string>     ..FV..... set postprocess subfilters (default "de")
+
+This filter has support for timeline through the 'enable' option.
+

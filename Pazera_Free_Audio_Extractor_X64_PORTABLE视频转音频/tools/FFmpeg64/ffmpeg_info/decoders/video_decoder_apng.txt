@@ -1,0 +1,4 @@
+Decoder apng [APNG (Animated Portable Network Graphics) image]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame
+

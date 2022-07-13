@@ -1,0 +1,14 @@
+Filter shuffleplanes
+  Shuffle video planes.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+shuffleplanes AVOptions:
+  map0              <int>        ..FV..... Index of the input plane to be used as the first output plane  (from 0 to 4) (default 0)
+  map1              <int>        ..FV..... Index of the input plane to be used as the second output plane  (from 0 to 4) (default 1)
+  map2              <int>        ..FV..... Index of the input plane to be used as the third output plane  (from 0 to 4) (default 2)
+  map3              <int>        ..FV..... Index of the input plane to be used as the fourth output plane  (from 0 to 4) (default 3)
+
+This filter has support for timeline through the 'enable' option.
+

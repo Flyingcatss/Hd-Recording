@@ -1,0 +1,3 @@
+Demuxer rsd [GameCube RSD]:
+    Common extensions: rsd.
+

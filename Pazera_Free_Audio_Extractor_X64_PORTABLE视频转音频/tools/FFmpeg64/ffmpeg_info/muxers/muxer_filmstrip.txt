@@ -1,0 +1,4 @@
+Muxer filmstrip [Adobe Filmstrip]:
+    Common extensions: flm.
+    Default video codec: rawvideo.
+

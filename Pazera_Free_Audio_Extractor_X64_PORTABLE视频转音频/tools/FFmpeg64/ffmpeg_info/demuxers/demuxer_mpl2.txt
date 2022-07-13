@@ -1,0 +1,3 @@
+Demuxer mpl2 [MPL2 subtitles]:
+    Common extensions: txt,mpl2.
+

@@ -1,0 +1,7 @@
+Decoder gif [GIF (Graphics Interchange Format)]:
+    General capabilities: dr1 
+    Threading capabilities: none
+gif decoder AVOptions:
+  -trans_color       <int>        .D.V..... color value (ARGB) that is used instead of transparent color (from 0 to UINT32_MAX) (default 16777215)
+
+

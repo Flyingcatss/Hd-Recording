@@ -1,0 +1,4 @@
+Decoder vp6a [On2 VP6 (Flash version, with alpha channel)]:
+    General capabilities: dr1 threads 
+    Threading capabilities: slice
+

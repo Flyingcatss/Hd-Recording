@@ -1,0 +1,16 @@
+Filter find_rect
+  Find a user specified object.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+find_rect AVOptions:
+  object            <string>     ..FV..... object bitmap filename
+  threshold         <float>      ..FV..... set threshold (from 0 to 1) (default 0.5)
+  mipmaps           <int>        ..FV..... set mipmaps (from 1 to 5) (default 3)
+  xmin              <int>        ..FV.....  (from 0 to INT_MAX) (default 0)
+  ymin              <int>        ..FV.....  (from 0 to INT_MAX) (default 0)
+  xmax              <int>        ..FV.....  (from 0 to INT_MAX) (default 0)
+  ymax              <int>        ..FV.....  (from 0 to INT_MAX) (default 0)
+
+

@@ -1,0 +1,27 @@
+Filter silenceremove
+  Remove silence.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+silenceremove AVOptions:
+  start_periods     <int>        ..F.A.... (from 0 to 9000) (default 0)
+  start_duration    <duration>   ..F.A.... set start duration of non-silence part (default 0)
+  start_threshold   <double>     ..F.A.... set threshold for start silence detection (from 0 to DBL_MAX) (default 0)
+  start_silence     <duration>   ..F.A.... set start duration of silence part to keep (default 0)
+  start_mode        <int>        ..F.A.... set which channel will trigger trimming from start (from 0 to 1) (default any)
+     any             0            ..F.A....
+     all             1            ..F.A....
+  stop_periods      <int>        ..F.A.... (from -9000 to 9000) (default 0)
+  stop_duration     <duration>   ..F.A.... set stop duration of non-silence part (default 0)
+  stop_threshold    <double>     ..F.A.... set threshold for stop silence detection (from 0 to DBL_MAX) (default 0)
+  stop_silence      <duration>   ..F.A.... set stop duration of silence part to keep (default 0)
+  stop_mode         <int>        ..F.A.... set which channel will trigger trimming from end (from 0 to 1) (default any)
+     any             0            ..F.A....
+     all             1            ..F.A....
+  detection         <int>        ..F.A.... set how silence is detected (from 0 to 1) (default rms)
+     peak            0            ..F.A.... use absolute values of samples
+     rms             1            ..F.A.... use squared values of samples
+  window            <double>     ..F.A.... set duration of window in seconds (from 0 to 10) (default 0.02)
+
+

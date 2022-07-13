@@ -1,0 +1,3 @@
+Muxer codec2raw [raw codec2 muxer]:
+    Default audio codec: codec2.
+

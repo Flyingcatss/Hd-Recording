@@ -1,0 +1,8 @@
+Encoder roqvideo [id RoQ video]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported pixel formats: yuvj444p
+RoQ AVOptions:
+  -quake3_compat     <boolean>    E..V..... Whether to respect known limitations in Quake 3 decoder (default true)
+
+

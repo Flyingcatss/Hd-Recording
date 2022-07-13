@@ -1,0 +1,3 @@
+Demuxer vc1test [VC-1 test bitstream]:
+    Common extensions: rcv.
+

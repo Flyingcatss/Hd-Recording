@@ -1,0 +1,12 @@
+Filter xmedian
+  Pick median pixels from several video inputs.
+    slice threading supported
+    Inputs:
+        dynamic (depending on the options)
+    Outputs:
+       #0: default (video)
+xmedian AVOptions:
+  inputs            <int>        ..FV..... set number of inputs (from 3 to 255) (default 3)
+  planes            <int>        ..FV..... set planes to filter (from 0 to 15) (default 15)
+
+

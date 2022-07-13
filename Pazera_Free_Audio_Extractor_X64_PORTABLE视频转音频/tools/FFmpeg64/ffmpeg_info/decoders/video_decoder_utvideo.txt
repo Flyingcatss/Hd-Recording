@@ -1,0 +1,4 @@
+Decoder utvideo [Ut Video]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame
+

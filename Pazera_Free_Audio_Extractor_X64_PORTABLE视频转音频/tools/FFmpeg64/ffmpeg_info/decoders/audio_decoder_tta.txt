@@ -1,0 +1,7 @@
+Decoder tta [TTA (True Audio)]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame
+TTA Decoder AVOptions:
+  -password          <string>     .D..A.... Set decoding password
+
+

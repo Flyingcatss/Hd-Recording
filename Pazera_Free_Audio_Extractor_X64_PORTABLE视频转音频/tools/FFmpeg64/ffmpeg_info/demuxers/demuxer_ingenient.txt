@@ -1,0 +1,7 @@
+Demuxer ingenient [raw Ingenient MJPEG]:
+    Common extensions: cgi.
+ingenient demuxer AVOptions:
+  -framerate         <video_rate> .D.......  (default "25")
+  -raw_packet_size   <int>        .D.......  (from 1 to INT_MAX) (default 1024)
+
+

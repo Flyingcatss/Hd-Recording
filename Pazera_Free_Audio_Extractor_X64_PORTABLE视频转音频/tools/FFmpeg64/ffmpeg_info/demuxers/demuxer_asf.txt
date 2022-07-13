@@ -1,0 +1,6 @@
+Demuxer asf [ASF (Advanced / Active Streaming Format)]:
+asf demuxer AVOptions:
+  -no_resync_search  <boolean>    .D....... Don't try to resynchronize by looking for a certain optional start code (default false)
+  -export_xmp        <boolean>    .D....... Export full XMP metadata (default false)
+
+

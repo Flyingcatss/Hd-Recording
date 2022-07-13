@@ -1,0 +1,6 @@
+Demuxer g729 [G.729 raw format demuxer]:
+    Common extensions: g729.
+g729 demuxer AVOptions:
+  -bit_rate          <int>        .D.......  (from 0 to INT_MAX) (default 8000)
+
+

@@ -1,0 +1,5 @@
+Encoder pgmyuv [PGMYUV (Portable GrayMap YUV) image]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported pixel formats: yuv420p yuv420p16be
+

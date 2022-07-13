@@ -1,0 +1,3 @@
+Demuxer nistsphere [NIST SPeech HEader REsources]:
+    Common extensions: nist,sph.
+

@@ -1,0 +1,5 @@
+Encoder ppm [PPM (Portable PixelMap) image]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported pixel formats: rgb24 rgb48be
+

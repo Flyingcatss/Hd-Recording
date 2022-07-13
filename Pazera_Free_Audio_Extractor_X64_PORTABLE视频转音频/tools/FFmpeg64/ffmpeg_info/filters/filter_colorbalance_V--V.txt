@@ -1,0 +1,20 @@
+Filter colorbalance
+  Adjust the color balance.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+colorbalance AVOptions:
+  rs                <double>     ..FV..... set red shadows (from -1 to 1) (default 0)
+  gs                <double>     ..FV..... set green shadows (from -1 to 1) (default 0)
+  bs                <double>     ..FV..... set blue shadows (from -1 to 1) (default 0)
+  rm                <double>     ..FV..... set red midtones (from -1 to 1) (default 0)
+  gm                <double>     ..FV..... set green midtones (from -1 to 1) (default 0)
+  bm                <double>     ..FV..... set blue midtones (from -1 to 1) (default 0)
+  rh                <double>     ..FV..... set red highlights (from -1 to 1) (default 0)
+  gh                <double>     ..FV..... set green highlights (from -1 to 1) (default 0)
+  bh                <double>     ..FV..... set blue highlights (from -1 to 1) (default 0)
+
+This filter has support for timeline through the 'enable' option.
+

@@ -1,0 +1,4 @@
+Decoder mxpeg [Mobotix MxPEG video]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

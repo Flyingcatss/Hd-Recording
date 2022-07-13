@@ -1,0 +1,20 @@
+Filter headphone
+  Apply headphone binaural spatialization with HRTFs in additional streams.
+    slice threading supported
+    Inputs:
+        dynamic (depending on the options)
+    Outputs:
+       #0: default (audio)
+headphone AVOptions:
+  map               <string>     ..F.A.... set channels convolution mappings
+  gain              <float>      ..F.A.... set gain in dB (from -20 to 40) (default 0)
+  lfe               <float>      ..F.A.... set lfe gain in dB (from -20 to 40) (default 0)
+  type              <int>        ..F.A.... set processing (from 0 to 1) (default freq)
+     time            0            ..F.A.... time domain
+     freq            1            ..F.A.... frequency domain
+  size              <int>        ..F.A.... set frame size (from 1024 to 96000) (default 1024)
+  hrir              <int>        ..F.A.... set hrir format (from 0 to 1) (default stereo)
+     stereo          0            ..F.A.... hrir files have exactly 2 channels
+     multich         1            ..F.A.... single multichannel hrir file
+
+

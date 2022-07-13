@@ -1,0 +1,10 @@
+Encoder opus [Opus]:
+    General capabilities: delay small exp 
+    Threading capabilities: none
+    Supported sample rates: 48000
+    Supported sample formats: fltp
+    Supported channel layouts: mono stereo
+Opus encoder AVOptions:
+  -opus_delay        <float>      E...A.... Maximum delay in milliseconds (from 2.5 to 360) (default 360)
+
+

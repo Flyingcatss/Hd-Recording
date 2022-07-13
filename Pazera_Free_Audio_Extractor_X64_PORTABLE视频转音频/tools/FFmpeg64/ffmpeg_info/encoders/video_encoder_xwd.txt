@@ -1,0 +1,5 @@
+Encoder xwd [XWD (X Window Dump) image]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported pixel formats: bgra rgba argb abgr rgb24 bgr24 rgb565be rgb565le bgr565be bgr565le rgb555be rgb555le bgr555be bgr555le rgb8 bgr8 rgb4_byte bgr4_byte pal8 gray monow
+

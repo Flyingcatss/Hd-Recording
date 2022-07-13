@@ -1,0 +1,10 @@
+Filter dejudder
+  Remove judder produced by pullup.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+dejudder AVOptions:
+  cycle             <int>        ..FV..... set the length of the cycle to use for dejuddering (from 2 to 240) (default 4)
+
+

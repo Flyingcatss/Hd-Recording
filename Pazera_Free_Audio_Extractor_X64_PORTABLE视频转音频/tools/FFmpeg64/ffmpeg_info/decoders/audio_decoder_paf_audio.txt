@@ -1,0 +1,4 @@
+Decoder paf_audio [Amazing Studio Packed Animation File Audio]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

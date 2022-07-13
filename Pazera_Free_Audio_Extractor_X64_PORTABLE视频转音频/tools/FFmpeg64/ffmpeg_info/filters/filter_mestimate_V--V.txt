@@ -1,0 +1,21 @@
+Filter mestimate
+  Generate motion vectors.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+mestimate AVOptions:
+  method            <int>        ..FV..... motion estimation method (from 1 to 9) (default esa)
+     esa             1            ..FV..... exhaustive search
+     tss             2            ..FV..... three step search
+     tdls            3            ..FV..... two dimensional logarithmic search
+     ntss            4            ..FV..... new three step search
+     fss             5            ..FV..... four step search
+     ds              6            ..FV..... diamond search
+     hexbs           7            ..FV..... hexagon-based search
+     epzs            8            ..FV..... enhanced predictive zonal search
+     umh             9            ..FV..... uneven multi-hexagon search
+  mb_size           <int>        ..FV..... macroblock size (from 8 to INT_MAX) (default 16)
+  search_param      <int>        ..FV..... search parameter (from 4 to INT_MAX) (default 7)
+
+

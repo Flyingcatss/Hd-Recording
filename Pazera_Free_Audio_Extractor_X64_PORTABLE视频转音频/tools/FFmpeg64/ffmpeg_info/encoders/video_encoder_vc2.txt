@@ -1,0 +1,20 @@
+Encoder vc2 [SMPTE VC-2]:
+    General capabilities: threads 
+    Threading capabilities: slice
+    Supported pixel formats: yuv420p yuv422p yuv444p yuv420p10le yuv422p10le yuv444p10le yuv420p12le yuv422p12le yuv444p12le
+SMPTE VC-2 encoder AVOptions:
+  -tolerance         <double>     E..V..... Max undershoot in percent (from 0 to 45) (default 5)
+  -slice_width       <int>        E..V..... Slice width (from 32 to 1024) (default 32)
+  -slice_height      <int>        E..V..... Slice height (from 8 to 1024) (default 16)
+  -wavelet_depth     <int>        E..V..... Transform depth (from 1 to 5) (default 4)
+  -wavelet_type      <int>        E..V..... Transform type (from 0 to 7) (default 9_7)
+     9_7             0            E..V..... Deslauriers-Dubuc (9,7)
+     5_3             1            E..V..... LeGall (5,3)
+     haar            4            E..V..... Haar (with shift)
+     haar_noshift    3            E..V..... Haar (without shift)
+  -qm                <int>        E..V..... Custom quantization matrix (from 0 to 3) (default default)
+     default         0            E..V..... Default from the specifications
+     color           1            E..V..... Prevents low bitrate discoloration
+     flat            2            E..V..... Optimize for PSNR
+
+

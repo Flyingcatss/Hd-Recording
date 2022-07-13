@@ -1,0 +1,4 @@
+Decoder cfhd [Cineform HD]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame
+

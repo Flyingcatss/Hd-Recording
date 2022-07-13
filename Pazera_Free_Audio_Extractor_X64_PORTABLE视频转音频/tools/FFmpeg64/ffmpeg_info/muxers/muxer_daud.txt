@@ -1,0 +1,4 @@
+Muxer daud [D-Cinema audio]:
+    Common extensions: 302.
+    Default audio codec: pcm_s24daud.
+

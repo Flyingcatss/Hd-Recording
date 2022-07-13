@@ -1,0 +1,14 @@
+Filter stereowiden
+  Apply stereo widening effect.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+stereowiden AVOptions:
+  delay             <float>      ..F.A.... set delay time (from 1 to 100) (default 20)
+  feedback          <float>      ..F.A.... set feedback gain (from 0 to 0.9) (default 0.3)
+  crossfeed         <float>      ..F.A.... set cross feed (from 0 to 0.8) (default 0.3)
+  drymix            <float>      ..F.A.... set dry-mix (from 0 to 1) (default 0.8)
+
+This filter has support for timeline through the 'enable' option.
+

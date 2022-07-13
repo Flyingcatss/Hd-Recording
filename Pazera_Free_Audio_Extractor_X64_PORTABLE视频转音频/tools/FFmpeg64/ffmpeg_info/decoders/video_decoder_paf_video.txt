@@ -1,0 +1,4 @@
+Decoder paf_video [Amazing Studio Packed Animation File Video]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

@@ -1,0 +1,4 @@
+Muxer singlejpeg [JPEG single image]:
+    Mime type: image/jpeg.
+    Default video codec: mjpeg.
+

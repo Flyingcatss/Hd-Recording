@@ -1,0 +1,7 @@
+Decoder evrc [EVRC (Enhanced Variable Rate Codec)]:
+    General capabilities: dr1 
+    Threading capabilities: none
+evrc AVOptions:
+  -postfilter        <boolean>    .D..A.... enable postfilter (default true)
+
+

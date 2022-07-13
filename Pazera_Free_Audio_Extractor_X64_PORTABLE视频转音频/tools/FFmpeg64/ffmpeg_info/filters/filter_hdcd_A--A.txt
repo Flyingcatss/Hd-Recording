@@ -1,0 +1,23 @@
+Filter hdcd
+  Apply High Definition Compatible Digital (HDCD) decoding.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+hdcd AVOptions:
+  disable_autoconvert <boolean>    ..F.A.... Disable any format conversion or resampling in the filter graph. (default true)
+  process_stereo    <boolean>    ..F.A.... Process stereo channels together. Only apply target_gain when both channels match. (default true)
+  cdt_ms            <int>        ..F.A.... Code detect timer period in ms. (from 100 to 60000) (default 2000)
+  force_pe          <boolean>    ..F.A.... Always extend peaks above -3dBFS even when PE is not signaled. (default false)
+  analyze_mode      <int>        ..F.A.... Replace audio with solid tone and signal some processing aspect in the amplitude. (from 0 to 4) (default off)
+     off             0            ..F.A.... disabled
+     lle             1            ..F.A.... gain adjustment level at each sample
+     pe              2            ..F.A.... samples where peak extend occurs
+     cdt             3            ..F.A.... samples where the code detect timer is active
+     tgm             4            ..F.A.... samples where the target gain does not match between channels
+  bits_per_sample   <int>        ..F.A.... Valid bits per sample (location of the true LSB). (from 16 to 24) (default 16)
+     16              16           ..F.A.... 16-bit (in s32 or s16)
+     20              20           ..F.A.... 20-bit (in s32)
+     24              24           ..F.A.... 24-bit (in s32)
+
+

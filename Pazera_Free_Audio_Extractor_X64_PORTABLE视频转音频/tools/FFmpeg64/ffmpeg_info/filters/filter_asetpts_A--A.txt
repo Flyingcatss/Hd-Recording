@@ -1,0 +1,10 @@
+Filter asetpts
+  Set PTS for the output audio frame.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+asetpts AVOptions:
+  expr              <string>     ..FVA.... Expression determining the frame timestamp (default "PTS")
+
+

@@ -1,0 +1,6 @@
+Demuxer sbc [raw SBC (low-complexity subband codec)]:
+    Common extensions: sbc,msbc.
+sbc demuxer AVOptions:
+  -raw_packet_size   <int>        .D.......  (from 1 to INT_MAX) (default 1024)
+
+

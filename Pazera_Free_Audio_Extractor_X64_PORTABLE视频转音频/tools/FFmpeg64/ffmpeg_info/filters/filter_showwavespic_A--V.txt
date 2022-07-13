@@ -1,0 +1,21 @@
+Filter showwavespic
+  Convert input audio to a video output single picture.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (video)
+showwavespic AVOptions:
+  size              <image_size> ..FV..... set video size (default "600x240")
+  s                 <image_size> ..FV..... set video size (default "600x240")
+  split_channels    <boolean>    ..FV..... draw channels separately (default false)
+  colors            <string>     ..FV..... set channels colors (default "red|green|blue|yellow|orange|lime|pink|magenta|brown")
+  scale             <int>        ..FV..... set amplitude scale (from 0 to 3) (default lin)
+     lin             0            ..FV..... linear
+     log             1            ..FV..... logarithmic
+     sqrt            2            ..FV..... square root
+     cbrt            3            ..FV..... cubic root
+  draw              <int>        ..FV..... set draw mode (from 0 to 1) (default scale)
+     scale           0            ..FV..... scale pixel values for each drawn sample
+     full            1            ..FV..... draw every pixel for sample directly
+
+

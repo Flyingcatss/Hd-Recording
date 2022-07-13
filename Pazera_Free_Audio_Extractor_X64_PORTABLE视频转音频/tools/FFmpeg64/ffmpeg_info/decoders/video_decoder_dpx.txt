@@ -1,0 +1,4 @@
+Decoder dpx [DPX (Digital Picture Exchange) image]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

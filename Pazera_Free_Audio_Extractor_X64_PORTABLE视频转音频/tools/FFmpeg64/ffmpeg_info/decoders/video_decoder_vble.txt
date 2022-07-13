@@ -1,0 +1,4 @@
+Decoder vble [VBLE Lossless Codec]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame
+

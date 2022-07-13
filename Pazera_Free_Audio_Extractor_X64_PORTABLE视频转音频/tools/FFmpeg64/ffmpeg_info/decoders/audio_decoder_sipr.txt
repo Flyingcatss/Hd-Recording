@@ -1,0 +1,4 @@
+Decoder sipr [RealAudio SIPR / ACELP.NET]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

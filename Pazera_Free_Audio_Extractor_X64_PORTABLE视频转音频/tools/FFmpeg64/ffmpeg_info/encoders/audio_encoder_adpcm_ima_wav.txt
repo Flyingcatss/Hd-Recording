@@ -1,0 +1,5 @@
+Encoder adpcm_ima_wav [ADPCM IMA WAV]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported sample formats: s16p
+

@@ -1,0 +1,4 @@
+Decoder escape124 [Escape 124]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

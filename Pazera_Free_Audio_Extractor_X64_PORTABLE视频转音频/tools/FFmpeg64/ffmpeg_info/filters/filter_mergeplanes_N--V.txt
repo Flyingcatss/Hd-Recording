@@ -1,0 +1,11 @@
+Filter mergeplanes
+  Merge planes.
+    Inputs:
+        dynamic (depending on the options)
+    Outputs:
+       #0: default (video)
+mergeplanes AVOptions:
+  mapping           <int>        ..FV..... set input to output plane mapping (from 0 to 8.58993e+008) (default 0)
+  format            <pix_fmt>    ..FV..... set output pixel format (default yuva444p)
+
+

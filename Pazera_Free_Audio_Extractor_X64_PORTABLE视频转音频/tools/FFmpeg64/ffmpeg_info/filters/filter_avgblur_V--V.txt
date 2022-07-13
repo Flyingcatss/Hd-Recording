@@ -1,0 +1,14 @@
+Filter avgblur
+  Apply Average Blur filter.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+avgblur AVOptions:
+  sizeX             <int>        ..FV..... set horizontal size (from 1 to 1024) (default 1)
+  planes            <int>        ..FV..... set planes to filter (from 0 to 15) (default 15)
+  sizeY             <int>        ..FV..... set vertical size (from 0 to 1024) (default 0)
+
+This filter has support for timeline through the 'enable' option.
+

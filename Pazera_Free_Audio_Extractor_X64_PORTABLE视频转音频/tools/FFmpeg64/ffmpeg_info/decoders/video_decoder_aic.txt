@@ -1,0 +1,4 @@
+Decoder aic [Apple Intermediate Codec]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame
+

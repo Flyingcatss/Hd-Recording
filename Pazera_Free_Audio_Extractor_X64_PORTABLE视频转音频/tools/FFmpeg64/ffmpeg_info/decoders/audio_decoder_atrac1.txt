@@ -1,0 +1,5 @@
+Decoder atrac1 [ATRAC1 (Adaptive TRansform Acoustic Coding)]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: fltp
+

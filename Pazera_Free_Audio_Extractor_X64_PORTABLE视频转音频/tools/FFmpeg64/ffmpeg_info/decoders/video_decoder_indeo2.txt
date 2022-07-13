@@ -1,0 +1,4 @@
+Decoder indeo2 [Intel Indeo 2]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

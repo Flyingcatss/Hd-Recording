@@ -1,0 +1,5 @@
+Decoder adpcm_ima_ws [ADPCM IMA Westwood]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: s16 s16p
+

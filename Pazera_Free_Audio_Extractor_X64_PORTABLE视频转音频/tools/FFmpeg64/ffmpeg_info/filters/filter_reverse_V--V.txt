@@ -1,0 +1,7 @@
+Filter reverse
+  Reverse a clip.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+

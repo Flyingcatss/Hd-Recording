@@ -1,0 +1,7 @@
+Filter super2xsai
+  Scale the input by 2x using the Super2xSaI pixel art algorithm.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+

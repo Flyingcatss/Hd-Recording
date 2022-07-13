@@ -1,0 +1,4 @@
+Decoder libvorbis [libvorbis]:
+    General capabilities: delay 
+    Threading capabilities: none
+

@@ -1,0 +1,4 @@
+Decoder ilbc [iLBC (Internet Low Bitrate Codec)]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

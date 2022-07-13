@@ -1,0 +1,7 @@
+Filter aintegral
+  Compute integral of input audio.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+

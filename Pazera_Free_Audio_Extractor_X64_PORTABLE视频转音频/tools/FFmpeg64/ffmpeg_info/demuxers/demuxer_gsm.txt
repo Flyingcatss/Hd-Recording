@@ -1,0 +1,6 @@
+Demuxer gsm [raw GSM]:
+    Common extensions: gsm.
+gsm demuxer AVOptions:
+  -sample_rate       <int>        .D.......  (from 1 to 6.50753e+007) (default 8000)
+
+

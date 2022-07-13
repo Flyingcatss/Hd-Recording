@@ -1,0 +1,3 @@
+Demuxer ea_cdata [Electronic Arts cdata]:
+    Common extensions: cdata.
+

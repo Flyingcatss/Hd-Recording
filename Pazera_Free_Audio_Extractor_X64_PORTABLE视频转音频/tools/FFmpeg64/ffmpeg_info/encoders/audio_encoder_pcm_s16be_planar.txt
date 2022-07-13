@@ -1,0 +1,5 @@
+Encoder pcm_s16be_planar [PCM signed 16-bit big-endian planar]:
+    General capabilities: variable 
+    Threading capabilities: none
+    Supported sample formats: s16p
+

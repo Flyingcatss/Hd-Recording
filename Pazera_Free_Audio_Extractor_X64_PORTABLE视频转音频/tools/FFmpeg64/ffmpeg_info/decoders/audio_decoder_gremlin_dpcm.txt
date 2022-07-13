@@ -1,0 +1,4 @@
+Decoder gremlin_dpcm [DPCM Gremlin]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

@@ -1,0 +1,3 @@
+Demuxer ads [Sony PS2 ADS]:
+    Common extensions: ads,ss2.
+

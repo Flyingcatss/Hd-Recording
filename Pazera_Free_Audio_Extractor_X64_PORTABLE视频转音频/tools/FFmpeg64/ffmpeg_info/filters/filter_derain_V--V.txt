@@ -1,0 +1,16 @@
+Filter derain
+  Apply derain filter to the input.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+derain AVOptions:
+  filter_type       <int>        ..FV..... filter type(derain/dehaze) (from 0 to 1) (default derain)
+     derain          0            ..FV..... derain filter flag
+     dehaze          1            ..FV..... dehaze filter flag
+  dnn_backend       <int>        ..FV..... DNN backend (from 0 to 1) (default native)
+     native          0            ..FV..... native backend flag
+  model             <string>     ..FV..... path to model file
+
+This filter has support for timeline through the 'enable' option.
+

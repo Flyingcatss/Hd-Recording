@@ -1,0 +1,21 @@
+Filter hysteresis
+  Grow first stream into second stream by connecting components.
+    Inputs:
+       #0: base (video)
+       #1: alt (video)
+    Outputs:
+       #0: default (video)
+hysteresis AVOptions:
+  planes            <int>        ..FV..... set planes (from 0 to 15) (default 15)
+  threshold         <int>        ..FV..... set threshold (from 0 to 65535) (default 0)
+
+framesync AVOptions:
+  eof_action        <int>        ..FV..... Action to take when encountering EOF from secondary input  (from 0 to 2) (default repeat)
+     repeat          0            ..FV..... Repeat the previous frame.
+     endall          1            ..FV..... End both streams.
+     pass            2            ..FV..... Pass through the main input.
+  shortest          <boolean>    ..FV..... force termination when the shortest input terminates (default false)
+  repeatlast        <boolean>    ..FV..... extend last frame of secondary streams beyond EOF (default true)
+
+This filter has support for timeline through the 'enable' option.
+

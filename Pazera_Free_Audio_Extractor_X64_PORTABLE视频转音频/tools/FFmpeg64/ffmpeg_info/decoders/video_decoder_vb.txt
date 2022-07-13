@@ -1,0 +1,4 @@
+Decoder vb [Beam Software VB]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

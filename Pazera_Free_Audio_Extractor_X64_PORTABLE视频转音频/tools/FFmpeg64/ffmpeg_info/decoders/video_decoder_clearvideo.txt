@@ -1,0 +1,4 @@
+Decoder clearvideo [Iterated Systems ClearVideo]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

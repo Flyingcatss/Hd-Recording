@@ -1,0 +1,7 @@
+Filter repeatfields
+  Hard repeat fields based on MPEG repeat field flag.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+

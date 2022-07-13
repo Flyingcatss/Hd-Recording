@@ -1,0 +1,33 @@
+Filter highshelf
+  Apply a high shelf filter.
+    slice threading supported
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+highshelf AVOptions:
+  frequency         <double>     ..F.A.... set central frequency (from 0 to 999999) (default 3000)
+  f                 <double>     ..F.A.... set central frequency (from 0 to 999999) (default 3000)
+  width_type        <int>        ..F.A.... set filter-width type (from 1 to 5) (default q)
+     h               1            ..F.A.... Hz
+     q               3            ..F.A.... Q-Factor
+     o               2            ..F.A.... octave
+     s               4            ..F.A.... slope
+     k               5            ..F.A.... kHz
+  t                 <int>        ..F.A.... set filter-width type (from 1 to 5) (default q)
+     h               1            ..F.A.... Hz
+     q               3            ..F.A.... Q-Factor
+     o               2            ..F.A.... octave
+     s               4            ..F.A.... slope
+     k               5            ..F.A.... kHz
+  width             <double>     ..F.A.... set shelf transition steep (from 0 to 99999) (default 0.5)
+  w                 <double>     ..F.A.... set shelf transition steep (from 0 to 99999) (default 0.5)
+  gain              <double>     ..F.A.... set gain (from -900 to 900) (default 0)
+  g                 <double>     ..F.A.... set gain (from -900 to 900) (default 0)
+  mix               <double>     ..F.A.... set mix (from 0 to 1) (default 1)
+  m                 <double>     ..F.A.... set mix (from 0 to 1) (default 1)
+  channels          <channel_layout> ..F.A.... set channels to filter (default 0xffffffffffffffff)
+  c                 <channel_layout> ..F.A.... set channels to filter (default 0xffffffffffffffff)
+
+This filter has support for timeline through the 'enable' option.
+

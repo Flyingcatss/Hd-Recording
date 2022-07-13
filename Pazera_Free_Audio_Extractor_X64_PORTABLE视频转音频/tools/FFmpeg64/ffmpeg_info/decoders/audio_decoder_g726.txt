@@ -1,0 +1,4 @@
+Decoder g726 [G.726 ADPCM]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

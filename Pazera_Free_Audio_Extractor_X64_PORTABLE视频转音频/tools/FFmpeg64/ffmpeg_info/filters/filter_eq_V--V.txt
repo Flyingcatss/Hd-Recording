@@ -1,0 +1,21 @@
+Filter eq
+  Adjust brightness, contrast, gamma, and saturation.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+eq AVOptions:
+  contrast          <string>     ..FV..... set the contrast adjustment, negative values give a negative image (default "1.0")
+  brightness        <string>     ..FV..... set the brightness adjustment (default "0.0")
+  saturation        <string>     ..FV..... set the saturation adjustment (default "1.0")
+  gamma             <string>     ..FV..... set the initial gamma value (default "1.0")
+  gamma_r           <string>     ..FV..... gamma value for red (default "1.0")
+  gamma_g           <string>     ..FV..... gamma value for green (default "1.0")
+  gamma_b           <string>     ..FV..... gamma value for blue (default "1.0")
+  gamma_weight      <string>     ..FV..... set the gamma weight which reduces the effect of gamma on bright areas (default "1.0")
+  eval              <int>        ..FV..... specify when to evaluate expressions (from 0 to 1) (default init)
+     init            0            ..FV..... eval expressions once during initialization
+     frame           1            ..FV..... eval expressions per-frame
+
+This filter has support for timeline through the 'enable' option.
+

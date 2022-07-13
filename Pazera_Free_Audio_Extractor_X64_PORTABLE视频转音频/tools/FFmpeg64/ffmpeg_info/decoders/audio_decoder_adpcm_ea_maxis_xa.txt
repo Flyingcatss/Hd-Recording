@@ -1,0 +1,5 @@
+Decoder adpcm_ea_maxis_xa [ADPCM Electronic Arts Maxis CDROM XA]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: s16
+

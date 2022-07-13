@@ -1,0 +1,4 @@
+Decoder flic [Autodesk Animator Flic video]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

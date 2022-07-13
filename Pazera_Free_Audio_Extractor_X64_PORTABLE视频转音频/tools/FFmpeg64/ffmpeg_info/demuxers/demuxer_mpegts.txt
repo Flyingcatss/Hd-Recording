@@ -1,0 +1,10 @@
+Demuxer mpegts [MPEG-TS (MPEG-2 Transport Stream)]:
+mpegts demuxer AVOptions:
+  -resync_size       <int>        .D....... set size limit for looking up a new synchronization (from 0 to INT_MAX) (default 65536)
+  -fix_teletext_pts  <boolean>    .D....... try to fix pts values of dvb teletext streams (default true)
+  -ts_packetsize     <int>        .D....XR. output option carrying the raw packet size (from 0 to 0) (default 0)
+  -scan_all_pmts     <boolean>    .D....... scan and combine all PMTs (default auto)
+  -skip_unknown_pmt  <boolean>    .D....... skip PMTs for programs not advertised in the PAT (default false)
+  -merge_pmt_versions <boolean>    .D....... re-use streams when PMT's version/pids change (default false)
+
+

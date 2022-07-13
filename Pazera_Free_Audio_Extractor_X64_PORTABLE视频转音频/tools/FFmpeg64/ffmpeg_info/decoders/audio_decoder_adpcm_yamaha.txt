@@ -1,0 +1,5 @@
+Decoder adpcm_yamaha [ADPCM Yamaha]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: s16
+

@@ -1,0 +1,4 @@
+Decoder dfa [Chronomaster DFA]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

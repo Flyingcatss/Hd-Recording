@@ -1,0 +1,11 @@
+Filter ainterleave
+  Temporally interleave audio inputs.
+    Inputs:
+        dynamic (depending on the options)
+    Outputs:
+       #0: default (audio)
+ainterleave AVOptions:
+  nb_inputs         <int>        ..F.A.... set number of inputs (from 1 to INT_MAX) (default 2)
+  n                 <int>        ..F.A.... set number of inputs (from 1 to INT_MAX) (default 2)
+
+

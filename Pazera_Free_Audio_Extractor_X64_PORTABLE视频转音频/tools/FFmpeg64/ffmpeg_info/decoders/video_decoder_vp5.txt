@@ -1,0 +1,4 @@
+Decoder vp5 [On2 VP5]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

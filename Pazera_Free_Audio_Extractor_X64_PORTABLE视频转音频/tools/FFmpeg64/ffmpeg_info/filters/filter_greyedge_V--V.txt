@@ -1,0 +1,14 @@
+Filter greyedge
+  Estimates scene illumination by grey edge assumption.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+greyedge AVOptions:
+  difford           <int>        ..FV..... set differentiation order (from 0 to 2) (default 1)
+  minknorm          <int>        ..FV..... set Minkowski norm (from 0 to 20) (default 1)
+  sigma             <double>     ..FV..... set sigma (from 0 to 1024) (default 1)
+
+This filter has support for timeline through the 'enable' option.
+

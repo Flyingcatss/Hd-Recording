@@ -1,0 +1,14 @@
+Filter fspp
+  Apply Fast Simple Post-processing filter.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+fspp AVOptions:
+  quality           <int>        ..FV..... set quality (from 4 to 5) (default 4)
+  qp                <int>        ..FV..... force a constant quantizer parameter (from 0 to 64) (default 0)
+  strength          <int>        ..FV..... set filter strength (from -15 to 32) (default 0)
+  use_bframe_qp     <boolean>    ..FV..... use B-frames' QP (default false)
+
+This filter has support for timeline through the 'enable' option.
+

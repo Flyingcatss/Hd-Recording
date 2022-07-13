@@ -1,0 +1,5 @@
+Encoder avui [Avid Meridien Uncompressed]:
+    General capabilities: exp intraonly 
+    Threading capabilities: none
+    Supported pixel formats: uyvy422
+

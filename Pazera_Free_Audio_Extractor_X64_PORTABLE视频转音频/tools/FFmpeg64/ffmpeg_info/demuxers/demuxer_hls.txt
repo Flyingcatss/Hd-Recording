@@ -1,0 +1,10 @@
+Demuxer hls [Apple HTTP Live Streaming]:
+hls demuxer AVOptions:
+  -live_start_index  <int>        .D....... segment index to start live streams at (negative values are from the end) (from INT_MIN to INT_MAX) (default -3)
+  -allowed_extensions <string>     .D....... List of file extensions that hls is allowed to access (default "3gp,aac,avi,flac,mkv,m3u8,m4a,m4s,m4v,mpg,mov,mp2,mp3,mp4,mpeg,mpegts,ogg,ogv,oga,ts,vob,wav")
+  -max_reload        <int>        .D....... Maximum number of times a insufficient list is attempted to be reloaded (from 0 to INT_MAX) (default 1000)
+  -http_persistent   <boolean>    .D....... Use persistent HTTP connections (default true)
+  -http_multiple     <boolean>    .D....... Use multiple HTTP connections for fetching segments (default auto)
+  -http_seekable     <boolean>    .D....... Use HTTP partial requests, 0 = disable, 1 = enable, -1 = auto (default auto)
+
+

@@ -1,0 +1,18 @@
+Filter sine
+  Generate sine wave audio signal.
+    Inputs:
+        none (source filter)
+    Outputs:
+       #0: default (audio)
+sine AVOptions:
+  frequency         <double>     ..F.A.... set the sine frequency (from 0 to DBL_MAX) (default 440)
+  f                 <double>     ..F.A.... set the sine frequency (from 0 to DBL_MAX) (default 440)
+  beep_factor       <double>     ..F.A.... set the beep frequency factor (from 0 to DBL_MAX) (default 0)
+  b                 <double>     ..F.A.... set the beep frequency factor (from 0 to DBL_MAX) (default 0)
+  sample_rate       <int>        ..F.A.... set the sample rate (from 1 to INT_MAX) (default 44100)
+  r                 <int>        ..F.A.... set the sample rate (from 1 to INT_MAX) (default 44100)
+  duration          <duration>   ..F.A.... set the audio duration (default 0)
+  d                 <duration>   ..F.A.... set the audio duration (default 0)
+  samples_per_frame <string>     ..F.A.... set the number of samples per frame (default "1024")
+
+

@@ -1,0 +1,5 @@
+Encoder g723_1 [G.723.1]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported sample formats: s16
+

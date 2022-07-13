@@ -1,0 +1,8 @@
+Encoder targa [Truevision Targa image]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported pixel formats: bgr24 bgra rgb555le gray pal8
+targa AVOptions:
+  -rle               <int>        E..V..... Use run-length compression (from 0 to 1) (default 1)
+
+

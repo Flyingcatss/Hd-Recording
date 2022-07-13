@@ -1,0 +1,24 @@
+Filter selectivecolor
+  Apply CMYK adjustments to specific color ranges.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+selectivecolor AVOptions:
+  correction_method <int>        ..FV..... select correction method (from 0 to 1) (default absolute)
+     absolute        0            ..FV.....
+     relative        1            ..FV.....
+  reds              <string>     ..FV..... adjust red regions
+  yellows           <string>     ..FV..... adjust yellow regions
+  greens            <string>     ..FV..... adjust green regions
+  cyans             <string>     ..FV..... adjust cyan regions
+  blues             <string>     ..FV..... adjust blue regions
+  magentas          <string>     ..FV..... adjust magenta regions
+  whites            <string>     ..FV..... adjust white regions
+  neutrals          <string>     ..FV..... adjust neutral regions
+  blacks            <string>     ..FV..... adjust black regions
+  psfile            <string>     ..FV..... set Photoshop selectivecolor file name
+
+This filter has support for timeline through the 'enable' option.
+

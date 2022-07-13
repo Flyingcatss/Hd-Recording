@@ -1,0 +1,5 @@
+Decoder svq1 [Sorenson Vector Quantizer 1 / Sorenson Video 1 / SVQ1]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported pixel formats: yuv410p
+

@@ -1,0 +1,7 @@
+Filter hwdownload
+  Download a hardware frame to a normal frame
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+

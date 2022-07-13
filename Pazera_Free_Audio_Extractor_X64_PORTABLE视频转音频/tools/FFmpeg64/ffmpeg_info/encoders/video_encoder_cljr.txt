@@ -1,0 +1,8 @@
+Encoder cljr [Cirrus Logic AccuPak]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported pixel formats: yuv411p
+cljr encoder AVOptions:
+  -dither_type       <int>        E..V..... Dither type (from 0 to 2) (default 1)
+
+

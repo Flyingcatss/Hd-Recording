@@ -1,0 +1,4 @@
+Decoder huffyuv [Huffyuv / HuffYUV]:
+    General capabilities: horizband dr1 threads 
+    Threading capabilities: frame
+

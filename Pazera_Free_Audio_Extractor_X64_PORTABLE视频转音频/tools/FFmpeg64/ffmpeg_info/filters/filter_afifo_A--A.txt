@@ -1,0 +1,7 @@
+Filter afifo
+  Buffer input frames and send them when they are requested.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+

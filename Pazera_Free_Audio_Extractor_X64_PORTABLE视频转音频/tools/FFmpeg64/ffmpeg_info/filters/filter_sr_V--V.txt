@@ -1,0 +1,14 @@
+Filter sr
+  Apply DNN-based image super resolution to the input.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+sr AVOptions:
+  dnn_backend       <int>        ..FV..... DNN backend used for model execution (from 0 to 1) (default native)
+     native          0            ..FV..... native backend flag
+  scale_factor      <int>        ..FV..... scale factor for SRCNN model (from 2 to 4) (default 2)
+  model             <string>     ..FV..... path to model file specifying network architecture and its parameters
+
+This filter has support for timeline through the 'enable' option.
+

@@ -1,0 +1,5 @@
+Decoder adpcm_ea_xas [ADPCM Electronic Arts XAS]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: s16p
+

@@ -1,0 +1,5 @@
+Decoder pcm_s8_planar [PCM signed 8-bit planar]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: u8p
+

@@ -1,0 +1,16 @@
+Decoder libfdk_aac [Fraunhofer FDK AAC]:
+    General capabilities: dr1 chconf 
+    Threading capabilities: none
+libfdk-aac decoder AVOptions:
+  -conceal           <int>        .D..A.... Error concealment method (from 0 to 2) (default noise)
+     spectral        0            .D..A.... Spectral muting
+     noise           1            .D..A.... Noise Substitution
+     energy          2            .D..A.... Energy Interpolation
+  -drc_boost         <int>        .D..A.... Dynamic Range Control: boost, where [0] is none and [127] is max boost (from -1 to 127) (default -1)
+  -drc_cut           <int>        .D..A.... Dynamic Range Control: attenuation factor, where [0] is none and [127] is max compression (from -1 to 127) (default -1)
+  -drc_level         <int>        .D..A.... Dynamic Range Control: reference level, quantized to 0.25dB steps where [0] is 0dB and [127] is -31.75dB (from -1 to 127) (default -1)
+  -drc_heavy         <int>        .D..A.... Dynamic Range Control: heavy compression, where [1] is on (RF mode) and [0] is off (from -1 to 1) (default -1)
+  -level_limit       <int>        .D..A.... Signal level limiting (from -1 to 1) (default 0)
+  -drc_effect        <int>        .D..A.... Dynamic Range Control: effect type, where e.g. [0] is none and [6] is general (from -1 to 8) (default -1)
+
+

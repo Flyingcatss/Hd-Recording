@@ -1,0 +1,17 @@
+Filter pixscope
+  Pixel data analysis.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+pixscope AVOptions:
+  x                 <float>      ..FV..... set scope x offset (from 0 to 1) (default 0.5)
+  y                 <float>      ..FV..... set scope y offset (from 0 to 1) (default 0.5)
+  w                 <int>        ..FV..... set scope width (from 1 to 80) (default 7)
+  h                 <int>        ..FV..... set scope height (from 1 to 80) (default 7)
+  o                 <float>      ..FV..... set window opacity (from 0 to 1) (default 0.5)
+  wx                <float>      ..FV..... set window x offset (from -1 to 1) (default -1)
+  wy                <float>      ..FV..... set window y offset (from -1 to 1) (default -1)
+
+This filter has support for timeline through the 'enable' option.
+

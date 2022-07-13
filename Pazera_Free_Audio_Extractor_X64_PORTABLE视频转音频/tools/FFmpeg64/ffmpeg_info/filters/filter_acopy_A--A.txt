@@ -1,0 +1,7 @@
+Filter acopy
+  Copy the input audio unchanged to the output.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+

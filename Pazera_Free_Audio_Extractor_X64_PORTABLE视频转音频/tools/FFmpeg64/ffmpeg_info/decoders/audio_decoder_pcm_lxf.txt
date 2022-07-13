@@ -1,0 +1,5 @@
+Decoder pcm_lxf [PCM signed 20-bit little-endian planar]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: s32p
+

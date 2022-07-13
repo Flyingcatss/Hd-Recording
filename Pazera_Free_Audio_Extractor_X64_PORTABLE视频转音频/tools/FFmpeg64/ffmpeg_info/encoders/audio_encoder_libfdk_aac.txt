@@ -1,0 +1,20 @@
+Encoder libfdk_aac [Fraunhofer FDK AAC]:
+    General capabilities: delay small 
+    Threading capabilities: none
+    Supported sample rates: 96000 88200 64000 48000 44100 32000 24000 22050 16000 12000 11025 8000
+    Supported sample formats: s16
+    Supported channel layouts: mono stereo 3.0 4.0 5.0 5.1 7.1(wide) 7.1
+libfdk_aac AVOptions:
+  -afterburner       <int>        E...A.... Afterburner (improved quality) (from 0 to 1) (default 1)
+  -eld_sbr           <int>        E...A.... Enable SBR for ELD (for SBR in other configurations, use the -profile parameter) (from 0 to 1) (default 0)
+  -eld_v2            <int>        E...A.... Enable ELDv2 (LD-MPS extension for ELD stereo signals) (from 0 to 1) (default 0)
+  -signaling         <int>        E...A.... SBR/PS signaling style (from -1 to 2) (default default)
+     default         -1           E...A.... Choose signaling implicitly (explicit hierarchical by default, implicit if global header is disabled)
+     implicit        0            E...A.... Implicit backwards compatible signaling
+     explicit_sbr    1            E...A.... Explicit SBR, implicit PS signaling
+     explicit_hierarchical 2            E...A.... Explicit hierarchical signaling
+  -latm              <int>        E...A.... Output LATM/LOAS encapsulated data (from 0 to 1) (default 0)
+  -header_period     <int>        E...A.... StreamMuxConfig and PCE repetition period (in frames) (from 0 to 65535) (default 0)
+  -vbr               <int>        E...A.... VBR mode (1-5) (from 0 to 5) (default 0)
+
+

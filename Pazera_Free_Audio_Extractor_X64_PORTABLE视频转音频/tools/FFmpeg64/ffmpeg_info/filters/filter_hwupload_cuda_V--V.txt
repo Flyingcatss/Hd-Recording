@@ -1,0 +1,10 @@
+Filter hwupload_cuda
+  Upload a system memory frame to a CUDA device.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+cudaupload AVOptions:
+  device            <int>        ..FV..... Number of the device to use (from 0 to INT_MAX) (default 0)
+
+

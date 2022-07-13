@@ -1,0 +1,5 @@
+Encoder dpx [DPX (Digital Picture Exchange) image]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported pixel formats: gray rgb24 rgba abgr gray16le gray16be rgb48le rgb48be rgba64le rgba64be gbrp10le gbrp10be gbrp12le gbrp12be
+

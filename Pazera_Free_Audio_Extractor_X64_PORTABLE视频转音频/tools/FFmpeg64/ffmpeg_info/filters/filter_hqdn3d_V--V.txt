@@ -1,0 +1,14 @@
+Filter hqdn3d
+  Apply a High Quality 3D Denoiser.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+hqdn3d AVOptions:
+  luma_spatial      <double>     ..FV..... spatial luma strength (from 0 to DBL_MAX) (default 0)
+  chroma_spatial    <double>     ..FV..... spatial chroma strength (from 0 to DBL_MAX) (default 0)
+  luma_tmp          <double>     ..FV..... temporal luma strength (from 0 to DBL_MAX) (default 0)
+  chroma_tmp        <double>     ..FV..... temporal chroma strength (from 0 to DBL_MAX) (default 0)
+
+This filter has support for timeline through the 'enable' option.
+

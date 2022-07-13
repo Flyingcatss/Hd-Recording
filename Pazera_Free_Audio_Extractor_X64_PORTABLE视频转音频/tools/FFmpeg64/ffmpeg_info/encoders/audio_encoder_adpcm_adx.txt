@@ -1,0 +1,5 @@
+Encoder adpcm_adx [SEGA CRI ADX ADPCM]:
+    General capabilities: delay 
+    Threading capabilities: none
+    Supported sample formats: s16
+

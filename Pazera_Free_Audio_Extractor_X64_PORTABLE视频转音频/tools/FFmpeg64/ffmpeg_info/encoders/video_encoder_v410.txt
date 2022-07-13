@@ -1,0 +1,5 @@
+Encoder v410 [Uncompressed 4:4:4 10-bit]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported pixel formats: yuv444p10le
+

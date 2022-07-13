@@ -1,0 +1,5 @@
+Encoder adpcm_swf [ADPCM Shockwave Flash]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported sample formats: s16
+

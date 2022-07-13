@@ -1,0 +1,11 @@
+Encoder ljpeg [Lossless JPEG]:
+    General capabilities: threads intraonly 
+    Threading capabilities: frame
+    Supported pixel formats: bgr24 bgra bgr0 yuvj420p yuvj444p yuvj422p yuv420p yuv444p yuv422p
+ljpeg AVOptions:
+  -pred              <int>        E..V..... Prediction method (from 1 to 3) (default left)
+     left            1            E..V.....
+     plane           2            E..V.....
+     median          3            E..V.....
+
+

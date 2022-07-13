@@ -1,0 +1,4 @@
+Decoder dxa [Feeble Files/ScummVM DXA]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

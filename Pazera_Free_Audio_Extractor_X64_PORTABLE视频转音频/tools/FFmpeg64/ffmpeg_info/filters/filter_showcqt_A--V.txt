@@ -1,0 +1,51 @@
+Filter showcqt
+  Convert input audio to a CQT (Constant/Clamped Q Transform) spectrum video output.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (video)
+showcqt AVOptions:
+  size              <image_size> ..FV..... set video size (default "1920x1080")
+  s                 <image_size> ..FV..... set video size (default "1920x1080")
+  fps               <video_rate> ..FV..... set video rate (default "25")
+  rate              <video_rate> ..FV..... set video rate (default "25")
+  r                 <video_rate> ..FV..... set video rate (default "25")
+  bar_h             <int>        ..FV..... set bargraph height (from -1 to INT_MAX) (default -1)
+  axis_h            <int>        ..FV..... set axis height (from -1 to INT_MAX) (default -1)
+  sono_h            <int>        ..FV..... set sonogram height (from -1 to INT_MAX) (default -1)
+  fullhd            <boolean>    ..FV..... set fullhd size (default true)
+  sono_v            <string>     ..FV..... set sonogram volume (default "16")
+  volume            <string>     ..FV..... set sonogram volume (default "16")
+  bar_v             <string>     ..FV..... set bargraph volume (default "sono_v")
+  volume2           <string>     ..FV..... set bargraph volume (default "sono_v")
+  sono_g            <float>      ..FV..... set sonogram gamma (from 1 to 7) (default 3)
+  gamma             <float>      ..FV..... set sonogram gamma (from 1 to 7) (default 3)
+  bar_g             <float>      ..FV..... set bargraph gamma (from 1 to 7) (default 1)
+  gamma2            <float>      ..FV..... set bargraph gamma (from 1 to 7) (default 1)
+  bar_t             <float>      ..FV..... set bar transparency (from 0 to 1) (default 1)
+  timeclamp         <double>     ..FV..... set timeclamp (from 0.002 to 1) (default 0.17)
+  tc                <double>     ..FV..... set timeclamp (from 0.002 to 1) (default 0.17)
+  attack            <double>     ..FV..... set attack time (from 0 to 1) (default 0)
+  basefreq          <double>     ..FV..... set base frequency (from 10 to 100000) (default 20.0152)
+  endfreq           <double>     ..FV..... set end frequency (from 10 to 100000) (default 20495.6)
+  coeffclamp        <float>      ..FV..... set coeffclamp (from 0.1 to 10) (default 1)
+  tlength           <string>     ..FV..... set tlength (default "384*tc/(384+tc*f)")
+  count             <int>        ..FV..... set transform count (from 1 to 30) (default 6)
+  fcount            <int>        ..FV..... set frequency count (from 0 to 10) (default 0)
+  fontfile          <string>     ..FV..... set axis font file
+  font              <string>     ..FV..... set axis font
+  fontcolor         <string>     ..FV..... set font color (default "st(0, (midi(f)-59.5)/12);st(1, if(between(ld(0),0,1), 0.5-0.5*cos(2*PI*ld(0)), 0));r(1-ld(1)) + b(ld(1))")
+  axisfile          <string>     ..FV..... set axis image
+  axis              <boolean>    ..FV..... draw axis (default true)
+  text              <boolean>    ..FV..... draw axis (default true)
+  csp               <int>        ..FV..... set color space (from 0 to INT_MAX) (default unspecified)
+     unspecified     2            ..FV..... unspecified
+     bt709           1            ..FV..... bt709
+     fcc             4            ..FV..... fcc
+     bt470bg         5            ..FV..... bt470bg
+     smpte170m       6            ..FV..... smpte170m
+     smpte240m       7            ..FV..... smpte240m
+     bt2020ncl       9            ..FV..... bt2020ncl
+  cscheme           <string>     ..FV..... set color scheme (default "1|0.5|0|0|0.5|1")
+
+

@@ -1,0 +1,6 @@
+Demuxer eac3 [raw E-AC-3]:
+    Common extensions: eac3.
+eac3 demuxer AVOptions:
+  -raw_packet_size   <int>        .D.......  (from 1 to INT_MAX) (default 1024)
+
+

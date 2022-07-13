@@ -1,0 +1,4 @@
+Decoder gsm_ms [GSM Microsoft variant]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

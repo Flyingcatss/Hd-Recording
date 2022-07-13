@@ -1,0 +1,6 @@
+Decoder vc1 [SMPTE VC-1]:
+    General capabilities: dr1 delay 
+    Threading capabilities: none
+    Supported hardware devices: dxva2 (null) d3d11va cuda 
+    Supported pixel formats: dxva2_vld d3d11va_vld d3d11 cuda yuv420p
+

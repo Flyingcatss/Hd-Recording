@@ -1,0 +1,3 @@
+Demuxer aea [MD STUDIO audio]:
+    Common extensions: aea.
+

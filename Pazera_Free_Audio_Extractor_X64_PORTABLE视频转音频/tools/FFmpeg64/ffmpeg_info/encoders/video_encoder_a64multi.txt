@@ -1,0 +1,5 @@
+Encoder a64multi [Multicolor charset for Commodore 64]:
+    General capabilities: delay 
+    Threading capabilities: none
+    Supported pixel formats: gray
+

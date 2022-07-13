@@ -1,0 +1,5 @@
+Encoder wmav2 [Windows Media Audio 2]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported sample formats: fltp
+

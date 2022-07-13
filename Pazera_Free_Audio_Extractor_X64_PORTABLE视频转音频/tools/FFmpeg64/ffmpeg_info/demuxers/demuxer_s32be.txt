@@ -1,0 +1,6 @@
+Demuxer s32be [PCM signed 32-bit big-endian]:
+s32be demuxer AVOptions:
+  -sample_rate       <int>        .D.......  (from 0 to INT_MAX) (default 44100)
+  -channels          <int>        .D.......  (from 0 to INT_MAX) (default 1)
+
+

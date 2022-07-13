@@ -1,0 +1,16 @@
+Filter compand
+  Compress or expand audio dynamic range.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+compand AVOptions:
+  attacks           <string>     ..F.A.... set time over which increase of volume is determined (default "0")
+  decays            <string>     ..F.A.... set time over which decrease of volume is determined (default "0.8")
+  points            <string>     ..F.A.... set points of transfer function (default "-70/-70|-60/-20|1/0")
+  soft-knee         <double>     ..F.A.... set soft-knee (from 0.01 to 900) (default 0.01)
+  gain              <double>     ..F.A.... set output gain (from -900 to 900) (default 0)
+  volume            <double>     ..F.A.... set initial volume (from -900 to 0) (default 0)
+  delay             <double>     ..F.A.... set delay for samples before sending them to volume adjuster (from 0 to 20) (default 0)
+
+

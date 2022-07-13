@@ -1,0 +1,4 @@
+Muxer h264 [raw H.264 video]:
+    Common extensions: h264,264.
+    Default video codec: h264.
+

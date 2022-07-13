@@ -1,0 +1,4 @@
+Decoder dvvideo [DV (Digital Video)]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame and slice
+

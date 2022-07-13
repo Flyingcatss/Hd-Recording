@@ -1,0 +1,7 @@
+Demuxer u8 [PCM unsigned 8-bit]:
+    Common extensions: ub.
+u8 demuxer AVOptions:
+  -sample_rate       <int>        .D.......  (from 0 to INT_MAX) (default 44100)
+  -channels          <int>        .D.......  (from 0 to INT_MAX) (default 1)
+
+

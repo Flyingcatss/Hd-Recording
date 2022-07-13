@@ -1,0 +1,4 @@
+Decoder png [PNG (Portable Network Graphics) image]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame
+

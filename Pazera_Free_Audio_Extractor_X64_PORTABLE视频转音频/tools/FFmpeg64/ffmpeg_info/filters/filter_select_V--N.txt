@@ -1,0 +1,13 @@
+Filter select
+  Select video frames to pass in output.
+    Inputs:
+       #0: default (video)
+    Outputs:
+        dynamic (depending on the options)
+select AVOptions:
+  expr              <string>     ..FV..... set an expression to use for selecting frames (default "1")
+  e                 <string>     ..FV..... set an expression to use for selecting frames (default "1")
+  outputs           <int>        ..FV..... set the number of outputs (from 1 to INT_MAX) (default 1)
+  n                 <int>        ..FV..... set the number of outputs (from 1 to INT_MAX) (default 1)
+
+

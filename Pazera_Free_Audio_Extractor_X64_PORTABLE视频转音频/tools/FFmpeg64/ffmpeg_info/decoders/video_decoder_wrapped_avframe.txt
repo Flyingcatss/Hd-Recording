@@ -1,0 +1,4 @@
+Decoder wrapped_avframe [AVPacket to AVFrame passthrough]:
+    General capabilities: none
+    Threading capabilities: none
+

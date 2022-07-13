@@ -1,0 +1,22 @@
+Filter acrusher
+  Reduce audio bit resolution.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+acrusher AVOptions:
+  level_in          <double>     ..F.A.... set level in (from 0.015625 to 64) (default 1)
+  level_out         <double>     ..F.A.... set level out (from 0.015625 to 64) (default 1)
+  bits              <double>     ..F.A.... set bit reduction (from 1 to 64) (default 8)
+  mix               <double>     ..F.A.... set mix (from 0 to 1) (default 0.5)
+  mode              <int>        ..F.A.... set mode (from 0 to 1) (default lin)
+     lin             0            ..F.A.... linear
+     log             1            ..F.A.... logarithmic
+  dc                <double>     ..F.A.... set DC (from 0.25 to 4) (default 1)
+  aa                <double>     ..F.A.... set anti-aliasing (from 0 to 1) (default 0.5)
+  samples           <double>     ..F.A.... set sample reduction (from 1 to 250) (default 1)
+  lfo               <boolean>    ..F.A.... enable LFO (default false)
+  lforange          <double>     ..F.A.... set LFO depth (from 1 to 250) (default 20)
+  lforate           <double>     ..F.A.... set LFO rate (from 0.01 to 200) (default 0.3)
+
+

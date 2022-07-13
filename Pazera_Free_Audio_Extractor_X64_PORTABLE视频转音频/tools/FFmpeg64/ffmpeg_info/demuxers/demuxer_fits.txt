@@ -1,0 +1,5 @@
+Demuxer fits [Flexible Image Transport System]:
+FITS demuxer AVOptions:
+  -framerate         <video_rate> .D....... set the framerate (default "1")
+
+

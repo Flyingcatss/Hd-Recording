@@ -1,0 +1,15 @@
+Filter cropdetect
+  Auto-detect crop size.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+cropdetect AVOptions:
+  limit             <float>      ..FV..... Threshold below which the pixel is considered black (from 0 to 65535) (default 0.0941176)
+  round             <int>        ..FV..... Value by which the width/height should be divisible (from 0 to INT_MAX) (default 16)
+  reset             <int>        ..FV..... Recalculate the crop area after this many frames (from 0 to INT_MAX) (default 0)
+  reset_count       <int>        ..FV..... Recalculate the crop area after this many frames (from 0 to INT_MAX) (default 0)
+  max_outliers      <int>        ..FV..... Threshold count of outliers (from 0 to INT_MAX) (default 0)
+
+This filter has support for timeline through the 'enable' option.
+

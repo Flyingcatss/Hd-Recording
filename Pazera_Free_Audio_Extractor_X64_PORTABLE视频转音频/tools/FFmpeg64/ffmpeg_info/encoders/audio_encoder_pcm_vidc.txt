@@ -1,0 +1,5 @@
+Encoder pcm_vidc [PCM Archimedes VIDC]:
+    General capabilities: variable 
+    Threading capabilities: none
+    Supported sample formats: s16
+

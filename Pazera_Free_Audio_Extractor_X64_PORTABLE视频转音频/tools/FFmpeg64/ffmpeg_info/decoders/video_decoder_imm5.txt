@@ -1,0 +1,4 @@
+Decoder imm5 [Infinity IMM5]:
+    General capabilities: none
+    Threading capabilities: none
+

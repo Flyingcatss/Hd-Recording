@@ -1,0 +1,5 @@
+Encoder roq_dpcm [id RoQ DPCM]:
+    General capabilities: delay 
+    Threading capabilities: none
+    Supported sample formats: s16
+

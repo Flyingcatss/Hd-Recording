@@ -1,0 +1,9 @@
+Demuxer j2k_pipe [piped j2k sequence]:
+j2k demuxer AVOptions:
+  -frame_size        <int>        .D....... force frame size in bytes (from 0 to INT_MAX) (default 0)
+  -framerate         <video_rate> .D....... set the video framerate (default "25")
+  -pixel_format      <string>     .D....... set video pixel format
+  -video_size        <image_size> .D....... set video size
+  -loop              <boolean>    .D....... force loop over input file sequence (default false)
+
+

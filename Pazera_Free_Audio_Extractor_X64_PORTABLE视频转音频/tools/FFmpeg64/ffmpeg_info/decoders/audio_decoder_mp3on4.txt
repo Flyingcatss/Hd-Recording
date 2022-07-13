@@ -1,0 +1,5 @@
+Decoder mp3on4 [MP3onMP4]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: s16p
+

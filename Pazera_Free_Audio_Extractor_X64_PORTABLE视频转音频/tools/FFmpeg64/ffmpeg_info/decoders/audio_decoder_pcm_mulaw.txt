@@ -1,0 +1,5 @@
+Decoder pcm_mulaw [PCM mu-law / G.711 mu-law]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: s16
+

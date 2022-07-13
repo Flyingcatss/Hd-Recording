@@ -1,0 +1,5 @@
+Decoder iac [IAC (Indeo Audio Coder)]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: fltp
+

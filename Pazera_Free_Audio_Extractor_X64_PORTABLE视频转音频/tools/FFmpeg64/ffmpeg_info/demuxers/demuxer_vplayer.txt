@@ -1,0 +1,3 @@
+Demuxer vplayer [VPlayer subtitles]:
+    Common extensions: txt.
+

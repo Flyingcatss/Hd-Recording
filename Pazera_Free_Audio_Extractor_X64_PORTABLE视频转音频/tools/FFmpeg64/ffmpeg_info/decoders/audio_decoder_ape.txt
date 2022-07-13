@@ -1,0 +1,9 @@
+Decoder ape [Monkey's Audio]:
+    General capabilities: dr1 delay subframes 
+    Threading capabilities: none
+    Supported sample formats: u8p s16p s32p
+APE decoder AVOptions:
+  -max_samples       <int>        .D..A.... maximum number of samples decoded per call (from 1 to INT_MAX) (default 4608)
+     all             2147483647   .D..A.... no maximum. decode all samples for each packet at once
+
+

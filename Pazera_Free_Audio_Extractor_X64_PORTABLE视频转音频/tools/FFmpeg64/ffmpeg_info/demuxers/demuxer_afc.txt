@@ -1,0 +1,3 @@
+Demuxer afc [AFC]:
+    Common extensions: afc.
+

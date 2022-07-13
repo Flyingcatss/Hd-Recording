@@ -1,0 +1,10 @@
+Filter setpts
+  Set PTS for the output video frame.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+setpts AVOptions:
+  expr              <string>     ..FVA.... Expression determining the frame timestamp (default "PTS")
+
+

@@ -1,0 +1,5 @@
+Decoder adpcm_adx [SEGA CRI ADX ADPCM]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: s16p
+

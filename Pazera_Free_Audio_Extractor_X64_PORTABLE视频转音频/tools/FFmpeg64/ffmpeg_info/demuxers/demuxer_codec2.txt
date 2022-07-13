@@ -1,0 +1,6 @@
+Demuxer codec2 [codec2 .c2 demuxer]:
+    Common extensions: c2.
+codec2 demuxer AVOptions:
+  -frames_per_packet <int>        .D....... Number of frames to read at a time. Higher = faster decoding, lower granularity (from 1 to INT_MAX) (default 1)
+
+

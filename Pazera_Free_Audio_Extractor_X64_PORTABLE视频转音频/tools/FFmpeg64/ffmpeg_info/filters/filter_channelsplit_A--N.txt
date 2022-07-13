@@ -1,0 +1,11 @@
+Filter channelsplit
+  Split audio into per-channel streams.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+        dynamic (depending on the options)
+channelsplit AVOptions:
+  channel_layout    <string>     ..F.A.... Input channel layout. (default "stereo")
+  channels          <string>     ..F.A.... Channels to extract. (default "all")
+
+

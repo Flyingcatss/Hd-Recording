@@ -1,0 +1,7 @@
+Demuxer h264 [raw H.264 video]:
+    Common extensions: h26l,h264,264,avc.
+h264 demuxer AVOptions:
+  -framerate         <video_rate> .D.......  (default "25")
+  -raw_packet_size   <int>        .D.......  (from 1 to INT_MAX) (default 1024)
+
+

@@ -1,0 +1,5 @@
+Encoder adpcm_ima_qt [ADPCM IMA QuickTime]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported sample formats: s16p
+

@@ -1,0 +1,6 @@
+Decoder aac_latm [AAC LATM (Advanced Audio Coding LATM syntax)]:
+    General capabilities: dr1 chconf 
+    Threading capabilities: none
+    Supported sample formats: fltp
+    Supported channel layouts: mono stereo 3.0 4.0 5.0 5.1 7.1(wide)
+

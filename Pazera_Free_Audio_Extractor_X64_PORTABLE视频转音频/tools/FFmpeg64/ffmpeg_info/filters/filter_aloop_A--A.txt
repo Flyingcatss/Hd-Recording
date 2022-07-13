@@ -1,0 +1,12 @@
+Filter aloop
+  Loop audio samples.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+aloop AVOptions:
+  loop              <int>        ..F.A.... number of loops (from -1 to INT_MAX) (default 0)
+  size              <int64>      ..F.A.... max number of samples to loop (from 0 to INT_MAX) (default 0)
+  start             <int64>      ..F.A.... set the loop start sample (from 0 to I64_MAX) (default 0)
+
+

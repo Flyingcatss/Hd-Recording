@@ -1,0 +1,8 @@
+Decoder dvdsub [DVD subtitles]:
+    General capabilities: none
+dvdsubdec AVOptions:
+  -palette           <string>     .D...S... set the global palette
+  -ifo_palette       <string>     .D...S... obtain the global palette from .IFO file
+  -forced_subs_only  <boolean>    .D...S... Only show forced subtitles (default false)
+
+

@@ -1,0 +1,13 @@
+Filter cover_rect
+  Find and cover a user specified object.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+cover_rect AVOptions:
+  cover             <string>     ..FV..... cover bitmap filename
+  mode              <int>        ..FV..... set removal mode (from 0 to 1) (default blur)
+     cover           0            ..FV..... cover area with bitmap
+     blur            1            ..FV..... blur area
+
+

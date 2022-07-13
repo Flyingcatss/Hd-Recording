@@ -1,0 +1,15 @@
+Filter haldclutsrc
+  Provide an identity Hald CLUT.
+    Inputs:
+        none (source filter)
+    Outputs:
+       #0: default (video)
+haldclutsrc AVOptions:
+  level             <int>        ..FV..... set level (from 2 to 8) (default 6)
+  rate              <video_rate> ..FV..... set video rate (default "25")
+  r                 <video_rate> ..FV..... set video rate (default "25")
+  duration          <duration>   ..FV..... set video duration (default -0.000001)
+  d                 <duration>   ..FV..... set video duration (default -0.000001)
+  sar               <rational>   ..FV..... set video sample aspect ratio (from 0 to INT_MAX) (default 1/1)
+
+

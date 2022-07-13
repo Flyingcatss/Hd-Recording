@@ -1,0 +1,18 @@
+Filter chromashift
+  Shift chroma.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+chromashift AVOptions:
+  cbh               <int>        ..FV..... shift chroma-blue horizontally (from -255 to 255) (default 0)
+  cbv               <int>        ..FV..... shift chroma-blue vertically (from -255 to 255) (default 0)
+  crh               <int>        ..FV..... shift chroma-red horizontally (from -255 to 255) (default 0)
+  crv               <int>        ..FV..... shift chroma-red vertically (from -255 to 255) (default 0)
+  edge              <int>        ..FV..... set edge operation (from 0 to 1) (default smear)
+     smear           0            ..FV.....
+     wrap            1            ..FV.....
+
+This filter has support for timeline through the 'enable' option.
+

@@ -1,0 +1,12 @@
+Filter cue
+  Delay filtering to match a cue.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+cue AVOptions:
+  cue               <int64>      ..FVA.... cue unix timestamp in microseconds (from 0 to I64_MAX) (default 0)
+  preroll           <duration>   ..FVA.... preroll duration in seconds (default 0)
+  buffer            <duration>   ..FVA.... buffer duration in seconds (default 0)
+
+

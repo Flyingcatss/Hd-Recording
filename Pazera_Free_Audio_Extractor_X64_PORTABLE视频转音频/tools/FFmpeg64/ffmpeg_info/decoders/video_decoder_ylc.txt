@@ -1,0 +1,4 @@
+Decoder ylc [YUY2 Lossless Codec]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame
+

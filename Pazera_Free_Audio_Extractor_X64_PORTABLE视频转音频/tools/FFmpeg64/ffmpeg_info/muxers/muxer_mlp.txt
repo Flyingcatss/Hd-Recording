@@ -1,0 +1,4 @@
+Muxer mlp [raw MLP]:
+    Common extensions: mlp.
+    Default audio codec: mlp.
+

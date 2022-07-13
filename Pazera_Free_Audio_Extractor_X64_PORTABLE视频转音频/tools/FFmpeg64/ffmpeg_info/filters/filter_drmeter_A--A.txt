@@ -1,0 +1,10 @@
+Filter drmeter
+  Measure audio dynamic range.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+drmeter AVOptions:
+  length            <double>     ..F.A.... set the window length (from 0.01 to 10) (default 3)
+
+

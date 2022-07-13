@@ -1,0 +1,15 @@
+Demuxer sdp [SDP]:
+SDP demuxer AVOptions:
+  -sdp_flags         <flags>      .D....... SDP flags (default 0)
+     filter_src                   .D....... only receive packets from the negotiated peer IP
+     custom_io                    .D....... use custom I/O
+     rtcp_to_source               .D....... send RTCP packets to the source address of received packets
+  -allowed_media_types <flags>      .D....... set media types to accept from the server (default video+audio+data+subtitle)
+     video                        .D....... Video
+     audio                        .D....... Audio
+     data                         .D....... Data
+     subtitle                     .D....... Subtitle
+  -reorder_queue_size <int>        .D....... set number of packets to buffer for handling of reordered packets (from -1 to INT_MAX) (default -1)
+  -buffer_size       <int>        ED....... Underlying protocol send/receive buffer size (from -1 to INT_MAX) (default -1)
+
+

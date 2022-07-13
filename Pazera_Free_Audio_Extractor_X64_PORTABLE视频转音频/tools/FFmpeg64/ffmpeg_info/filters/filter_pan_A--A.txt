@@ -1,0 +1,10 @@
+Filter pan
+  Remix channels with coefficients (panning).
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+pan AVOptions:
+  args              <string>     ..F.A....
+
+

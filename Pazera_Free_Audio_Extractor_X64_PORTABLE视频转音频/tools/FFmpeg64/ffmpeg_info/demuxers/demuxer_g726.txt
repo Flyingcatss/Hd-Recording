@@ -1,0 +1,6 @@
+Demuxer g726 [raw big-endian G.726 ("left aligned")]:
+G.726 big-endian demuxer AVOptions:
+  -code_size         <int>        .D....... Bits per G.726 code (from 2 to 5) (default 4)
+  -sample_rate       <int>        .D.......  (from 0 to INT_MAX) (default 8000)
+
+

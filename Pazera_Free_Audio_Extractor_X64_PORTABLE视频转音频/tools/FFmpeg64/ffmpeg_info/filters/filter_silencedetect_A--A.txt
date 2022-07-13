@@ -1,0 +1,15 @@
+Filter silencedetect
+  Detect silence.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+silencedetect AVOptions:
+  n                 <double>     ..F.A.... set noise tolerance (from 0 to DBL_MAX) (default 0.001)
+  noise             <double>     ..F.A.... set noise tolerance (from 0 to DBL_MAX) (default 0.001)
+  d                 <double>     ..F.A.... set minimum duration in seconds (from 0 to 86400) (default 2)
+  duration          <double>     ..F.A.... set minimum duration in seconds (from 0 to 86400) (default 2)
+  mono              <boolean>    ..F.A.... check each channel separately (default false)
+  m                 <boolean>    ..F.A.... check each channel separately (default false)
+
+

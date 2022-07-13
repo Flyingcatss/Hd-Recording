@@ -1,0 +1,6 @@
+Decoder pgssub [HDMV Presentation Graphic Stream subtitles]:
+    General capabilities: none
+PGS subtitle decoder AVOptions:
+  -forced_subs_only  <boolean>    .D...S... Only show forced subtitles (default false)
+
+

@@ -1,0 +1,4 @@
+Decoder rl2 [RL2 video]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

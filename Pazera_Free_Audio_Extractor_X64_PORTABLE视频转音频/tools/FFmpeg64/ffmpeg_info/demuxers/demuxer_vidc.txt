@@ -1,0 +1,6 @@
+Demuxer vidc [PCM Archimedes VIDC]:
+vidc demuxer AVOptions:
+  -sample_rate       <int>        .D.......  (from 0 to INT_MAX) (default 44100)
+  -channels          <int>        .D.......  (from 0 to INT_MAX) (default 1)
+
+

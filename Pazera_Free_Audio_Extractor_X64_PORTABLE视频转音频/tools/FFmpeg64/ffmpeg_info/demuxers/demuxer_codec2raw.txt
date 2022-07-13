@@ -1,0 +1,15 @@
+Demuxer codec2raw [raw codec2 demuxer]:
+codec2raw demuxer AVOptions:
+  -mode              <int>        .D....... codec2 mode [mandatory] (from -1 to 8) (default -1)
+     3200            0            .D....... 3200
+     2400            1            .D....... 2400
+     1600            2            .D....... 1600
+     1400            3            .D....... 1400
+     1300            4            .D....... 1300
+     1200            5            .D....... 1200
+     700             6            .D....... 700
+     700B            7            .D....... 700B
+     700C            8            .D....... 700C
+  -frames_per_packet <int>        .D....... Number of frames to read at a time. Higher = faster decoding, lower granularity (from 1 to INT_MAX) (default 1)
+
+

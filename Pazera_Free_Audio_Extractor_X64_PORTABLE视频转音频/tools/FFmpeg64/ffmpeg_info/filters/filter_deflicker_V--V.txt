@@ -1,0 +1,28 @@
+Filter deflicker
+  Remove temporal frame luminance variations.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+deflicker AVOptions:
+  size              <int>        ..FV..... set how many frames to use (from 2 to 129) (default 5)
+  s                 <int>        ..FV..... set how many frames to use (from 2 to 129) (default 5)
+  mode              <int>        ..FV..... set how to smooth luminance (from 0 to 6) (default am)
+     am              0            ..FV..... arithmetic mean
+     gm              1            ..FV..... geometric mean
+     hm              2            ..FV..... harmonic mean
+     qm              3            ..FV..... quadratic mean
+     cm              4            ..FV..... cubic mean
+     pm              5            ..FV..... power mean
+     median          6            ..FV..... median
+  m                 <int>        ..FV..... set how to smooth luminance (from 0 to 6) (default am)
+     am              0            ..FV..... arithmetic mean
+     gm              1            ..FV..... geometric mean
+     hm              2            ..FV..... harmonic mean
+     qm              3            ..FV..... quadratic mean
+     cm              4            ..FV..... cubic mean
+     pm              5            ..FV..... power mean
+     median          6            ..FV..... median
+  bypass            <boolean>    ..FV..... leave frames unchanged (default false)
+
+

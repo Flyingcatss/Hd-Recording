@@ -1,0 +1,4 @@
+Decoder wavpack [WavPack]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame
+

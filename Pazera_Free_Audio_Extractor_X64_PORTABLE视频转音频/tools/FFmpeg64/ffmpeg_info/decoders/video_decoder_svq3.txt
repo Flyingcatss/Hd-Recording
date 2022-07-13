@@ -1,0 +1,5 @@
+Decoder svq3 [Sorenson Vector Quantizer 3 / Sorenson Video 3 / SVQ3]:
+    General capabilities: horizband dr1 delay 
+    Threading capabilities: none
+    Supported pixel formats: yuvj420p
+

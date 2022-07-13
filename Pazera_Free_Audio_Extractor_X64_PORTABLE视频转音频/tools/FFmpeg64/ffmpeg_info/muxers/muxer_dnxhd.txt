@@ -1,0 +1,4 @@
+Muxer dnxhd [raw DNxHD (SMPTE VC-3)]:
+    Common extensions: dnxhd,dnxhr.
+    Default video codec: dnxhd.
+

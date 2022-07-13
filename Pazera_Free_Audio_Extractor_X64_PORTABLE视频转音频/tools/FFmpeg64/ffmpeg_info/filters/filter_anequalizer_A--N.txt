@@ -1,0 +1,17 @@
+Filter anequalizer
+  Apply high-order audio parametric multi band equalizer.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+        dynamic (depending on the options)
+anequalizer AVOptions:
+  params            <string>     ..F.A.... (default "")
+  curves            <boolean>    ..FV..... draw frequency response curves (default false)
+  size              <image_size> ..FV..... set video size (default "hd720")
+  mgain             <double>     ..FV..... set max gain (from -900 to 900) (default 60)
+  fscale            <int>        ..FV..... set frequency scale (from 0 to 1) (default log)
+     lin             0            ..FV..... linear
+     log             1            ..FV..... logarithmic
+  colors            <string>     ..FV..... set channels curves colors (default "red|green|blue|yellow|orange|lime|pink|magenta|brown")
+
+

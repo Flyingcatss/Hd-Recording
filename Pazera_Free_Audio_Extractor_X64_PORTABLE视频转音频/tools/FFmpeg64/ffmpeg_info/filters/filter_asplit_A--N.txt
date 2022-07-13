@@ -1,0 +1,10 @@
+Filter asplit
+  Pass on the audio input to N audio outputs.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+        dynamic (depending on the options)
+asplit AVOptions:
+  outputs           <int>        ..FVA.... set number of outputs (from 1 to INT_MAX) (default 2)
+
+

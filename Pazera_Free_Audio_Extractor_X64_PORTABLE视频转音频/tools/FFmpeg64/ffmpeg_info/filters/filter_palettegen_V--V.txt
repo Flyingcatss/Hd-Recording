@@ -1,0 +1,16 @@
+Filter palettegen
+  Find the optimal palette for a given stream.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+palettegen AVOptions:
+  max_colors        <int>        ..FV..... set the maximum number of colors to use in the palette (from 4 to 256) (default 256)
+  reserve_transparent <boolean>    ..FV..... reserve a palette entry for transparency (default true)
+  transparency_color <color>      ..FV..... set a background color for transparency (default "lime")
+  stats_mode        <int>        ..FV..... set statistics mode (from 0 to 2) (default full)
+     full            0            ..FV..... compute full frame histograms
+     diff            1            ..FV..... compute histograms only for the part that differs from previous frame
+     single          2            ..FV..... compute new histogram for each frame
+
+

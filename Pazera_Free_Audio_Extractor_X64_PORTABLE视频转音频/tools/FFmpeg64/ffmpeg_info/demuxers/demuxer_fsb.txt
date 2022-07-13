@@ -1,0 +1,3 @@
+Demuxer fsb [FMOD Sample Bank]:
+    Common extensions: fsb.
+

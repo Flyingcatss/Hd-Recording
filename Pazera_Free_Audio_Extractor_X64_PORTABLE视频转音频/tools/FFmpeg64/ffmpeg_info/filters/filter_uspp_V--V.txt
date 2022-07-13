@@ -1,0 +1,13 @@
+Filter uspp
+  Apply Ultra Simple / Slow Post-processing filter.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+uspp AVOptions:
+  quality           <int>        ..FV..... set quality (from 0 to 8) (default 3)
+  qp                <int>        ..FV..... force a constant quantizer parameter (from 0 to 63) (default 0)
+  use_bframe_qp     <boolean>    ..FV..... use B-frames' QP (default false)
+
+This filter has support for timeline through the 'enable' option.
+

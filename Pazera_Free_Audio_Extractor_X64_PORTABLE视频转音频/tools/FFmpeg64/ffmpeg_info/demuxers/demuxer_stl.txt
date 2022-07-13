@@ -1,0 +1,3 @@
+Demuxer stl [Spruce subtitle format]:
+    Common extensions: stl.
+

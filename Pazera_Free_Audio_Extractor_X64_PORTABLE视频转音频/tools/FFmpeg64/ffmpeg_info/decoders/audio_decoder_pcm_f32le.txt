@@ -1,0 +1,5 @@
+Decoder pcm_f32le [PCM 32-bit floating point little-endian]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: flt
+

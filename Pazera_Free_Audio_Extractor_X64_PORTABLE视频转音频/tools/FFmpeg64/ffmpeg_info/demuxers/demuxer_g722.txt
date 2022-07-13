@@ -1,0 +1,6 @@
+Demuxer g722 [raw G.722]:
+    Common extensions: g722,722.
+g722 demuxer AVOptions:
+  -raw_packet_size   <int>        .D.......  (from 1 to INT_MAX) (default 1024)
+
+

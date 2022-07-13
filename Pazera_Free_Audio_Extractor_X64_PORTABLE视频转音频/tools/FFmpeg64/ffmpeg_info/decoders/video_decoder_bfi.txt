@@ -1,0 +1,4 @@
+Decoder bfi [Brute Force & Ignorance]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

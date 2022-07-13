@@ -1,0 +1,17 @@
+Filter mix
+  Mix video inputs.
+    slice threading supported
+    Inputs:
+        dynamic (depending on the options)
+    Outputs:
+       #0: default (video)
+mix AVOptions:
+  inputs            <int>        ..FV..... set number of inputs (from 2 to INT_MAX) (default 2)
+  weights           <string>     ..FV..... set weight for each input (default "1 1")
+  scale             <float>      ..FV..... set scale (from 0 to 32767) (default 0)
+  duration          <int>        ..FV..... how to determine end of stream (from 0 to 2) (default longest)
+     longest         0            ..FV..... Duration of longest input
+     shortest        1            ..FV..... Duration of shortest input
+     first           2            ..FV..... Duration of first input
+
+

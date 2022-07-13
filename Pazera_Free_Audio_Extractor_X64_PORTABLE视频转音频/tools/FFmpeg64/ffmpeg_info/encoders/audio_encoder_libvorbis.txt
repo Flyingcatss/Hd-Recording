@@ -1,0 +1,8 @@
+Encoder libvorbis [libvorbis]:
+    General capabilities: delay small 
+    Threading capabilities: none
+    Supported sample formats: fltp
+libvorbis AVOptions:
+  -iblock            <double>     E...A.... Sets the impulse block bias (from -15 to 0) (default 0)
+
+

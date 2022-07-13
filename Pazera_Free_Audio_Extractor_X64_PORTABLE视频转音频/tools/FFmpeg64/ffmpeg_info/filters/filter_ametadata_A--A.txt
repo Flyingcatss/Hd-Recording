@@ -1,0 +1,27 @@
+Filter ametadata
+  Manipulate audio frame metadata.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+ametadata AVOptions:
+  mode              <int>        ..F.A.... set a mode of operation (from 0 to 4) (default select)
+     select          0            ..F.A.... select frame
+     add             1            ..F.A.... add new metadata
+     modify          2            ..F.A.... modify metadata
+     delete          3            ..F.A.... delete metadata
+     print           4            ..F.A.... print metadata
+  key               <string>     ..F.A.... set metadata key
+  value             <string>     ..F.A.... set metadata value
+  function          <int>        ..F.A.... function for comparing values (from 0 to 5) (default same_str)
+     same_str        0            ..F.A....
+     starts_with     1            ..F.A....
+     less            2            ..F.A....
+     equal           3            ..F.A....
+     greater         4            ..F.A....
+     expr            5            ..F.A....
+  expr              <string>     ..F.A.... set expression for expr function
+  file              <string>     ..F.A.... set file where to print metadata information
+
+This filter has support for timeline through the 'enable' option.
+

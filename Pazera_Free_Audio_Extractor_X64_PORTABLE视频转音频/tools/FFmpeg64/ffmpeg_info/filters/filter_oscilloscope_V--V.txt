@@ -1,0 +1,23 @@
+Filter oscilloscope
+  2D Video Oscilloscope.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+oscilloscope AVOptions:
+  x                 <float>      ..FV..... set scope x position (from 0 to 1) (default 0.5)
+  y                 <float>      ..FV..... set scope y position (from 0 to 1) (default 0.5)
+  s                 <float>      ..FV..... set scope size (from 0 to 1) (default 0.8)
+  t                 <float>      ..FV..... set scope tilt (from 0 to 1) (default 0.5)
+  o                 <float>      ..FV..... set trace opacity (from 0 to 1) (default 0.8)
+  tx                <float>      ..FV..... set trace x position (from 0 to 1) (default 0.5)
+  ty                <float>      ..FV..... set trace y position (from 0 to 1) (default 0.9)
+  tw                <float>      ..FV..... set trace width (from 0.1 to 1) (default 0.8)
+  th                <float>      ..FV..... set trace height (from 0.1 to 1) (default 0.3)
+  c                 <int>        ..FV..... set components to trace (from 0 to 15) (default 7)
+  g                 <boolean>    ..FV..... draw trace grid (default true)
+  st                <boolean>    ..FV..... draw statistics (default true)
+  sc                <boolean>    ..FV..... draw scope (default true)
+
+This filter has support for timeline through the 'enable' option.
+

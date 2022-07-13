@@ -1,0 +1,8 @@
+Decoder mpeg4 [MPEG-4 part 2]:
+    General capabilities: horizband dr1 trunc delay threads 
+    Threading capabilities: frame
+    Supported hardware devices: cuda 
+    Supported pixel formats: cuda yuv420p
+MPEG4 Video Decoder AVOptions:
+
+

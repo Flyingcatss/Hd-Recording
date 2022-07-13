@@ -1,0 +1,27 @@
+Filter colorlevels
+  Adjust the color levels.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+colorlevels AVOptions:
+  rimin             <double>     ..FV..... set input red black point (from -1 to 1) (default 0)
+  gimin             <double>     ..FV..... set input green black point (from -1 to 1) (default 0)
+  bimin             <double>     ..FV..... set input blue black point (from -1 to 1) (default 0)
+  aimin             <double>     ..FV..... set input alpha black point (from -1 to 1) (default 0)
+  rimax             <double>     ..FV..... set input red white point (from -1 to 1) (default 1)
+  gimax             <double>     ..FV..... set input green white point (from -1 to 1) (default 1)
+  bimax             <double>     ..FV..... set input blue white point (from -1 to 1) (default 1)
+  aimax             <double>     ..FV..... set input alpha white point (from -1 to 1) (default 1)
+  romin             <double>     ..FV..... set output red black point (from 0 to 1) (default 0)
+  gomin             <double>     ..FV..... set output green black point (from 0 to 1) (default 0)
+  bomin             <double>     ..FV..... set output blue black point (from 0 to 1) (default 0)
+  aomin             <double>     ..FV..... set output alpha black point (from 0 to 1) (default 0)
+  romax             <double>     ..FV..... set output red white point (from 0 to 1) (default 1)
+  gomax             <double>     ..FV..... set output green white point (from 0 to 1) (default 1)
+  bomax             <double>     ..FV..... set output blue white point (from 0 to 1) (default 1)
+  aomax             <double>     ..FV..... set output alpha white point (from 0 to 1) (default 1)
+
+This filter has support for timeline through the 'enable' option.
+

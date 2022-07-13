@@ -1,0 +1,4 @@
+Decoder cljr [Cirrus Logic AccuPak]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

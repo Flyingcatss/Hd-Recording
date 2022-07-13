@@ -1,0 +1,17 @@
+Filter fftdnoiz
+  Denoise frames using 3D FFT.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+fftdnoiz AVOptions:
+  sigma             <float>      ..FV..... set denoise strength (from 0 to 30) (default 1)
+  amount            <float>      ..FV..... set amount of denoising (from 0.01 to 1) (default 1)
+  block             <int>        ..FV..... set block log2(size) (from 3 to 6) (default 4)
+  overlap           <float>      ..FV..... set block overlap (from 0.2 to 0.8) (default 0.5)
+  prev              <int>        ..FV..... set number of previous frames for temporal denoising (from 0 to 1) (default 0)
+  next              <int>        ..FV..... set number of next frames for temporal denoising (from 0 to 1) (default 0)
+  planes            <int>        ..FV..... set planes to filter (from 0 to 15) (default 7)
+
+This filter has support for timeline through the 'enable' option.
+

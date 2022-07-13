@@ -1,0 +1,15 @@
+Filter apad
+  Pad audio with silence.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+apad AVOptions:
+  packet_size       <int>        ..F.A.... set silence packet size (from 0 to INT_MAX) (default 4096)
+  pad_len           <int64>      ..F.A.... set number of samples of silence to add (from -1 to I64_MAX) (default -1)
+  whole_len         <int64>      ..F.A.... set minimum target number of samples in the audio stream (from -1 to I64_MAX) (default -1)
+  pad_dur           <duration>   ..F.A.... set duration of silence to add (default 0)
+  whole_dur         <duration>   ..F.A.... set minimum target duration in the audio stream (default 0)
+
+This filter has support for timeline through the 'enable' option.
+

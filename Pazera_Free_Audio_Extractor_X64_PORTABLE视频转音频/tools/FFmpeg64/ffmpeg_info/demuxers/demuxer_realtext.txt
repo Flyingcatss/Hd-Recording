@@ -1,0 +1,3 @@
+Demuxer realtext [RealText subtitle format]:
+    Common extensions: rt.
+

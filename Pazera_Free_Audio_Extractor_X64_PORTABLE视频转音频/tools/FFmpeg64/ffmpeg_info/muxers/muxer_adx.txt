@@ -1,0 +1,4 @@
+Muxer adx [CRI ADX]:
+    Common extensions: adx.
+    Default audio codec: adpcm_adx.
+

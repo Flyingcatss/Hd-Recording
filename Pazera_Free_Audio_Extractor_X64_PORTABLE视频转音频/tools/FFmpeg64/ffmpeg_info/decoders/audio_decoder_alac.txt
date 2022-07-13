@@ -1,0 +1,7 @@
+Decoder alac [ALAC (Apple Lossless Audio Codec)]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame
+alac AVOptions:
+  -extra_bits_bug    <boolean>    .D..A.... Force non-standard decoding process (default false)
+
+

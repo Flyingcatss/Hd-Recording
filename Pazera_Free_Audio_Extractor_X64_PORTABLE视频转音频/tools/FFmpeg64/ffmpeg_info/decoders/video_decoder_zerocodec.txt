@@ -1,0 +1,4 @@
+Decoder zerocodec [ZeroCodec Lossless Video]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

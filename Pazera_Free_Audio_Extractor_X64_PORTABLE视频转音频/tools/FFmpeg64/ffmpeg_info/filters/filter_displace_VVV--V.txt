@@ -1,0 +1,17 @@
+Filter displace
+  Displace pixels.
+    Inputs:
+       #0: source (video)
+       #1: xmap (video)
+       #2: ymap (video)
+    Outputs:
+       #0: default (video)
+displace AVOptions:
+  edge              <int>        ..FV..... set edge mode (from 0 to 3) (default smear)
+     blank           0            ..FV..... 
+     smear           1            ..FV..... 
+     wrap            2            ..FV..... 
+     mirror          3            ..FV..... 
+
+This filter has support for timeline through the 'enable' option.
+

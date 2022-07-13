@@ -1,0 +1,12 @@
+Filter gradfun
+  Debands video quickly using gradients.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+gradfun AVOptions:
+  strength          <float>      ..FV..... The maximum amount by which the filter will change any one pixel. (from 0.51 to 64) (default 1.2)
+  radius            <int>        ..FV..... The neighborhood to fit the gradient to. (from 4 to 32) (default 16)
+
+This filter has support for timeline through the 'enable' option.
+

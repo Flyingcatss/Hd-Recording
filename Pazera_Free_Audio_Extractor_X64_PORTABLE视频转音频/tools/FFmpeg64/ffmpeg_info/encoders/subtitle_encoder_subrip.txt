@@ -1,0 +1,3 @@
+Encoder subrip [SubRip subtitle]:
+    General capabilities: none
+

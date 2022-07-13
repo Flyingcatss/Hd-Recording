@@ -1,0 +1,5 @@
+Muxer au [Sun AU]:
+    Common extensions: au.
+    Mime type: audio/basic.
+    Default audio codec: pcm_s16be.
+

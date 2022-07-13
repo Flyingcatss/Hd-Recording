@@ -1,0 +1,5 @@
+Encoder vorbis [Vorbis]:
+    General capabilities: delay exp 
+    Threading capabilities: none
+    Supported sample formats: fltp
+

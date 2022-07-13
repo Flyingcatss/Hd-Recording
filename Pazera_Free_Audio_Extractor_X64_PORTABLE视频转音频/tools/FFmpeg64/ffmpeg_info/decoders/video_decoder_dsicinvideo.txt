@@ -1,0 +1,4 @@
+Decoder dsicinvideo [Delphine Software International CIN video]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

@@ -1,0 +1,28 @@
+Filter sidechaincompress
+  Sidechain compressor.
+    Inputs:
+       #0: main (audio)
+       #1: sidechain (audio)
+    Outputs:
+       #0: default (audio)
+sidechaincompress AVOptions:
+  level_in          <double>     ..F.A.... set input gain (from 0.015625 to 64) (default 1)
+  mode              <int>        ..F.A.... set mode (from 0 to 1) (default downward)
+     downward        0            ..F.A....
+     upward          1            ..F.A....
+  threshold         <double>     ..F.A.... set threshold (from 0.000976563 to 1) (default 0.125)
+  ratio             <double>     ..F.A.... set ratio (from 1 to 20) (default 2)
+  attack            <double>     ..F.A.... set attack (from 0.01 to 2000) (default 20)
+  release           <double>     ..F.A.... set release (from 0.01 to 9000) (default 250)
+  makeup            <double>     ..F.A.... set make up gain (from 1 to 64) (default 1)
+  knee              <double>     ..F.A.... set knee (from 1 to 8) (default 2.82843)
+  link              <int>        ..F.A.... set link type (from 0 to 1) (default average)
+     average         0            ..F.A....
+     maximum         1            ..F.A....
+  detection         <int>        ..F.A.... set detection (from 0 to 1) (default rms)
+     peak            0            ..F.A....
+     rms             1            ..F.A....
+  level_sc          <double>     ..F.A.... set sidechain gain (from 0.015625 to 64) (default 1)
+  mix               <double>     ..F.A.... set mix (from 0 to 1) (default 1)
+
+

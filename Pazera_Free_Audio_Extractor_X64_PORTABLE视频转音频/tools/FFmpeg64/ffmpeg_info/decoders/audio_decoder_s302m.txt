@@ -1,0 +1,11 @@
+Decoder s302m [SMPTE 302M]:
+    General capabilities: dr1 
+    Threading capabilities: none
+SMPTE 302M Decoder AVOptions:
+  -non_pcm_mode      <int>        .D..A.... Chooses what to do with NON-PCM (from 0 to 3) (default decode_drop)
+     copy            0            .D..A.... Pass NON-PCM through unchanged
+     drop            1            .D..A.... Drop NON-PCM
+     decode_copy     2            .D..A.... Decode if possible else passthrough
+     decode_drop     3            .D..A.... Decode if possible else drop
+
+

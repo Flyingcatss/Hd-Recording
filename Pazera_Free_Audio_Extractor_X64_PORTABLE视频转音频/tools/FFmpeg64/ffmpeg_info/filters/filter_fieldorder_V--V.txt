@@ -1,0 +1,13 @@
+Filter fieldorder
+  Set the field order.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+fieldorder AVOptions:
+  order             <int>        ..FV..... output field order (from 0 to 1) (default tff)
+     bff             0            ..FV..... bottom field first
+     tff             1            ..FV..... top field first
+
+This filter has support for timeline through the 'enable' option.
+

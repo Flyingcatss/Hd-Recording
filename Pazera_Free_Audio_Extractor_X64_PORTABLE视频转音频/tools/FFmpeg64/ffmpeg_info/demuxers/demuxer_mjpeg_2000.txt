@@ -1,0 +1,7 @@
+Demuxer mjpeg_2000 [raw MJPEG 2000 video]:
+    Common extensions: j2k.
+mjpeg_2000 demuxer AVOptions:
+  -framerate         <video_rate> .D.......  (default "25")
+  -raw_packet_size   <int>        .D.......  (from 1 to INT_MAX) (default 1024)
+
+

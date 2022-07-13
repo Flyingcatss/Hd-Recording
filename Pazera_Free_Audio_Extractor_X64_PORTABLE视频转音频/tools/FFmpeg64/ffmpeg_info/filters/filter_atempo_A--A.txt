@@ -1,0 +1,10 @@
+Filter atempo
+  Adjust audio tempo.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+atempo AVOptions:
+  tempo             <double>     ..F.A.... set tempo scale factor (from 0.5 to 100) (default 1)
+
+

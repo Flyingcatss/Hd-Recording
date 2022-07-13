@@ -1,0 +1,5 @@
+Decoder pcm_u16be [PCM unsigned 16-bit big-endian]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: s16
+

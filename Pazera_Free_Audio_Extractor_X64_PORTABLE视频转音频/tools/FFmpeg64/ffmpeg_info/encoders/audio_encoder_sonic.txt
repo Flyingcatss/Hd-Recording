@@ -1,0 +1,5 @@
+Encoder sonic [Sonic]:
+    General capabilities: exp 
+    Threading capabilities: none
+    Supported sample formats: s16
+

@@ -1,0 +1,5 @@
+Decoder adpcm_sbpro_4 [ADPCM Sound Blaster Pro 4-bit]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: s16
+

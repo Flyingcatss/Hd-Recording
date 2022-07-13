@@ -1,0 +1,7 @@
+Decoder jpeg2000 [JPEG 2000]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame and slice
+jpeg2000 AVOptions:
+  -lowres            <int>        .D.V..... Lower the decoding resolution by a power of two (from 0 to 33) (default 0)
+
+

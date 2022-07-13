@@ -1,0 +1,8 @@
+Encoder sunrast [Sun Rasterfile image]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported pixel formats: bgr24 pal8 gray monow
+sunrast AVOptions:
+  -rle               <int>        E..V..... Use run-length compression (from 0 to 1) (default 1)
+
+

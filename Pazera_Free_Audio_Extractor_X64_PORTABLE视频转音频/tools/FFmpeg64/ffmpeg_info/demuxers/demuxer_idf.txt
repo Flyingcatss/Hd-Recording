@@ -1,0 +1,8 @@
+Demuxer idf [iCE Draw File]:
+    Common extensions: idf.
+iCE Draw File demuxer AVOptions:
+  -linespeed         <int>        .D....... set simulated line speed (bytes per second) (from 1 to INT_MAX) (default 6000)
+  -video_size        <image_size> .D....... set video size, such as 640x480 or hd720.
+  -framerate         <video_rate> .D....... set framerate (frames per second) (default "25")
+
+

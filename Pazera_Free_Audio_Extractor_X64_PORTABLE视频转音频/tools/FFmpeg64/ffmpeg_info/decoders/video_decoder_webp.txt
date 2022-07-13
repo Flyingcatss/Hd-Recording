@@ -1,0 +1,4 @@
+Decoder webp [WebP image]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame
+

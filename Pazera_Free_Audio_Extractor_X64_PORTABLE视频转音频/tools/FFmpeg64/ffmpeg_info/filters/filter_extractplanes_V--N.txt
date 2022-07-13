@@ -1,0 +1,17 @@
+Filter extractplanes
+  Extract planes as grayscale frames.
+    Inputs:
+       #0: default (video)
+    Outputs:
+        dynamic (depending on the options)
+extractplanes AVOptions:
+  planes            <flags>      ..FV..... set planes (default r)
+     y                            ..FV..... set luma plane
+     u                            ..FV..... set u plane
+     v                            ..FV..... set v plane
+     r                            ..FV..... set red plane
+     g                            ..FV..... set green plane
+     b                            ..FV..... set blue plane
+     a                            ..FV..... set alpha plane
+
+

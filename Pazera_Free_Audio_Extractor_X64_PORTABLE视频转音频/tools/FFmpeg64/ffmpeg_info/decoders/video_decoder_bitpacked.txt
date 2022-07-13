@@ -1,0 +1,4 @@
+Decoder bitpacked [Bitpacked]:
+    General capabilities: exp 
+    Threading capabilities: none
+

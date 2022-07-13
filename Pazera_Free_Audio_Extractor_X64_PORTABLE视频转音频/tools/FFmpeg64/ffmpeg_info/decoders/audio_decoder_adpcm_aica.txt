@@ -1,0 +1,5 @@
+Decoder adpcm_aica [ADPCM Yamaha AICA]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: s16p
+

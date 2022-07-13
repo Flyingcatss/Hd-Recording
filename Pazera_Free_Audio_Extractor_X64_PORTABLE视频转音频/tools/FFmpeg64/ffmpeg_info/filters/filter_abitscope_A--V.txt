@@ -1,0 +1,14 @@
+Filter abitscope
+  Convert input audio to audio bit scope video output.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (video)
+abitscope AVOptions:
+  rate              <video_rate> ..FV..... set video rate (default "25")
+  r                 <video_rate> ..FV..... set video rate (default "25")
+  size              <image_size> ..FV..... set video size (default "1024x256")
+  s                 <image_size> ..FV..... set video size (default "1024x256")
+  colors            <string>     ..FV..... set channels colors (default "red|green|blue|yellow|orange|lime|pink|magenta|brown")
+
+

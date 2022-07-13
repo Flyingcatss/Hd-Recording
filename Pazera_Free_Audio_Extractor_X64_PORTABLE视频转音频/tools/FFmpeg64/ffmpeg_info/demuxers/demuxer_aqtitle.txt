@@ -1,0 +1,6 @@
+Demuxer aqtitle [AQTitle subtitles]:
+    Common extensions: aqt.
+aqtdec AVOptions:
+  -subfps            <rational>   .D...S... set the movie frame rate (from 0 to INT_MAX) (default 25/1)
+
+

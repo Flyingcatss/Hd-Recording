@@ -1,0 +1,5 @@
+Decoder wmalossless [Windows Media Audio Lossless]:
+    General capabilities: dr1 delay subframes 
+    Threading capabilities: none
+    Supported sample formats: s16p s32p
+

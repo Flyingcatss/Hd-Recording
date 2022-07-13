@@ -1,0 +1,12 @@
+Filter bench
+  Benchmark part of a filtergraph.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+bench AVOptions:
+  action            <int>        ..FV..... set action (from 0 to 1) (default start)
+     start           0            ..FV..... start timer
+     stop            1            ..FV..... stop timer
+
+

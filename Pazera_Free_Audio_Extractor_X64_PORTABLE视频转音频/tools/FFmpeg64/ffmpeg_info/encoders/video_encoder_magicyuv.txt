@@ -1,0 +1,11 @@
+Encoder magicyuv [MagicYUV video]:
+    General capabilities: threads intraonly 
+    Threading capabilities: frame
+    Supported pixel formats: gbrp gbrap yuv422p yuv420p yuv444p yuva444p gray
+magicyuv AVOptions:
+  -pred              <int>        E..V..... Prediction method (from 1 to 3) (default left)
+     left            1            E..V.....
+     gradient        2            E..V.....
+     median          3            E..V.....
+
+

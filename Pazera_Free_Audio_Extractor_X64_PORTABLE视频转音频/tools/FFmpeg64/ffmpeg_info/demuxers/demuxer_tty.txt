@@ -1,0 +1,8 @@
+Demuxer tty [Tele-typewriter]:
+    Common extensions: ans,art,asc,diz,ice,nfo,txt,vt.
+TTY demuxer AVOptions:
+  -chars_per_frame   <int>        .D.......  (from 1 to INT_MAX) (default 6000)
+  -video_size        <image_size> .D....... A string describing frame size, such as 640x480 or hd720.
+  -framerate         <video_rate> .D.......  (default "25")
+
+

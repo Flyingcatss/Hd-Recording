@@ -1,0 +1,3 @@
+Muxer s16be [PCM signed 16-bit big-endian]:
+    Default audio codec: pcm_s16be.
+

@@ -1,0 +1,27 @@
+Demuxer dshow [DirectShow capture]:
+dshow indev AVOptions:
+  -video_size        <image_size> .D....... set video size given a string such as 640x480 or hd720.
+  -pixel_format      <pix_fmt>    .D....... set video pixel format (default none)
+  -framerate         <string>     .D....... set video frame rate
+  -sample_rate       <int>        .D....... set audio sample rate (from 0 to INT_MAX) (default 0)
+  -sample_size       <int>        .D....... set audio sample size (from 0 to 16) (default 0)
+  -channels          <int>        .D....... set number of audio channels, such as 1 or 2 (from 0 to INT_MAX) (default 0)
+  -audio_buffer_size <int>        .D....... set audio device buffer latency size in milliseconds (default is the device's default) (from 0 to INT_MAX) (default 0)
+  -list_devices      <boolean>    .D....... list available devices (default false)
+  -list_options      <boolean>    .D....... list available options for specified device (default false)
+  -video_device_number <int>        .D....... set video device number for devices with same name (starts at 0) (from 0 to INT_MAX) (default 0)
+  -audio_device_number <int>        .D....... set audio device number for devices with same name (starts at 0) (from 0 to INT_MAX) (default 0)
+  -crossbar_video_input_pin_number <int>        .D....... set video input pin number for crossbar device (from -1 to INT_MAX) (default -1)
+  -crossbar_audio_input_pin_number <int>        .D....... set audio input pin number for crossbar device (from -1 to INT_MAX) (default -1)
+  -show_video_device_dialog <boolean>    .D....... display property dialog for video capture device (default false)
+  -show_audio_device_dialog <boolean>    .D....... display property dialog for audio capture device (default false)
+  -show_video_crossbar_connection_dialog <boolean>    .D....... display property dialog for crossbar connecting pins filter on video device (default false)
+  -show_audio_crossbar_connection_dialog <boolean>    .D....... display property dialog for crossbar connecting pins filter on audio device (default false)
+  -show_analog_tv_tuner_dialog <boolean>    .D....... display property dialog for analog tuner filter (default false)
+  -show_analog_tv_tuner_audio_dialog <boolean>    .D....... display property dialog for analog tuner audio filter (default false)
+  -audio_device_load <string>     .D....... load audio capture filter device (and properties) from file
+  -audio_device_save <string>     .D....... save audio capture filter device (and properties) to file
+  -video_device_load <string>     .D....... load video capture filter device (and properties) from file
+  -video_device_save <string>     .D....... save video capture filter device (and properties) to file
+
+

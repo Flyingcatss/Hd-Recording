@@ -1,0 +1,7 @@
+Muxer hash [Hash testing]:
+    Default video codec: rawvideo.
+    Default audio codec: pcm_s16le.
+hash muxer AVOptions:
+  -hash              <string>     E........ set hash to use (default "sha256")
+
+

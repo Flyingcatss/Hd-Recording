@@ -1,0 +1,4 @@
+Decoder smackaud [Smacker audio]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

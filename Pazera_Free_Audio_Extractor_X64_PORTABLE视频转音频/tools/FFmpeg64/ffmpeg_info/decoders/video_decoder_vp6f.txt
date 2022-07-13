@@ -1,0 +1,4 @@
+Decoder vp6f [On2 VP6 (Flash version)]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

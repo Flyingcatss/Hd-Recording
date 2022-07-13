@@ -1,0 +1,8 @@
+Decoder dvbsub [DVB subtitles]:
+    General capabilities: none
+DVB Sub Decoder AVOptions:
+  -compute_edt       <boolean>    .D...S... compute end of time using pts or timeout (default false)
+  -compute_clut      <boolean>    .D...S... compute clut when not available(-1) or always(1) or never(0) (default auto)
+  -dvb_substream     <int>        .D...S...  (from -1 to 63) (default -1)
+
+

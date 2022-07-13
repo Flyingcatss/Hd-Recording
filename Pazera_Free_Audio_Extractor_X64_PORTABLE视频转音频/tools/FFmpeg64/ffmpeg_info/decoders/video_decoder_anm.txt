@@ -1,0 +1,4 @@
+Decoder anm [Deluxe Paint Animation]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

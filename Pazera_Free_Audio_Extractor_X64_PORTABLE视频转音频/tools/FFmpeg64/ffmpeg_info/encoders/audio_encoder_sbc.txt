@@ -1,0 +1,11 @@
+Encoder sbc [SBC (low-complexity subband codec)]:
+    General capabilities: small 
+    Threading capabilities: none
+    Supported sample rates: 16000 32000 44100 48000
+    Supported sample formats: s16
+    Supported channel layouts: mono stereo
+sbc encoder AVOptions:
+  -sbc_delay         <duration>   E...A.... set maximum algorithmic latency (default 0.013)
+  -msbc              <boolean>    E...A.... use mSBC mode (wideband speech mono SBC) (default false)
+
+

@@ -1,0 +1,5 @@
+Decoder atrac3 [ATRAC3 (Adaptive TRansform Acoustic Coding 3)]:
+    General capabilities: dr1 subframes 
+    Threading capabilities: none
+    Supported sample formats: fltp
+

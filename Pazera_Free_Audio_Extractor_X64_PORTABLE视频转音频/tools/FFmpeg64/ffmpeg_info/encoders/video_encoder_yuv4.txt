@@ -1,0 +1,5 @@
+Encoder yuv4 [Uncompressed packed 4:2:0]:
+    General capabilities: intraonly 
+    Threading capabilities: none
+    Supported pixel formats: yuv420p
+

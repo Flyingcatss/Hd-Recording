@@ -1,0 +1,4 @@
+Decoder targa [Truevision Targa image]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

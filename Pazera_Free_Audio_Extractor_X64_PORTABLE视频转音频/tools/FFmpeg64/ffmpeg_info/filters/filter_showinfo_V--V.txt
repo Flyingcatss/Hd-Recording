@@ -1,0 +1,10 @@
+Filter showinfo
+  Show textual information for each video frame.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+showinfo AVOptions:
+  checksum          <boolean>    ..FV..... calculate checksums (default true)
+
+

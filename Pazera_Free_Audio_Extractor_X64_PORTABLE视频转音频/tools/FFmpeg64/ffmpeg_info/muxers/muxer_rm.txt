@@ -1,0 +1,6 @@
+Muxer rm [RealMedia]:
+    Common extensions: rm,ra.
+    Mime type: application/vnd.rn-realmedia.
+    Default video codec: rv10.
+    Default audio codec: ac3.
+

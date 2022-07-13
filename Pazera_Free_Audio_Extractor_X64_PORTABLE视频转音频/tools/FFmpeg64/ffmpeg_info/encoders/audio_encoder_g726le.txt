@@ -1,0 +1,8 @@
+Encoder g726le [G.726 little endian ADPCM ("right-justified")]:
+    General capabilities: small 
+    Threading capabilities: none
+    Supported sample formats: s16
+g726le AVOptions:
+  -code_size         <int>        E...A.... Bits per code (from 2 to 5) (default 4)
+
+

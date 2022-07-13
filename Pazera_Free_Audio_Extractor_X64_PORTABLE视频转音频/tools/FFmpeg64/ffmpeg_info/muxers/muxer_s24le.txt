@@ -1,0 +1,3 @@
+Muxer s24le [PCM signed 24-bit little-endian]:
+    Default audio codec: pcm_s24le.
+

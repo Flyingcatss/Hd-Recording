@@ -1,0 +1,4 @@
+Decoder arbc [Gryphon's Anim Compressor]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

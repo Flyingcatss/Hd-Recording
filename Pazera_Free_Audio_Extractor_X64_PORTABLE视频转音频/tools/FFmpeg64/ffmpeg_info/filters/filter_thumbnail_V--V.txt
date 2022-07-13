@@ -1,0 +1,10 @@
+Filter thumbnail
+  Select the most representative frame in a given sequence of consecutive frames.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+thumbnail AVOptions:
+  n                 <int>        ..FV..... set the frames batch size (from 2 to INT_MAX) (default 100)
+
+

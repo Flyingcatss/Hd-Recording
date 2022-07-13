@@ -1,0 +1,16 @@
+Filter nlmeans
+  Non-local means denoiser.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+nlmeans AVOptions:
+  s                 <double>     ..FV..... denoising strength (from 1 to 30) (default 1)
+  p                 <int>        ..FV..... patch size (from 0 to 99) (default 7)
+  pc                <int>        ..FV..... patch size for chroma planes (from 0 to 99) (default 0)
+  r                 <int>        ..FV..... research window (from 0 to 99) (default 15)
+  rc                <int>        ..FV..... research window for chroma planes (from 0 to 99) (default 0)
+
+This filter has support for timeline through the 'enable' option.
+

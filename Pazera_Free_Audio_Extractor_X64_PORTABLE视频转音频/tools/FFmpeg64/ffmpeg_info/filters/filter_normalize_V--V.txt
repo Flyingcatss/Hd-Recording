@@ -1,0 +1,15 @@
+Filter normalize
+  Normalize RGB video.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+normalize AVOptions:
+  blackpt           <color>      ..FV..... output color to which darkest input color is mapped (default "black")
+  whitept           <color>      ..FV..... output color to which brightest input color is mapped (default "white")
+  smoothing         <int>        ..FV..... amount of temporal smoothing of the input range, to reduce flicker (from 0 to 2.68435e+008) (default 0)
+  independence      <float>      ..FV..... proportion of independent to linked channel normalization (from 0 to 1) (default 1)
+  strength          <float>      ..FV..... strength of filter, from no effect to full normalization (from 0 to 1) (default 1)
+
+This filter has support for timeline through the 'enable' option.
+

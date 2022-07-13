@@ -1,0 +1,16 @@
+Filter swaprect
+  Swap 2 rectangular objects in video.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+swaprect AVOptions:
+  w                 <string>     ..FV..... set rect width (default "w/2")
+  h                 <string>     ..FV..... set rect height (default "h/2")
+  x1                <string>     ..FV..... set 1st rect x top left coordinate (default "w/2")
+  y1                <string>     ..FV..... set 1st rect y top left coordinate (default "h/2")
+  x2                <string>     ..FV..... set 2nd rect x top left coordinate (default "0")
+  y2                <string>     ..FV..... set 2nd rect y top left coordinate (default "0")
+
+This filter has support for timeline through the 'enable' option.
+

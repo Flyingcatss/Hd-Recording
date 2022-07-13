@@ -1,0 +1,3 @@
+Muxer ffmetadata [FFmpeg metadata in text]:
+    Common extensions: ffmeta.
+

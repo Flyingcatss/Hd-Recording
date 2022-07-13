@@ -1,0 +1,31 @@
+Filter showvolume
+  Convert input audio volume to video output.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (video)
+showvolume AVOptions:
+  rate              <video_rate> ..FV..... set video rate (default "25")
+  r                 <video_rate> ..FV..... set video rate (default "25")
+  b                 <int>        ..FV..... set border width (from 0 to 5) (default 1)
+  w                 <int>        ..FV..... set channel width (from 80 to 8192) (default 400)
+  h                 <int>        ..FV..... set channel height (from 1 to 900) (default 20)
+  f                 <double>     ..FV..... set fade (from 0 to 1) (default 0.95)
+  c                 <string>     ..FV..... set volume color expression (default "PEAK*255+floor((1-PEAK)*255)*256+0xff000000")
+  t                 <boolean>    ..FV..... display channel names (default true)
+  v                 <boolean>    ..FV..... display volume value (default true)
+  dm                <double>     ..FV..... duration for max value display (from 0 to 9000) (default 0)
+  dmc               <color>      ..FV..... set color of the max value line (default "orange")
+  o                 <int>        ..FV..... set orientation (from 0 to 1) (default h)
+     h               0            ..FV..... horizontal
+     v               1            ..FV..... vertical
+  s                 <int>        ..FV..... set step size (from 0 to 5) (default 0)
+  p                 <float>      ..FV..... set background opacity (from 0 to 1) (default 0)
+  m                 <int>        ..FV..... set mode (from 0 to 1) (default p)
+     p               0            ..FV..... peak
+     r               1            ..FV..... rms
+  ds                <int>        ..FV..... set display scale (from 0 to 1) (default lin)
+     lin             0            ..FV..... linear
+     log             1            ..FV..... log
+
+

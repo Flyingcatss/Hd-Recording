@@ -1,0 +1,4 @@
+Decoder indeo5 [Intel Indeo Video Interactive 5]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

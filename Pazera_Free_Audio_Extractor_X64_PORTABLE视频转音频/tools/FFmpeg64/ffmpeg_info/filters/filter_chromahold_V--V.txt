@@ -1,0 +1,15 @@
+Filter chromahold
+  Turns a certain color range into gray.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+chromahold AVOptions:
+  color             <color>      ..FV..... set the chromahold key color (default "black")
+  similarity        <float>      ..FV..... set the chromahold similarity value (from 0.01 to 1) (default 0.01)
+  blend             <float>      ..FV..... set the chromahold blend value (from 0 to 1) (default 0)
+  yuv               <boolean>    ..FV..... color parameter is in yuv instead of rgb (default false)
+
+This filter has support for timeline through the 'enable' option.
+

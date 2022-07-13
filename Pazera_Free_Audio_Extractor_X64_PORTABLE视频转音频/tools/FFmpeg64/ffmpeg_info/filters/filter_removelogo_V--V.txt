@@ -1,0 +1,12 @@
+Filter removelogo
+  Remove a TV logo based on a mask image.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+removelogo AVOptions:
+  filename          <string>     ..FV..... set bitmap filename
+  f                 <string>     ..FV..... set bitmap filename
+
+This filter has support for timeline through the 'enable' option.
+

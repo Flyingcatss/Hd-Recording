@@ -1,0 +1,7 @@
+Decoder frwu [Forward Uncompressed]:
+    General capabilities: dr1 
+    Threading capabilities: none
+frwu Decoder AVOptions:
+  -change_field_order <boolean>    .D.V..... Change field order (default false)
+
+

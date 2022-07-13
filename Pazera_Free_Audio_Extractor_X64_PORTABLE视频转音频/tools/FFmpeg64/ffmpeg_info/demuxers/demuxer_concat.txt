@@ -1,0 +1,7 @@
+Demuxer concat [Virtual concatenation script]:
+concat demuxer AVOptions:
+  -safe              <boolean>    .D....... enable safe mode (default true)
+  -auto_convert      <boolean>    .D....... automatically convert bitstream format (default true)
+  -segment_time_metadata <boolean>    .D....... output file segment start time and duration as packet metadata (default false)
+
+

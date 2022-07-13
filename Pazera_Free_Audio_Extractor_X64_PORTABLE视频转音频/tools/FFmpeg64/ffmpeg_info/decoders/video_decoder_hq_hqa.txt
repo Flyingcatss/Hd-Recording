@@ -1,0 +1,4 @@
+Decoder hq_hqa [Canopus HQ/HQA]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

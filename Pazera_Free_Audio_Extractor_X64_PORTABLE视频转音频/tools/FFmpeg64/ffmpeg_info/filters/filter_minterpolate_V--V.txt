@@ -1,0 +1,37 @@
+Filter minterpolate
+  Frame rate conversion using Motion Interpolation.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+minterpolate AVOptions:
+  fps               <video_rate> ..FV..... output's frame rate (default "60")
+  mi_mode           <int>        ..FV..... motion interpolation mode (from 0 to 2) (default mci)
+     dup             0            ..FV..... duplicate frames
+     blend           1            ..FV..... blend frames
+     mci             2            ..FV..... motion compensated interpolation
+  mc_mode           <int>        ..FV..... motion compensation mode (from 0 to 1) (default obmc)
+     obmc            0            ..FV..... overlapped block motion compensation
+     aobmc           1            ..FV..... adaptive overlapped block motion compensation
+  me_mode           <int>        ..FV..... motion estimation mode (from 0 to 1) (default bilat)
+     bidir           0            ..FV..... bidirectional motion estimation
+     bilat           1            ..FV..... bilateral motion estimation
+  me                <int>        ..FV..... motion estimation method (from 1 to 9) (default epzs)
+     esa             1            ..FV..... exhaustive search
+     tss             2            ..FV..... three step search
+     tdls            3            ..FV..... two dimensional logarithmic search
+     ntss            4            ..FV..... new three step search
+     fss             5            ..FV..... four step search
+     ds              6            ..FV..... diamond search
+     hexbs           7            ..FV..... hexagon-based search
+     epzs            8            ..FV..... enhanced predictive zonal search
+     umh             9            ..FV..... uneven multi-hexagon search
+  mb_size           <int>        ..FV..... macroblock size (from 4 to 16) (default 16)
+  search_param      <int>        ..FV..... search parameter (from 4 to INT_MAX) (default 32)
+  vsbmc             <int>        ..FV..... variable-size block motion compensation (from 0 to 1) (default 0)
+  scd               <int>        ..FV..... scene change detection method (from 0 to 1) (default fdiff)
+     none            0            ..FV..... disable detection
+     fdiff           1            ..FV..... frame difference
+  scd_threshold     <double>     ..FV..... scene change threshold (from 0 to 100) (default 5)
+
+

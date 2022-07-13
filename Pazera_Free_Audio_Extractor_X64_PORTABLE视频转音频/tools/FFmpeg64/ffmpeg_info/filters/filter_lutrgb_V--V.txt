@@ -1,0 +1,22 @@
+Filter lutrgb
+  Compute and apply a lookup table to the RGB input video.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+lutrgb AVOptions:
+  c0                <string>     ..FV..... set component #0 expression (default "clipval")
+  c1                <string>     ..FV..... set component #1 expression (default "clipval")
+  c2                <string>     ..FV..... set component #2 expression (default "clipval")
+  c3                <string>     ..FV..... set component #3 expression (default "clipval")
+  y                 <string>     ..FV..... set Y expression (default "clipval")
+  u                 <string>     ..FV..... set U expression (default "clipval")
+  v                 <string>     ..FV..... set V expression (default "clipval")
+  r                 <string>     ..FV..... set R expression (default "clipval")
+  g                 <string>     ..FV..... set G expression (default "clipval")
+  b                 <string>     ..FV..... set B expression (default "clipval")
+  a                 <string>     ..FV..... set A expression (default "clipval")
+
+This filter has support for timeline through the 'enable' option.
+

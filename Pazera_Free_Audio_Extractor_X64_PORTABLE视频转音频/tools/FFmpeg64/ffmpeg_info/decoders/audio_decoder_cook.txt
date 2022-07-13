@@ -1,0 +1,5 @@
+Decoder cook [Cook / Cooker / Gecko (RealAudio G2)]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: fltp
+

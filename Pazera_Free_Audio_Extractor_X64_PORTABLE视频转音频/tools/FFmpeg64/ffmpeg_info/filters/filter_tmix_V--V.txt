@@ -1,0 +1,14 @@
+Filter tmix
+  Mix successive video frames.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+tmix AVOptions:
+  frames            <int>        ..FV..... set number of successive frames to mix (from 1 to 128) (default 3)
+  weights           <string>     ..FV..... set weight for each frame (default "1 1 1")
+  scale             <float>      ..FV..... set scale (from 0 to 32767) (default 0)
+
+This filter has support for timeline through the 'enable' option.
+

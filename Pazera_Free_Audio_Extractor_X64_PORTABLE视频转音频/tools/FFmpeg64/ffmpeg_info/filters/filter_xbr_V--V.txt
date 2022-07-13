@@ -1,0 +1,11 @@
+Filter xbr
+  Scale the input using xBR algorithm.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+xbr AVOptions:
+  n                 <int>        ..FV..... set scale factor (from 2 to 4) (default 3)
+
+

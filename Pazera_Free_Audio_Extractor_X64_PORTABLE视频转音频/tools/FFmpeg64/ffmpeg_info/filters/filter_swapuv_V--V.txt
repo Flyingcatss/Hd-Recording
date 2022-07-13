@@ -1,0 +1,10 @@
+Filter swapuv
+  Swap U and V components.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+swapuv AVOptions:
+
+This filter has support for timeline through the 'enable' option.
+

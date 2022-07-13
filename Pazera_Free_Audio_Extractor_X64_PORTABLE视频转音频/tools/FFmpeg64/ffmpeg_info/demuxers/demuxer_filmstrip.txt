@@ -1,0 +1,3 @@
+Demuxer filmstrip [Adobe Filmstrip]:
+    Common extensions: flm.
+

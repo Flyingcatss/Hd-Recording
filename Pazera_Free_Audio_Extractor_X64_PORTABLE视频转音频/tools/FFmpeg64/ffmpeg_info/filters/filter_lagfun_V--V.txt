@@ -1,0 +1,12 @@
+Filter lagfun
+  Slowly update darker pixels.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+lagfun AVOptions:
+  decay             <float>      ..FV..... set decay (from 0 to 1) (default 0.95)
+  planes            <flags>      ..FV..... set what planes to filter (default F)
+
+

@@ -1,0 +1,6 @@
+Demuxer wsd [Wideband Single-bit Data (WSD)]:
+    Common extensions: wsd.
+wsd demuxer AVOptions:
+  -raw_packet_size   <int>        .D.......  (from 1 to INT_MAX) (default 1024)
+
+

@@ -1,0 +1,7 @@
+Decoder fic [Mirillis FIC]:
+    General capabilities: dr1 threads 
+    Threading capabilities: slice
+FIC decoder AVOptions:
+  -skip_cursor       <boolean>    .D.V..... skip the cursor (default false)
+
+

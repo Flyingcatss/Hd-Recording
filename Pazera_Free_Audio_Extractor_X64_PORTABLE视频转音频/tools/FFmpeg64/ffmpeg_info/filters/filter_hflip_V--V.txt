@@ -1,0 +1,11 @@
+Filter hflip
+  Horizontally flip the input video.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+hflip AVOptions:
+
+This filter has support for timeline through the 'enable' option.
+

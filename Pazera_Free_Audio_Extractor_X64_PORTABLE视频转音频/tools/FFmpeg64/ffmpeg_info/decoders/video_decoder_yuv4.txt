@@ -1,0 +1,4 @@
+Decoder yuv4 [Uncompressed packed 4:2:0]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

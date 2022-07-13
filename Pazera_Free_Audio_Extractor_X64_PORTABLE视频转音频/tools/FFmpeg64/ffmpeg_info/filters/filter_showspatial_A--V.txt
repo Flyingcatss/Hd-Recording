@@ -1,0 +1,36 @@
+Filter showspatial
+  Convert input audio to a spatial video output.
+    slice threading supported
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (video)
+showspatial AVOptions:
+  size              <image_size> ..FV..... set video size (default "512x512")
+  s                 <image_size> ..FV..... set video size (default "512x512")
+  win_size          <int>        ..FV..... set window size (from 1024 to 65536) (default 4096)
+  win_func          <int>        ..FV..... set window function (from 0 to 19) (default hann)
+     rect            0            ..FV..... Rectangular
+     bartlett        4            ..FV..... Bartlett
+     hann            1            ..FV..... Hann
+     hanning         1            ..FV..... Hanning
+     hamming         2            ..FV..... Hamming
+     blackman        3            ..FV..... Blackman
+     welch           5            ..FV..... Welch
+     flattop         6            ..FV..... Flat-top
+     bharris         7            ..FV..... Blackman-Harris
+     bnuttall        8            ..FV..... Blackman-Nuttall
+     bhann           11           ..FV..... Bartlett-Hann
+     sine            9            ..FV..... Sine
+     nuttall         10           ..FV..... Nuttall
+     lanczos         12           ..FV..... Lanczos
+     gauss           13           ..FV..... Gauss
+     tukey           14           ..FV..... Tukey
+     dolph           15           ..FV..... Dolph-Chebyshev
+     cauchy          16           ..FV..... Cauchy
+     parzen          17           ..FV..... Parzen
+     poisson         18           ..FV..... Poisson
+     bohman          19           ..FV..... Bohman
+  overlap           <float>      ..FV..... set window overlap (from 0 to 1) (default 0.5)
+
+

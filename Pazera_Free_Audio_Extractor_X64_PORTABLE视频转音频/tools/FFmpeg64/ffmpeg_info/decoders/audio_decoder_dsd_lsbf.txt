@@ -1,0 +1,5 @@
+Decoder dsd_lsbf [DSD (Direct Stream Digital), least significant bit first]:
+    General capabilities: dr1 threads 
+    Threading capabilities: slice
+    Supported sample formats: fltp
+

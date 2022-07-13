@@ -1,0 +1,14 @@
+Filter hue
+  Adjust the hue and saturation of the input video.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+hue AVOptions:
+  h                 <string>     ..FV..... set the hue angle degrees expression
+  s                 <string>     ..FV..... set the saturation expression (default "1")
+  H                 <string>     ..FV..... set the hue angle radians expression
+  b                 <string>     ..FV..... set the brightness expression (default "0")
+
+This filter has support for timeline through the 'enable' option.
+

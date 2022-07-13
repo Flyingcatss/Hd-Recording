@@ -1,0 +1,7 @@
+Filter vfrdet
+  Variable frame rate detect filter.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+

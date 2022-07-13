@@ -1,0 +1,4 @@
+Decoder dds [DirectDraw Surface image decoder]:
+    General capabilities: dr1 threads 
+    Threading capabilities: slice
+

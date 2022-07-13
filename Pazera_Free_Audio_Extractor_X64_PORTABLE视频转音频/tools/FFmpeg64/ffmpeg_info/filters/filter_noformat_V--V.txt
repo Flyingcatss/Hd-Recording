@@ -1,0 +1,10 @@
+Filter noformat
+  Force libavfilter not to use any of the specified pixel formats for the input to the next filter.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+noformat AVOptions:
+  pix_fmts          <string>     ..FV..... A '|'-separated list of pixel formats
+
+

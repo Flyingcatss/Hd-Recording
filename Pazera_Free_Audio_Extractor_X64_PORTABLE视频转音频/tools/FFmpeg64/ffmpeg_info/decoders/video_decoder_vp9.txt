@@ -1,0 +1,5 @@
+Decoder vp9 [Google VP9]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame and slice
+    Supported hardware devices: dxva2 (null) d3d11va cuda 
+

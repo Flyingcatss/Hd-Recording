@@ -1,0 +1,5 @@
+Muxer mjpeg [raw MJPEG video]:
+    Common extensions: mjpg,mjpeg.
+    Mime type: video/x-mjpeg.
+    Default video codec: mjpeg.
+

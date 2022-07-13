@@ -1,0 +1,5 @@
+Decoder nellymoser [Nellymoser Asao]:
+    General capabilities: dr1 paramchange 
+    Threading capabilities: none
+    Supported sample formats: flt
+

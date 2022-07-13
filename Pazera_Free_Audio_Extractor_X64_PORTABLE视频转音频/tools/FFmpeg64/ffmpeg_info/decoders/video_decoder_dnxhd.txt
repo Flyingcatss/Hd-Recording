@@ -1,0 +1,4 @@
+Decoder dnxhd [VC3/DNxHD]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame and slice
+

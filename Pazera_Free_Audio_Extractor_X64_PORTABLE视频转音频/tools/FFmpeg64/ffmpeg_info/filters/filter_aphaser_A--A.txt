@@ -1,0 +1,19 @@
+Filter aphaser
+  Add a phasing effect to the audio.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+aphaser AVOptions:
+  in_gain           <double>     ..F.A.... set input gain (from 0 to 1) (default 0.4)
+  out_gain          <double>     ..F.A.... set output gain (from 0 to 1e+009) (default 0.74)
+  delay             <double>     ..F.A.... set delay in milliseconds (from 0 to 5) (default 3)
+  decay             <double>     ..F.A.... set decay (from 0 to 0.99) (default 0.4)
+  speed             <double>     ..F.A.... set modulation speed (from 0.1 to 2) (default 0.5)
+  type              <int>        ..F.A.... set modulation type (from 0 to 1) (default triangular)
+     triangular      1            ..F.A....
+     t               1            ..F.A....
+     sinusoidal      0            ..F.A....
+     s               0            ..F.A....
+
+

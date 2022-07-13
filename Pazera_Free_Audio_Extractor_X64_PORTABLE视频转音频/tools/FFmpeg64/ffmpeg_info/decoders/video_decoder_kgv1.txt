@@ -1,0 +1,4 @@
+Decoder kgv1 [Kega Game Video]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

@@ -1,0 +1,4 @@
+Decoder aasc [Autodesk RLE]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

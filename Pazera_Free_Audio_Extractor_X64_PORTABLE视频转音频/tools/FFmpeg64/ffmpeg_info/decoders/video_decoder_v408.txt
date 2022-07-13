@@ -1,0 +1,4 @@
+Decoder v408 [Uncompressed packed QT 4:4:4:4]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

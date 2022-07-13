@@ -1,0 +1,13 @@
+Filter fieldhint
+  Field matching using hints.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+fieldhint AVOptions:
+  hint              <string>     ..FV..... set hint file
+  mode              <int>        ..FV..... set hint mode (from 0 to 1) (default absolute)
+     absolute        0            ..FV.....
+     relative        1            ..FV.....
+
+

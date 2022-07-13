@@ -1,0 +1,20 @@
+Filter datascope
+  Video data analysis.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+datascope AVOptions:
+  size              <image_size> ..FV..... set output size (default "hd720")
+  s                 <image_size> ..FV..... set output size (default "hd720")
+  x                 <int>        ..FV..... set x offset (from 0 to INT_MAX) (default 0)
+  y                 <int>        ..FV..... set y offset (from 0 to INT_MAX) (default 0)
+  mode              <int>        ..FV..... set scope mode (from 0 to 2) (default mono)
+     mono            0            ..FV.....
+     color           1            ..FV.....
+     color2          2            ..FV.....
+  axis              <boolean>    ..FV..... draw column/row numbers (default false)
+  opacity           <float>      ..FV..... set background opacity (from 0 to 1) (default 0.75)
+
+

@@ -1,0 +1,4 @@
+Muxer sox [SoX native]:
+    Common extensions: sox.
+    Default audio codec: pcm_s32le.
+

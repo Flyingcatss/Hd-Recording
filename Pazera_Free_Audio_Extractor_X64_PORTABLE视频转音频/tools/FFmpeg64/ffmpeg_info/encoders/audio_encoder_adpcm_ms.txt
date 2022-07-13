@@ -1,0 +1,5 @@
+Encoder adpcm_ms [ADPCM Microsoft]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported sample formats: s16
+

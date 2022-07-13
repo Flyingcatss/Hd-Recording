@@ -1,0 +1,30 @@
+Filter ahistogram
+  Convert input audio to histogram video output.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (video)
+ahistogram AVOptions:
+  dmode             <int>        ..FV..... set method to display channels (from 0 to 1) (default single)
+     single          0            ..FV..... all channels use single histogram
+     separate        1            ..FV..... each channel have own histogram
+  rate              <video_rate> ..FV..... set video rate (default "25")
+  r                 <video_rate> ..FV..... set video rate (default "25")
+  size              <image_size> ..FV..... set video size (default "hd720")
+  s                 <image_size> ..FV..... set video size (default "hd720")
+  scale             <int>        ..FV..... set display scale (from 0 to 4) (default log)
+     log             3            ..FV..... logarithmic
+     sqrt            1            ..FV..... square root
+     cbrt            2            ..FV..... cubic root
+     lin             0            ..FV..... linear
+     rlog            4            ..FV..... reverse logarithmic
+  ascale            <int>        ..FV..... set amplitude scale (from 0 to 1) (default log)
+     log             1            ..FV..... logarithmic
+     lin             0            ..FV..... linear
+  acount            <int>        ..FV..... how much frames to accumulate (from -1 to 100) (default 1)
+  rheight           <float>      ..FV..... set histogram ratio of window height (from 0 to 1) (default 0.1)
+  slide             <int>        ..FV..... set sonogram sliding (from 0 to 1) (default replace)
+     replace         0            ..FV..... replace old rows with new
+     scroll          1            ..FV..... scroll from top to bottom
+
+

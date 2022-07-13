@@ -1,0 +1,5 @@
+Decoder adpcm_ima_ea_sead [ADPCM IMA Electronic Arts SEAD]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: s16
+

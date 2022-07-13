@@ -1,0 +1,23 @@
+Filter deband
+  Debands video.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+deband AVOptions:
+  1thr              <float>      ..FV..... set 1st plane threshold (from 3e-005 to 0.5) (default 0.02)
+  2thr              <float>      ..FV..... set 2nd plane threshold (from 3e-005 to 0.5) (default 0.02)
+  3thr              <float>      ..FV..... set 3rd plane threshold (from 3e-005 to 0.5) (default 0.02)
+  4thr              <float>      ..FV..... set 4th plane threshold (from 3e-005 to 0.5) (default 0.02)
+  range             <int>        ..FV..... set range (from INT_MIN to INT_MAX) (default 16)
+  r                 <int>        ..FV..... set range (from INT_MIN to INT_MAX) (default 16)
+  direction         <float>      ..FV..... set direction (from -6.28319 to 6.28319) (default 6.28319)
+  d                 <float>      ..FV..... set direction (from -6.28319 to 6.28319) (default 6.28319)
+  blur              <boolean>    ..FV..... set blur (default true)
+  b                 <boolean>    ..FV..... set blur (default true)
+  coupling          <boolean>    ..FV..... set plane coupling (default false)
+  c                 <boolean>    ..FV..... set plane coupling (default false)
+
+This filter has support for timeline through the 'enable' option.
+

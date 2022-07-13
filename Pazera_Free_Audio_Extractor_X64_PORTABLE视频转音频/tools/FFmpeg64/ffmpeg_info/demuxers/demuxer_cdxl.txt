@@ -1,0 +1,7 @@
+Demuxer cdxl [Commodore CDXL video]:
+    Common extensions: cdxl,xl.
+CDXL demuxer AVOptions:
+  -sample_rate       <int>        .D.......  (from 1 to INT_MAX) (default 11025)
+  -framerate         <string>     .D....... 
+
+

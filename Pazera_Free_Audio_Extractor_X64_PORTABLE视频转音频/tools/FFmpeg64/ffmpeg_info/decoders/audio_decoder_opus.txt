@@ -1,0 +1,7 @@
+Decoder opus [Opus]:
+    General capabilities: dr1 delay 
+    Threading capabilities: none
+Opus Decoder AVOptions:
+  -apply_phase_inv   <boolean>    .D..A.... Apply intensity stereo phase inversion (default true)
+
+

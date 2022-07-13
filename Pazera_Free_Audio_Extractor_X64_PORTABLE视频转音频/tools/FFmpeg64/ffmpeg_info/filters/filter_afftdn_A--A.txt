@@ -1,0 +1,26 @@
+Filter afftdn
+  Denoise audio samples using FFT.
+    slice threading supported
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+afftdn AVOptions:
+  nr                <float>      ..F.A.... set the noise reduction (from 0.01 to 97) (default 12)
+  nf                <float>      ..F.A.... set the noise floor (from -80 to -20) (default -50)
+  nt                <int>        ..F.A.... set the noise type (from 0 to 3) (default w)
+     w               0            ..F.A.... white noise
+     v               1            ..F.A.... vinyl noise
+     s               2            ..F.A.... shellac noise
+     c               3            ..F.A.... custom noise
+  bn                <string>     ..F.A.... set the custom bands noise
+  rf                <float>      ..F.A.... set the residual floor (from -80 to -20) (default -38)
+  tn                <boolean>    ..F.A.... track noise (default false)
+  tr                <boolean>    ..F.A.... track residual (default false)
+  om                <int>        ..F.A.... set output mode (from 0 to 2) (default o)
+     i               0            ..F.A.... input
+     o               1            ..F.A.... output
+     n               2            ..F.A.... noise
+
+This filter has support for timeline through the 'enable' option.
+

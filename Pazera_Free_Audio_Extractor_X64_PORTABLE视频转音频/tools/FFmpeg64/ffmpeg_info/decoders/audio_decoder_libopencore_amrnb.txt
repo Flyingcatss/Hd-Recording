@@ -1,0 +1,4 @@
+Decoder libopencore_amrnb [OpenCORE AMR-NB (Adaptive Multi-Rate Narrow-Band)]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

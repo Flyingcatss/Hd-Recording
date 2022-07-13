@@ -1,0 +1,4 @@
+Decoder ffv1 [FFmpeg video codec #1]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame and slice
+

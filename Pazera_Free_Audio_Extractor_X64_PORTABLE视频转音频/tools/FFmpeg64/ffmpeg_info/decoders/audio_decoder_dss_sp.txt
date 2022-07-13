@@ -1,0 +1,4 @@
+Decoder dss_sp [Digital Speech Standard - Standard Play mode (DSS SP)]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

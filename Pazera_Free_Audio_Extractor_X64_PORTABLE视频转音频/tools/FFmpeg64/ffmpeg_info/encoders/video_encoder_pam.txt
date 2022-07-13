@@ -1,0 +1,5 @@
+Encoder pam [PAM (Portable AnyMap) image]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported pixel formats: rgb24 rgba rgb48be rgba64be gray ya8 gray16be ya16be monob
+

@@ -1,0 +1,5 @@
+Muxer wv [raw WavPack]:
+    Common extensions: wv.
+    Mime type: audio/x-wavpack.
+    Default audio codec: wavpack.
+

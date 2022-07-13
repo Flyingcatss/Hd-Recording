@@ -1,0 +1,7 @@
+Demuxer u16le [PCM unsigned 16-bit little-endian]:
+    Common extensions: uw.
+u16le demuxer AVOptions:
+  -sample_rate       <int>        .D.......  (from 0 to INT_MAX) (default 44100)
+  -channels          <int>        .D.......  (from 0 to INT_MAX) (default 1)
+
+

@@ -1,0 +1,8 @@
+Decoder flac [FLAC (Free Lossless Audio Codec)]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame
+    Supported sample formats: s16 s16p s32 s32p
+FLAC decoder AVOptions:
+  -use_buggy_lpc     <boolean>    .D..A.... emulate old buggy lavc behavior (default false)
+
+

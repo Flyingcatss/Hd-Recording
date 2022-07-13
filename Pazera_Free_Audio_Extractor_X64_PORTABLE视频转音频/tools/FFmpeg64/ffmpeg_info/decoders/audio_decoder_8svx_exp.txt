@@ -1,0 +1,5 @@
+Decoder 8svx_exp [8SVX exponential]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: u8p
+

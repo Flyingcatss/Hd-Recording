@@ -1,0 +1,5 @@
+Demuxer wav [WAV / WAVE (Waveform Audio)]:
+WAV demuxer AVOptions:
+  -ignore_length     <boolean>    .D....... Ignore length (default false)
+
+

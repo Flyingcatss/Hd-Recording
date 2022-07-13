@@ -1,0 +1,4 @@
+Decoder cinepak [Cinepak]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

@@ -1,0 +1,76 @@
+Filter noise
+  Add noise.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+noise AVOptions:
+  all_seed          <int>        ..FV..... set component #0 noise seed (from -1 to INT_MAX) (default -1)
+  all_strength      <int>        ..FV..... set component #0 strength (from 0 to 100) (default 0)
+  alls              <int>        ..FV..... set component #0 strength (from 0 to 100) (default 0)
+  all_flags         <flags>      ..FV..... set component #0 flags (default 0)
+     a                            ..FV..... averaged noise
+     p                            ..FV..... (semi)regular pattern
+     t                            ..FV..... temporal noise
+     u                            ..FV..... uniform noise
+  allf              <flags>      ..FV..... set component #0 flags (default 0)
+     a                            ..FV..... averaged noise
+     p                            ..FV..... (semi)regular pattern
+     t                            ..FV..... temporal noise
+     u                            ..FV..... uniform noise
+  c0_seed           <int>        ..FV..... set component #0 noise seed (from -1 to INT_MAX) (default -1)
+  c0_strength       <int>        ..FV..... set component #0 strength (from 0 to 100) (default 0)
+  c0s               <int>        ..FV..... set component #0 strength (from 0 to 100) (default 0)
+  c0_flags          <flags>      ..FV..... set component #0 flags (default 0)
+     a                            ..FV..... averaged noise
+     p                            ..FV..... (semi)regular pattern
+     t                            ..FV..... temporal noise
+     u                            ..FV..... uniform noise
+  c0f               <flags>      ..FV..... set component #0 flags (default 0)
+     a                            ..FV..... averaged noise
+     p                            ..FV..... (semi)regular pattern
+     t                            ..FV..... temporal noise
+     u                            ..FV..... uniform noise
+  c1_seed           <int>        ..FV..... set component #1 noise seed (from -1 to INT_MAX) (default -1)
+  c1_strength       <int>        ..FV..... set component #1 strength (from 0 to 100) (default 0)
+  c1s               <int>        ..FV..... set component #1 strength (from 0 to 100) (default 0)
+  c1_flags          <flags>      ..FV..... set component #1 flags (default 0)
+     a                            ..FV..... averaged noise
+     p                            ..FV..... (semi)regular pattern
+     t                            ..FV..... temporal noise
+     u                            ..FV..... uniform noise
+  c1f               <flags>      ..FV..... set component #1 flags (default 0)
+     a                            ..FV..... averaged noise
+     p                            ..FV..... (semi)regular pattern
+     t                            ..FV..... temporal noise
+     u                            ..FV..... uniform noise
+  c2_seed           <int>        ..FV..... set component #2 noise seed (from -1 to INT_MAX) (default -1)
+  c2_strength       <int>        ..FV..... set component #2 strength (from 0 to 100) (default 0)
+  c2s               <int>        ..FV..... set component #2 strength (from 0 to 100) (default 0)
+  c2_flags          <flags>      ..FV..... set component #2 flags (default 0)
+     a                            ..FV..... averaged noise
+     p                            ..FV..... (semi)regular pattern
+     t                            ..FV..... temporal noise
+     u                            ..FV..... uniform noise
+  c2f               <flags>      ..FV..... set component #2 flags (default 0)
+     a                            ..FV..... averaged noise
+     p                            ..FV..... (semi)regular pattern
+     t                            ..FV..... temporal noise
+     u                            ..FV..... uniform noise
+  c3_seed           <int>        ..FV..... set component #3 noise seed (from -1 to INT_MAX) (default -1)
+  c3_strength       <int>        ..FV..... set component #3 strength (from 0 to 100) (default 0)
+  c3s               <int>        ..FV..... set component #3 strength (from 0 to 100) (default 0)
+  c3_flags          <flags>      ..FV..... set component #3 flags (default 0)
+     a                            ..FV..... averaged noise
+     p                            ..FV..... (semi)regular pattern
+     t                            ..FV..... temporal noise
+     u                            ..FV..... uniform noise
+  c3f               <flags>      ..FV..... set component #3 flags (default 0)
+     a                            ..FV..... averaged noise
+     p                            ..FV..... (semi)regular pattern
+     t                            ..FV..... temporal noise
+     u                            ..FV..... uniform noise
+
+This filter has support for timeline through the 'enable' option.
+

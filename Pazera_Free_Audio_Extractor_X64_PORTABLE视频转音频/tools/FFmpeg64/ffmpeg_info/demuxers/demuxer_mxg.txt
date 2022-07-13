@@ -1,0 +1,3 @@
+Demuxer mxg [MxPEG clip]:
+    Common extensions: mxg.
+

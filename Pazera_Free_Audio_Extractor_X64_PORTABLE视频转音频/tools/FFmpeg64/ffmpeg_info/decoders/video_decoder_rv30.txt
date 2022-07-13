@@ -1,0 +1,5 @@
+Decoder rv30 [RealVideo 3.0]:
+    General capabilities: dr1 delay threads 
+    Threading capabilities: frame
+    Supported pixel formats: yuv420p
+

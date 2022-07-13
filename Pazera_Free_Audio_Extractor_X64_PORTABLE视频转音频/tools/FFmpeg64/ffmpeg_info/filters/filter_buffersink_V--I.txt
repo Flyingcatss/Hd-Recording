@@ -1,0 +1,10 @@
+Filter buffersink
+  Buffer video frames, and make them available to the end of the filter graph.
+    Inputs:
+       #0: default (video)
+    Outputs:
+        none (sink filter)
+buffersink AVOptions:
+  pix_fmts          <binary>     ..FV..... set the supported pixel formats
+
+

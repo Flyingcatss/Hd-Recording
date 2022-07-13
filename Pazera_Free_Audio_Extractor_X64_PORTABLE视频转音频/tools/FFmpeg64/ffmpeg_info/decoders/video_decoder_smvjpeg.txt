@@ -1,0 +1,4 @@
+Decoder smvjpeg [SMV JPEG]:
+    General capabilities: none
+    Threading capabilities: none
+

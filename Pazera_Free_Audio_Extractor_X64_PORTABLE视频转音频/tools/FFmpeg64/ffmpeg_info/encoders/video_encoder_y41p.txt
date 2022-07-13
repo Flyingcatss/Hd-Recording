@@ -1,0 +1,5 @@
+Encoder y41p [Uncompressed YUV 4:1:1 12-bit]:
+    General capabilities: intraonly 
+    Threading capabilities: none
+    Supported pixel formats: yuv411p
+

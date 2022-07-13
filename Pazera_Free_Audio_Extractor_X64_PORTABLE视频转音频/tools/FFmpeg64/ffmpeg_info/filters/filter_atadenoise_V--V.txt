@@ -1,0 +1,19 @@
+Filter atadenoise
+  Apply an Adaptive Temporal Averaging Denoiser.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+atadenoise AVOptions:
+  0a                <float>      ..FV..... set threshold A for 1st plane (from 0 to 0.3) (default 0.02)
+  0b                <float>      ..FV..... set threshold B for 1st plane (from 0 to 5) (default 0.04)
+  1a                <float>      ..FV..... set threshold A for 2nd plane (from 0 to 0.3) (default 0.02)
+  1b                <float>      ..FV..... set threshold B for 2nd plane (from 0 to 5) (default 0.04)
+  2a                <float>      ..FV..... set threshold A for 3rd plane (from 0 to 0.3) (default 0.02)
+  2b                <float>      ..FV..... set threshold B for 3rd plane (from 0 to 5) (default 0.04)
+  s                 <int>        ..FV..... set how many frames to use (from 5 to 129) (default 9)
+  p                 <flags>      ..FV..... set what planes to filter (default 7)
+
+This filter has support for timeline through the 'enable' option.
+

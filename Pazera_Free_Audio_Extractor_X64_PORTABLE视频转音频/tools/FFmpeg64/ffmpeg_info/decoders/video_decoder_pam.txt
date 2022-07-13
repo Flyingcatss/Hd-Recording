@@ -1,0 +1,4 @@
+Decoder pam [PAM (Portable AnyMap) image]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

@@ -1,0 +1,4 @@
+Decoder wmavoice [Windows Media Audio Voice]:
+    General capabilities: dr1 delay subframes 
+    Threading capabilities: none
+

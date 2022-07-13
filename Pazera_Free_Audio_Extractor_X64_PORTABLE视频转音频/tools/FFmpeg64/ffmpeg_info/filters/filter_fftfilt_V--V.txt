@@ -1,0 +1,19 @@
+Filter fftfilt
+  Apply arbitrary expressions to pixels in frequency domain.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+fftfilt AVOptions:
+  dc_Y              <int>        ..FV..... adjust gain in Y plane (from 0 to 1000) (default 0)
+  dc_U              <int>        ..FV..... adjust gain in U plane (from 0 to 1000) (default 0)
+  dc_V              <int>        ..FV..... adjust gain in V plane (from 0 to 1000) (default 0)
+  weight_Y          <string>     ..FV..... set luminance expression in Y plane (default "1")
+  weight_U          <string>     ..FV..... set chrominance expression in U plane
+  weight_V          <string>     ..FV..... set chrominance expression in V plane
+  eval              <int>        ..FV..... specify when to evaluate expressions (from 0 to 1) (default init)
+     init            0            ..FV..... eval expressions once during initialization
+     frame           1            ..FV..... eval expressions per-frame
+
+This filter has support for timeline through the 'enable' option.
+

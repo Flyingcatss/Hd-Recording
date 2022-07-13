@@ -1,0 +1,16 @@
+Filter maskedclamp
+  Clamp first stream with second stream and third stream.
+    slice threading supported
+    Inputs:
+       #0: base (video)
+       #1: dark (video)
+       #2: bright (video)
+    Outputs:
+       #0: default (video)
+maskedclamp AVOptions:
+  undershoot        <int>        ..FV..... set undershoot (from 0 to 65535) (default 0)
+  overshoot         <int>        ..FV..... set overshoot (from 0 to 65535) (default 0)
+  planes            <int>        ..FV..... set planes (from 0 to 15) (default 15)
+
+This filter has support for timeline through the 'enable' option.
+

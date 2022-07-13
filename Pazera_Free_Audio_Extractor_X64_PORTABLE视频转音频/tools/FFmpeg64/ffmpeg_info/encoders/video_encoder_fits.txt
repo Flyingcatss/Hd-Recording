@@ -1,0 +1,5 @@
+Encoder fits [Flexible Image Transport System]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported pixel formats: gbrap16be gbrp16be gbrp gbrap gray16be gray
+

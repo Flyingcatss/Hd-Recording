@@ -1,0 +1,4 @@
+Decoder pgm [PGM (Portable GrayMap) image]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

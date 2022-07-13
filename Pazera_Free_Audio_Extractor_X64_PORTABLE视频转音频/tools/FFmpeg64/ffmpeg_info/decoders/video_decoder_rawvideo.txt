@@ -1,0 +1,7 @@
+Decoder rawvideo [raw video]:
+    General capabilities: paramchange 
+    Threading capabilities: none
+rawdec AVOptions:
+  -top               <boolean>    .D.V..... top field first (default auto)
+
+

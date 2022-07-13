@@ -1,0 +1,4 @@
+Decoder thp [Nintendo Gamecube THP video]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

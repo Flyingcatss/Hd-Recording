@@ -1,0 +1,4 @@
+Encoder wrapped_avframe [AVFrame to AVPacket passthrough]:
+    General capabilities: none
+    Threading capabilities: none
+

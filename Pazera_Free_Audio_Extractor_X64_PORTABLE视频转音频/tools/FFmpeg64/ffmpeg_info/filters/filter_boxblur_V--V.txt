@@ -1,0 +1,22 @@
+Filter boxblur
+  Blur the input.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+boxblur AVOptions:
+  luma_radius       <string>     ..FV..... Radius of the luma blurring box (default "2")
+  lr                <string>     ..FV..... Radius of the luma blurring box (default "2")
+  luma_power        <int>        ..FV..... How many times should the boxblur be applied to luma (from 0 to INT_MAX) (default 2)
+  lp                <int>        ..FV..... How many times should the boxblur be applied to luma (from 0 to INT_MAX) (default 2)
+  chroma_radius     <string>     ..FV..... Radius of the chroma blurring box
+  cr                <string>     ..FV..... Radius of the chroma blurring box
+  chroma_power      <int>        ..FV..... How many times should the boxblur be applied to chroma (from -1 to INT_MAX) (default -1)
+  cp                <int>        ..FV..... How many times should the boxblur be applied to chroma (from -1 to INT_MAX) (default -1)
+  alpha_radius      <string>     ..FV..... Radius of the alpha blurring box
+  ar                <string>     ..FV..... Radius of the alpha blurring box
+  alpha_power       <int>        ..FV..... How many times should the boxblur be applied to alpha (from -1 to INT_MAX) (default -1)
+  ap                <int>        ..FV..... How many times should the boxblur be applied to alpha (from -1 to INT_MAX) (default -1)
+
+This filter has support for timeline through the 'enable' option.
+

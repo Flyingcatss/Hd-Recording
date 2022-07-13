@@ -1,0 +1,13 @@
+Filter mpdecimate
+  Remove near-duplicate frames.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+mpdecimate AVOptions:
+  max               <int>        ..FV..... set the maximum number of consecutive dropped frames (positive), or the minimum interval between dropped frames (negative) (from INT_MIN to INT_MAX) (default 0)
+  hi                <int>        ..FV..... set high dropping threshold (from INT_MIN to INT_MAX) (default 768)
+  lo                <int>        ..FV..... set low dropping threshold (from INT_MIN to INT_MAX) (default 320)
+  frac              <float>      ..FV..... set fraction dropping threshold (from 0 to 1) (default 0.33)
+
+

@@ -1,0 +1,4 @@
+Decoder xan_wc3 [Wing Commander III / Xan]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

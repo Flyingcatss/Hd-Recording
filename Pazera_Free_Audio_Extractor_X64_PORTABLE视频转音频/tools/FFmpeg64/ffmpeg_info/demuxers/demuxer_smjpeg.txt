@@ -1,0 +1,3 @@
+Demuxer smjpeg [Loki SDL MJPEG]:
+    Common extensions: mjpg.
+

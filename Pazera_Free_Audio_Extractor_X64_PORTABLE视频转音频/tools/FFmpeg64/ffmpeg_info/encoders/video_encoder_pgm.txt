@@ -1,0 +1,5 @@
+Encoder pgm [PGM (Portable GrayMap) image]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported pixel formats: gray gray16be
+

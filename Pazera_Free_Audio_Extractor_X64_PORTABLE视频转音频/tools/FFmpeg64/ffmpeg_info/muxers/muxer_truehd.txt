@@ -1,0 +1,4 @@
+Muxer truehd [raw TrueHD]:
+    Common extensions: thd.
+    Default audio codec: truehd.
+

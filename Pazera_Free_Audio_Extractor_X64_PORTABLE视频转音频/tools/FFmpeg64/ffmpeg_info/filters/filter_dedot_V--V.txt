@@ -1,0 +1,18 @@
+Filter dedot
+  Reduce cross-luminance and cross-color.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+dedot AVOptions:
+  m                 <flags>      ..FV..... set filtering mode (default dotcrawl+rainbows)
+     dotcrawl                     ..FV.....
+     rainbows                     ..FV.....
+  lt                <float>      ..FV..... set spatial luma threshold (from 0 to 1) (default 0.079)
+  tl                <float>      ..FV..... set tolerance for temporal luma (from 0 to 1) (default 0.079)
+  tc                <float>      ..FV..... set tolerance for chroma temporal variation (from 0 to 1) (default 0.058)
+  ct                <float>      ..FV..... set temporal chroma threshold (from 0 to 1) (default 0.019)
+
+This filter has support for timeline through the 'enable' option.
+

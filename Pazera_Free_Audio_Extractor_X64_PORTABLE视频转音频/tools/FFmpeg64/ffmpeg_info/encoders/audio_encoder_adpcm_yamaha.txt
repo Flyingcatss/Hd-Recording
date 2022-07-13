@@ -1,0 +1,5 @@
+Encoder adpcm_yamaha [ADPCM Yamaha]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported sample formats: s16
+

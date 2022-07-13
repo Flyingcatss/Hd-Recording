@@ -1,0 +1,15 @@
+Encoder jpeg2000 [JPEG 2000]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported pixel formats: rgb24 yuv444p gray yuv420p yuv422p yuv410p yuv411p pal8
+jpeg 2000 encoder AVOptions:
+  -format            <int>        E..V..... Codec Format (from 0 to 1) (default jp2)
+     j2k             0            E..V.....
+     jp2             1            E..V.....
+  -tile_width        <int>        E..V..... Tile Width (from 1 to 1.07374e+009) (default 256)
+  -tile_height       <int>        E..V..... Tile Height (from 1 to 1.07374e+009) (default 256)
+  -pred              <int>        E..V..... DWT Type (from 0 to 1) (default dwt97int)
+     dwt97int        0            E..V.....
+     dwt53           0            E..V.....
+
+

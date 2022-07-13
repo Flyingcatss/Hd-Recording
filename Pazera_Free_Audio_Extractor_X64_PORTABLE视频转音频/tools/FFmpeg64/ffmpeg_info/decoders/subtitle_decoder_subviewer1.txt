@@ -1,0 +1,6 @@
+Decoder subviewer1 [SubViewer1 subtitle]:
+    General capabilities: none
+subviewer1 decoder AVOptions:
+  -keep_ass_markup   <boolean>    .D...S... Set if ASS tags must be escaped (default false)
+
+

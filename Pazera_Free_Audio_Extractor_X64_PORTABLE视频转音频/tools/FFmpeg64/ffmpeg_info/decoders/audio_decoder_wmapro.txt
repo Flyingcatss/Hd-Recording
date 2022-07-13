@@ -1,0 +1,5 @@
+Decoder wmapro [Windows Media Audio 9 Professional]:
+    General capabilities: dr1 subframes 
+    Threading capabilities: none
+    Supported sample formats: fltp
+

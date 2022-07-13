@@ -1,0 +1,6 @@
+Encoder s302m [SMPTE 302M]:
+    General capabilities: exp variable 
+    Threading capabilities: none
+    Supported sample rates: 48000
+    Supported sample formats: s32 s16
+

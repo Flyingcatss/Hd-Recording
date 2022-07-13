@@ -1,0 +1,24 @@
+Filter bm3d
+  Block-Matching 3D denoiser.
+    slice threading supported
+    Inputs:
+        dynamic (depending on the options)
+    Outputs:
+       #0: default (video)
+bm3d AVOptions:
+  sigma             <float>      ..FV..... set denoising strength (from 0 to 99999.9) (default 1)
+  block             <int>        ..FV..... set log2(size) of local patch (from 4 to 6) (default 4)
+  bstep             <int>        ..FV..... set sliding step for processing blocks (from 1 to 64) (default 4)
+  group             <int>        ..FV..... set maximal number of similar blocks (from 1 to 256) (default 1)
+  range             <int>        ..FV..... set block matching range (from 1 to INT_MAX) (default 9)
+  mstep             <int>        ..FV..... set step for block matching (from 1 to 64) (default 1)
+  thmse             <float>      ..FV..... set threshold of mean square error for block matching (from 0 to INT_MAX) (default 0)
+  hdthr             <float>      ..FV..... set hard threshold for 3D transfer domain (from 0 to INT_MAX) (default 2.7)
+  estim             <int>        ..FV..... set filtering estimation mode (from 0 to 1) (default basic)
+     basic           0            ..FV..... basic estimate
+     final           1            ..FV..... final estimate
+  ref               <int>        ..FV..... have reference stream (from 0 to 1) (default 0)
+  planes            <int>        ..FV..... set planes to filter (from 0 to 15) (default 7)
+
+This filter has support for timeline through the 'enable' option.
+

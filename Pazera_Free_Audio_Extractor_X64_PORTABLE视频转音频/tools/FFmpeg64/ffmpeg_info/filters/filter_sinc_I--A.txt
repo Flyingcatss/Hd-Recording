@@ -1,0 +1,21 @@
+Filter sinc
+  Generate a sinc kaiser-windowed low-pass, high-pass, band-pass, or band-reject FIR coefficients.
+    Inputs:
+        none (source filter)
+    Outputs:
+       #0: default (audio)
+sinc AVOptions:
+  sample_rate       <int>        ..F.A.... set sample rate (from 1 to INT_MAX) (default 44100)
+  r                 <int>        ..F.A.... set sample rate (from 1 to INT_MAX) (default 44100)
+  nb_samples        <int>        ..F.A.... set the number of samples per requested frame (from 1 to INT_MAX) (default 1024)
+  n                 <int>        ..F.A.... set the number of samples per requested frame (from 1 to INT_MAX) (default 1024)
+  hp                <float>      ..F.A.... set high-pass filter frequency (from 0 to INT_MAX) (default 0)
+  lp                <float>      ..F.A.... set low-pass filter frequency (from 0 to INT_MAX) (default 0)
+  phase             <float>      ..F.A.... set filter phase response (from 0 to 100) (default 50)
+  beta              <float>      ..F.A.... set kaiser window beta (from -1 to 256) (default -1)
+  att               <float>      ..F.A.... set stop-band attenuation (from 40 to 180) (default 120)
+  round             <boolean>    ..F.A.... enable rounding (default false)
+  hptaps            <int>        ..F.A.... set number of taps for high-pass filter (from 0 to 32768) (default 0)
+  lptaps            <int>        ..F.A.... set number of taps for low-pass filter (from 0 to 32768) (default 0)
+
+

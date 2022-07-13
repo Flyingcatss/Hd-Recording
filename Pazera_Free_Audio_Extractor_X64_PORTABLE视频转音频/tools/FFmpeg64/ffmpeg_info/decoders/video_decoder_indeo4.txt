@@ -1,0 +1,4 @@
+Decoder indeo4 [Intel Indeo Video Interactive 4]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

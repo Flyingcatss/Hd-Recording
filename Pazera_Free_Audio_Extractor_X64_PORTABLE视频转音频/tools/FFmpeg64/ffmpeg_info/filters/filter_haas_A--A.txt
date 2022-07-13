@@ -1,0 +1,26 @@
+Filter haas
+  Apply Haas Stereo Enhancer.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+haas AVOptions:
+  level_in          <double>     ..F.A.... set level in (from 0.015625 to 64) (default 1)
+  level_out         <double>     ..F.A.... set level out (from 0.015625 to 64) (default 1)
+  side_gain         <double>     ..F.A.... set side gain (from 0.015625 to 64) (default 1)
+  middle_source     <int>        ..F.A.... set middle source (from 0 to 3) (default mid)
+     left            0            ..F.A....
+     right           1            ..F.A....
+     mid             2            ..F.A.... L+R
+     side            3            ..F.A.... L-R
+  middle_phase      <boolean>    ..F.A.... set middle phase (default false)
+  left_delay        <double>     ..F.A.... set left delay (from 0 to 40) (default 2.05)
+  left_balance      <double>     ..F.A.... set left balance (from -1 to 1) (default -1)
+  left_gain         <double>     ..F.A.... set left gain (from 0.015625 to 64) (default 1)
+  left_phase        <boolean>    ..F.A.... set left phase (default false)
+  right_delay       <double>     ..F.A.... set right delay (from 0 to 40) (default 2.12)
+  right_balance     <double>     ..F.A.... set right balance (from -1 to 1) (default 1)
+  right_gain        <double>     ..F.A.... set right gain (from 0.015625 to 64) (default 1)
+  right_phase       <boolean>    ..F.A.... set right phase (default true)
+
+

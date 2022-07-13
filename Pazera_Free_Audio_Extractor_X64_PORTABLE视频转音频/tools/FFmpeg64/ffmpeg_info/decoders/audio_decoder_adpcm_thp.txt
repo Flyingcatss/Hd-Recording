@@ -1,0 +1,5 @@
+Decoder adpcm_thp [ADPCM Nintendo THP]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: s16p
+

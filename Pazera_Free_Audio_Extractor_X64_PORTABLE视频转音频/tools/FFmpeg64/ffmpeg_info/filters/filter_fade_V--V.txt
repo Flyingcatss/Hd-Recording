@@ -1,0 +1,23 @@
+Filter fade
+  Fade in/out input video.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+fade AVOptions:
+  type              <int>        ..FV..... 'in' or 'out' for fade-in/fade-out (from 0 to 1) (default in)
+  t                 <int>        ..FV..... 'in' or 'out' for fade-in/fade-out (from 0 to 1) (default in)
+  start_frame       <int>        ..FV..... Number of the first frame to which to apply the effect. (from 0 to INT_MAX) (default 0)
+  s                 <int>        ..FV..... Number of the first frame to which to apply the effect. (from 0 to INT_MAX) (default 0)
+  nb_frames         <int>        ..FV..... Number of frames to which the effect should be applied. (from 1 to INT_MAX) (default 25)
+  n                 <int>        ..FV..... Number of frames to which the effect should be applied. (from 1 to INT_MAX) (default 25)
+  alpha             <boolean>    ..FV..... fade alpha if it is available on the input (default false)
+  start_time        <duration>   ..FV..... Number of seconds of the beginning of the effect. (default 0)
+  st                <duration>   ..FV..... Number of seconds of the beginning of the effect. (default 0)
+  duration          <duration>   ..FV..... Duration of the effect in seconds. (default 0)
+  d                 <duration>   ..FV..... Duration of the effect in seconds. (default 0)
+  color             <color>      ..FV..... set color (default "black")
+  c                 <color>      ..FV..... set color (default "black")
+
+

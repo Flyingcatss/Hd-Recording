@@ -1,0 +1,4 @@
+Decoder txd [Renderware TXD (TeXture Dictionary) image]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

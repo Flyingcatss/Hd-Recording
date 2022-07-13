@@ -1,0 +1,8 @@
+Demuxer sbg [SBaGen binaural beats script]:
+    Common extensions: sbg.
+sbg_demuxer AVOptions:
+  -sample_rate       <int>        .D.......  (from 0 to INT_MAX) (default 0)
+  -frame_size        <int>        .D.......  (from 0 to INT_MAX) (default 0)
+  -max_file_size     <int>        .D.......  (from 0 to INT_MAX) (default 5000000)
+
+

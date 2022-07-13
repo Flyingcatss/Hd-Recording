@@ -1,0 +1,5 @@
+Muxer oma [Sony OpenMG audio]:
+    Common extensions: oma.
+    Mime type: audio/x-oma.
+    Default audio codec: atrac3.
+

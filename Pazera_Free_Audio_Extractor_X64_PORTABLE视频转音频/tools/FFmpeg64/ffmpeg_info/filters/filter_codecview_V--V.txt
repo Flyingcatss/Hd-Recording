@@ -1,0 +1,29 @@
+Filter codecview
+  Visualize information about some codecs.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+codecview AVOptions:
+  mv                <flags>      ..FV..... set motion vectors to visualize (default 0)
+     pf                           ..FV..... forward predicted MVs of P-frames
+     bf                           ..FV..... forward predicted MVs of B-frames
+     bb                           ..FV..... backward predicted MVs of B-frames
+  qp                <boolean>    ..FV..... (default false)
+  mv_type           <flags>      ..FV..... set motion vectors type (default 0)
+     fp                           ..FV..... forward predicted MVs
+     bp                           ..FV..... backward predicted MVs
+  mvt               <flags>      ..FV..... set motion vectors type (default 0)
+     fp                           ..FV..... forward predicted MVs
+     bp                           ..FV..... backward predicted MVs
+  frame_type        <flags>      ..FV..... set frame types to visualize motion vectors of (default 0)
+     if                           ..FV..... I-frames
+     pf                           ..FV..... P-frames
+     bf                           ..FV..... B-frames
+  ft                <flags>      ..FV..... set frame types to visualize motion vectors of (default 0)
+     if                           ..FV..... I-frames
+     pf                           ..FV..... P-frames
+     bf                           ..FV..... B-frames
+
+This filter has support for timeline through the 'enable' option.
+

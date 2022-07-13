@@ -1,0 +1,16 @@
+Filter maskfun
+  Create Mask.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+maskfun AVOptions:
+  low               <int>        ..FV..... set low threshold (from 0 to 65535) (default 10)
+  high              <int>        ..FV..... set high threshold (from 0 to 65535) (default 10)
+  planes            <int>        ..FV..... set planes (from 0 to 15) (default 15)
+  fill              <int>        ..FV..... set fill value (from 0 to 65535) (default 0)
+  sum               <int>        ..FV..... set sum value (from 0 to 65535) (default 10)
+
+This filter has support for timeline through the 'enable' option.
+

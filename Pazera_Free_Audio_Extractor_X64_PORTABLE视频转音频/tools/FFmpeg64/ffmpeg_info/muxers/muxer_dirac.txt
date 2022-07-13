@@ -1,0 +1,4 @@
+Muxer dirac [raw Dirac]:
+    Common extensions: drc,vc2.
+    Default video codec: dirac.
+

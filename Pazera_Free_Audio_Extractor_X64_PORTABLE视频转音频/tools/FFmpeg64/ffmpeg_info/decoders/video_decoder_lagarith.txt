@@ -1,0 +1,4 @@
+Decoder lagarith [Lagarith lossless]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame
+

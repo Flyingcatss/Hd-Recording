@@ -1,0 +1,5 @@
+Decoder dst [DST (Digital Stream Transfer)]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: flt
+

@@ -1,0 +1,11 @@
+Filter channelmap
+  Remap audio channels.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+channelmap AVOptions:
+  map               <string>     ..F.A.... A comma-separated list of input channel numbers in output order.
+  channel_layout    <string>     ..F.A.... Output channel layout.
+
+

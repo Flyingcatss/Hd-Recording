@@ -1,0 +1,13 @@
+Filter freezedetect
+  Detects frozen video input.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+freezedetect AVOptions:
+  n                 <double>     ..FV..... set noise tolerance (from 0 to 1) (default 0.001)
+  noise             <double>     ..FV..... set noise tolerance (from 0 to 1) (default 0.001)
+  d                 <duration>   ..FV..... set minimum duration in seconds (default 2)
+  duration          <duration>   ..FV..... set minimum duration in seconds (default 2)
+
+

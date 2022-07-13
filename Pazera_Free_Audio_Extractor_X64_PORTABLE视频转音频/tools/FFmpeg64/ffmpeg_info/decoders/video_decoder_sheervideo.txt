@@ -1,0 +1,4 @@
+Decoder sheervideo [BitJazz SheerVideo]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame
+

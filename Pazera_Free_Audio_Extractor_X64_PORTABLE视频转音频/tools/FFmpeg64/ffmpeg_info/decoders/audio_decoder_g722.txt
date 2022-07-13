@@ -1,0 +1,7 @@
+Decoder g722 [G.722 ADPCM]:
+    General capabilities: dr1 
+    Threading capabilities: none
+g722 decoder AVOptions:
+  -bits_per_codeword <int>        .D..A.... Bits per G722 codeword (from 6 to 8) (default 8)
+
+

@@ -1,0 +1,12 @@
+Filter blackframe
+  Detect frames that are (almost) black.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+blackframe AVOptions:
+  amount            <int>        ..FV..... percentage of the pixels that have to be below the threshold for the frame to be considered black (from 0 to 100) (default 98)
+  threshold         <int>        ..FV..... threshold below which a pixel value is considered black (from 0 to 255) (default 32)
+  thresh            <int>        ..FV..... threshold below which a pixel value is considered black (from 0 to 255) (default 32)
+
+

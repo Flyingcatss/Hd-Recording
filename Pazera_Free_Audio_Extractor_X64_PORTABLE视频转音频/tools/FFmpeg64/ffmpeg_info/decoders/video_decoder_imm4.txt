@@ -1,0 +1,4 @@
+Decoder imm4 [Infinity IMM4]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

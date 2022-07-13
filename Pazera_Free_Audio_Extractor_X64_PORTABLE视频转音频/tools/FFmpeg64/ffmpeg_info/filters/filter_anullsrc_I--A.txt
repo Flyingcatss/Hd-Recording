@@ -1,0 +1,15 @@
+Filter anullsrc
+  Null audio source, return empty audio frames.
+    Inputs:
+        none (source filter)
+    Outputs:
+       #0: default (audio)
+anullsrc AVOptions:
+  channel_layout    <string>     ..F.A.... set channel_layout (default "stereo")
+  cl                <string>     ..F.A.... set channel_layout (default "stereo")
+  sample_rate       <string>     ..F.A.... set sample rate (default "44100")
+  r                 <string>     ..F.A.... set sample rate (default "44100")
+  nb_samples        <int>        ..F.A.... set the number of samples per requested frame (from 0 to INT_MAX) (default 1024)
+  n                 <int>        ..F.A.... set the number of samples per requested frame (from 0 to INT_MAX) (default 1024)
+
+

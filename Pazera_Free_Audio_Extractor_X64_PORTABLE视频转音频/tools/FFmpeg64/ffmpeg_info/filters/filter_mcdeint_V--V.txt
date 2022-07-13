@@ -1,0 +1,18 @@
+Filter mcdeint
+  Apply motion compensating deinterlacing.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+mcdeint AVOptions:
+  mode              <int>        ..FV..... set mode (from 0 to 3) (default fast)
+     fast            0            ..FV.....
+     medium          1            ..FV.....
+     slow            2            ..FV.....
+     extra_slow      3            ..FV.....
+  parity            <int>        ..FV..... set the assumed picture field parity (from -1 to 1) (default bff)
+     tff             0            ..FV..... assume top field first
+     bff             1            ..FV..... assume bottom field first
+  qp                <int>        ..FV..... set qp (from INT_MIN to INT_MAX) (default 1)
+
+

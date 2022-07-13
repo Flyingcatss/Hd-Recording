@@ -1,0 +1,5 @@
+Encoder asv2 [ASUS V2]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported pixel formats: yuv420p
+

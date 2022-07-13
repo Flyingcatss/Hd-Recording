@@ -1,0 +1,4 @@
+Decoder qdm2 [QDesign Music Codec 2]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

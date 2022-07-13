@@ -1,0 +1,15 @@
+Filter addroi
+  Add region of interest to frame.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+addroi AVOptions:
+  x                 <string>     ..FV..... Region distance from left edge of frame. (default "0")
+  y                 <string>     ..FV..... Region distance from top edge of frame. (default "0")
+  w                 <string>     ..FV..... Region width. (default "0")
+  h                 <string>     ..FV..... Region height. (default "0")
+  qoffset           <rational>   ..FV..... Quantisation offset to apply in the region. (from -1 to 1) (default -1/10)
+  clear             <boolean>    ..FV..... Remove any existing regions of interest before adding the new one. (default false)
+
+

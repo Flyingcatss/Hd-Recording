@@ -1,0 +1,23 @@
+Filter signature
+  Calculate the MPEG-7 video signature
+    Inputs:
+        dynamic (depending on the options)
+    Outputs:
+       #0: default (video)
+signature AVOptions:
+  detectmode        <int>        ..FV..... set the detectmode (from 0 to 2) (default off)
+     off             0            ..FV.....
+     full            1            ..FV.....
+     fast            2            ..FV.....
+  nb_inputs         <int>        ..FV..... number of inputs (from 1 to INT_MAX) (default 1)
+  filename          <string>     ..FV..... filename for output files (default "")
+  format            <int>        ..FV..... set output format (from 0 to 1) (default binary)
+     binary          0            ..FV.....
+     xml             1            ..FV.....
+  th_d              <int>        ..FV..... threshold to detect one word as similar (from 1 to INT_MAX) (default 9000)
+  th_dc             <int>        ..FV..... threshold to detect all words as similar (from 1 to INT_MAX) (default 60000)
+  th_xh             <int>        ..FV..... threshold to detect frames as similar (from 1 to INT_MAX) (default 116)
+  th_di             <int>        ..FV..... minimum length of matching sequence in frames (from 0 to INT_MAX) (default 0)
+  th_it             <double>     ..FV..... threshold for relation of good to all frames (from 0 to 1) (default 0.5)
+
+

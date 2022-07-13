@@ -1,0 +1,7 @@
+Demuxer apng [Animated Portable Network Graphics]:
+APNG demuxer AVOptions:
+  -ignore_loop       <boolean>    .D....... ignore loop setting (default true)
+  -max_fps           <int>        .D....... maximum framerate (0 is no limit) (from 0 to INT_MAX) (default 0)
+  -default_fps       <int>        .D....... default framerate (0 is as fast as possible) (from 0 to INT_MAX) (default 15)
+
+

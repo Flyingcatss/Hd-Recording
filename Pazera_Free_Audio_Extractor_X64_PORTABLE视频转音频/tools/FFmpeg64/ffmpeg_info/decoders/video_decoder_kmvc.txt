@@ -1,0 +1,4 @@
+Decoder kmvc [Karl Morton's video codec]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

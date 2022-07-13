@@ -1,0 +1,4 @@
+Decoder r210 [Uncompressed RGB 10-bit]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

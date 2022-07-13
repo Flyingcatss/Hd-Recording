@@ -1,0 +1,7 @@
+Filter replaygain
+  ReplayGain scanner.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+

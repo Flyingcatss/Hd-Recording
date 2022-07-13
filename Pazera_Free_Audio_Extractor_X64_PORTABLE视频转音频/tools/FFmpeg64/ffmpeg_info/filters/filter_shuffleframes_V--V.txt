@@ -1,0 +1,11 @@
+Filter shuffleframes
+  Shuffle video frames.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+shuffleframes AVOptions:
+  mapping           <string>     ..FV..... set destination indexes of input frames (default "0")
+
+This filter has support for timeline through the 'enable' option.
+

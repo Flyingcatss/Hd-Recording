@@ -1,0 +1,5 @@
+Decoder rv20 [RealVideo 2.0]:
+    General capabilities: dr1 delay 
+    Threading capabilities: none
+    Supported pixel formats: yuv420p
+

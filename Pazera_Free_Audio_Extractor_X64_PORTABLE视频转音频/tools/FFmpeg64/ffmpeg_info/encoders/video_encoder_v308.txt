@@ -1,0 +1,5 @@
+Encoder v308 [Uncompressed packed 4:4:4]:
+    General capabilities: intraonly 
+    Threading capabilities: none
+    Supported pixel formats: yuv444p
+

@@ -1,0 +1,5 @@
+Decoder wmv2 [Windows Media Video 8]:
+    General capabilities: horizband dr1 
+    Threading capabilities: none
+    Supported pixel formats: yuv420p
+

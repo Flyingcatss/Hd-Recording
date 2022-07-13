@@ -1,0 +1,5 @@
+Decoder shorten [Shorten]:
+    General capabilities: dr1 delay subframes 
+    Threading capabilities: none
+    Supported sample formats: s16p u8p
+

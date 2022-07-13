@@ -1,0 +1,6 @@
+Decoder cc_dec [Closed Caption (EIA-608 / CEA-708)]:
+    General capabilities: none
+Closed caption Decoder AVOptions:
+  -real_time         <boolean>    .D...S... emit subtitle events as they are decoded for real-time display (default false)
+
+

@@ -1,0 +1,5 @@
+Encoder pbm [PBM (Portable BitMap) image]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported pixel formats: monow
+

@@ -1,0 +1,4 @@
+Muxer crc [CRC testing]:
+    Default video codec: rawvideo.
+    Default audio codec: pcm_s16le.
+

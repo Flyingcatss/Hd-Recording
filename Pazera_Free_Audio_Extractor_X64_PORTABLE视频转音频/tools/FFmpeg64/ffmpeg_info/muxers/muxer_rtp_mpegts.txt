@@ -1,0 +1,4 @@
+Muxer rtp_mpegts [RTP/mpegts output format]:
+    Default video codec: mpeg4.
+    Default audio codec: aac.
+

@@ -1,0 +1,6 @@
+Demuxer vobsub [VobSub subtitle format]:
+    Common extensions: idx.
+vobsub AVOptions:
+  -sub_name          <string>     .D....... URI for .sub file
+
+

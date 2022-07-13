@@ -1,0 +1,13 @@
+Filter sendcmd
+  Send commands to filters.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+sendcmd AVOptions:
+  commands          <string>     ..FVA.... set commands
+  c                 <string>     ..FVA.... set commands
+  filename          <string>     ..FVA.... set commands file
+  f                 <string>     ..FVA.... set commands file
+
+

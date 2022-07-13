@@ -1,0 +1,22 @@
+Filter rgbashift
+  Shift RGBA.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+rgbashift AVOptions:
+  rh                <int>        ..FV..... shift red horizontally (from -255 to 255) (default 0)
+  rv                <int>        ..FV..... shift red vertically (from -255 to 255) (default 0)
+  gh                <int>        ..FV..... shift green horizontally (from -255 to 255) (default 0)
+  gv                <int>        ..FV..... shift green vertically (from -255 to 255) (default 0)
+  bh                <int>        ..FV..... shift blue horizontally (from -255 to 255) (default 0)
+  bv                <int>        ..FV..... shift blue vertically (from -255 to 255) (default 0)
+  ah                <int>        ..FV..... shift alpha horizontally (from -255 to 255) (default 0)
+  av                <int>        ..FV..... shift alpha vertically (from -255 to 255) (default 0)
+  edge              <int>        ..FV..... set edge operation (from 0 to 1) (default smear)
+     smear           0            ..FV.....
+     wrap            1            ..FV.....
+
+This filter has support for timeline through the 'enable' option.
+

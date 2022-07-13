@@ -1,0 +1,8 @@
+Encoder libvo_amrwbenc [Android VisualOn AMR-WB (Adaptive Multi-Rate Wide-Band)]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported sample formats: s16
+libvo_amrwbenc AVOptions:
+  -dtx               <int>        E...A.... Allow DTX (generate comfort noise) (from 0 to 1) (default 0)
+
+

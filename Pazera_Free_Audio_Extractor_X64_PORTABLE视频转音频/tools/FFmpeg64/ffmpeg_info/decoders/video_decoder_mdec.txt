@@ -1,0 +1,4 @@
+Decoder mdec [Sony PlayStation MDEC (Motion DECoder)]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame
+

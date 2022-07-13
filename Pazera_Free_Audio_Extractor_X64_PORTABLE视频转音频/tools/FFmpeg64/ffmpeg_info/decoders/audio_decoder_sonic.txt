@@ -1,0 +1,4 @@
+Decoder sonic [Sonic]:
+    General capabilities: dr1 exp 
+    Threading capabilities: none
+

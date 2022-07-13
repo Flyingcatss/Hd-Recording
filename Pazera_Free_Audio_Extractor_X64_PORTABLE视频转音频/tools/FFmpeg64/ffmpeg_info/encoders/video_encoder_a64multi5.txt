@@ -1,0 +1,5 @@
+Encoder a64multi5 [Multicolor charset for Commodore 64, extended with 5th color (colram)]:
+    General capabilities: delay 
+    Threading capabilities: none
+    Supported pixel formats: gray
+

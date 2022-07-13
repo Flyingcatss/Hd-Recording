@@ -1,0 +1,5 @@
+Encoder zmbv [Zip Motion Blocks Video]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported pixel formats: pal8 rgb555le rgb565le bgr0
+

@@ -1,0 +1,7 @@
+Demuxer mpegtsraw [raw MPEG-TS (MPEG-2 Transport Stream)]:
+mpegtsraw demuxer AVOptions:
+  -resync_size       <int>        .D....... set size limit for looking up a new synchronization (from 0 to INT_MAX) (default 65536)
+  -compute_pcr       <boolean>    .D....... compute exact PCR for each transport stream packet (default false)
+  -ts_packetsize     <int>        .D....XR. output option carrying the raw packet size (from 0 to 0) (default 0)
+
+

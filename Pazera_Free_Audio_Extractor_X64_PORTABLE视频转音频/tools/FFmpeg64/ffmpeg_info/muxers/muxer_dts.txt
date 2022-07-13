@@ -1,0 +1,5 @@
+Muxer dts [raw DTS]:
+    Common extensions: dts.
+    Mime type: audio/x-dca.
+    Default audio codec: dts.
+

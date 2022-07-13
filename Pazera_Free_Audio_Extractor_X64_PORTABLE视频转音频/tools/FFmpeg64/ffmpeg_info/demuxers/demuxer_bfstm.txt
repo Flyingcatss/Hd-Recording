@@ -1,0 +1,3 @@
+Demuxer bfstm [BFSTM (Binary Cafe Stream)]:
+    Common extensions: bfstm,bcstm.
+

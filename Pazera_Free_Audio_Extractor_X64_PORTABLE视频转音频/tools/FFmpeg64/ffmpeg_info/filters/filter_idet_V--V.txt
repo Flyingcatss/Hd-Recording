@@ -1,0 +1,14 @@
+Filter idet
+  Interlace detect Filter.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+idet AVOptions:
+  intl_thres        <float>      ..FV..... set interlacing threshold (from -1 to FLT_MAX) (default 1.04)
+  prog_thres        <float>      ..FV..... set progressive threshold (from -1 to FLT_MAX) (default 1.5)
+  rep_thres         <float>      ..FV..... set repeat threshold (from -1 to FLT_MAX) (default 3)
+  half_life         <float>      ..FV..... half life of cumulative statistics (from -1 to INT_MAX) (default 0)
+  analyze_interlaced_flag <int>        ..FV..... set number of frames to use to determine if the interlace flag is accurate (from 0 to INT_MAX) (default 0)
+
+

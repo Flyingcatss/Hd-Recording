@@ -1,0 +1,4 @@
+Decoder avrn [Avid AVI Codec]:
+    General capabilities: none
+    Threading capabilities: none
+

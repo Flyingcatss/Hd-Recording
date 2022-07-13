@@ -1,0 +1,3 @@
+Demuxer pjs [PJS (Phoenix Japanimation Society) subtitles]:
+    Common extensions: pjs.
+

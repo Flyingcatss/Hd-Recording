@@ -1,0 +1,19 @@
+Filter anlmdn
+  Reduce broadband noise from stream using Non-Local Means.
+    slice threading supported
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+anlmdn AVOptions:
+  s                 <float>      ..F.A.... set denoising strength (from 1e-005 to 10) (default 1e-005)
+  p                 <duration>   ..F.A.... set patch duration (default 0.002)
+  r                 <duration>   ..F.A.... set research duration (default 0.006)
+  o                 <int>        ..F.A.... set output mode (from 0 to 2) (default o)
+     i               0            ..F.A.... input
+     o               1            ..F.A.... output
+     n               2            ..F.A.... noise
+  m                 <float>      ..F.A.... set smooth factor (from 1 to 15) (default 11)
+
+This filter has support for timeline through the 'enable' option.
+

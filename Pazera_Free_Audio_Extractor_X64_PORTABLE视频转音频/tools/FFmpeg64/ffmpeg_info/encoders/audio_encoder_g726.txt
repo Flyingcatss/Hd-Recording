@@ -1,0 +1,8 @@
+Encoder g726 [G.726 ADPCM]:
+    General capabilities: small 
+    Threading capabilities: none
+    Supported sample formats: s16
+g726 AVOptions:
+  -code_size         <int>        E...A.... Bits per code (from 2 to 5) (default 4)
+
+

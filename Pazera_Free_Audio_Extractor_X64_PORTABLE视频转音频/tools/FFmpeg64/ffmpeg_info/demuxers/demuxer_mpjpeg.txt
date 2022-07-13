@@ -1,0 +1,6 @@
+Demuxer mpjpeg [MIME multipart JPEG]:
+    Common extensions: mjpg.
+MPJPEG demuxer AVOptions:
+  -strict_mime_boundary <boolean>    .D....... require MIME boundaries match (default false)
+
+

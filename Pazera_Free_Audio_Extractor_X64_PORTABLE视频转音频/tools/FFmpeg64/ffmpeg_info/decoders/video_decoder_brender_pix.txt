@@ -1,0 +1,4 @@
+Decoder brender_pix [BRender PIX image]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

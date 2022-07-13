@@ -1,0 +1,4 @@
+Decoder g726le [G.726 ADPCM little-endian]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

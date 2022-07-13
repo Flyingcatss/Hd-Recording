@@ -1,0 +1,5 @@
+Decoder h263i [Intel H.263]:
+    General capabilities: horizband dr1 
+    Threading capabilities: none
+    Supported pixel formats: yuv420p
+

@@ -1,0 +1,4 @@
+Decoder lscr [LEAD Screen Capture]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

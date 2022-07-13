@@ -1,0 +1,5 @@
+Encoder pcm_s16le [PCM signed 16-bit little-endian]:
+    General capabilities: variable 
+    Threading capabilities: none
+    Supported sample formats: s16
+

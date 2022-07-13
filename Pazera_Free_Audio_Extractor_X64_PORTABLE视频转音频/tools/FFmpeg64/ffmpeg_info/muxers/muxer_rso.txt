@@ -1,0 +1,4 @@
+Muxer rso [Lego Mindstorms RSO]:
+    Common extensions: rso.
+    Default audio codec: pcm_u8.
+

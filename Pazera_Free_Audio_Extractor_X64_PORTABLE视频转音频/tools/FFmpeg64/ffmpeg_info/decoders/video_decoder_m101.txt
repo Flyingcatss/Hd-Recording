@@ -1,0 +1,4 @@
+Decoder m101 [Matrox Uncompressed SD]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

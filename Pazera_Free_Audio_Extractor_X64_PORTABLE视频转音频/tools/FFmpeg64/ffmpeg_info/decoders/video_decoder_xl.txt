@@ -1,0 +1,4 @@
+Decoder xl [Miro VideoXL]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

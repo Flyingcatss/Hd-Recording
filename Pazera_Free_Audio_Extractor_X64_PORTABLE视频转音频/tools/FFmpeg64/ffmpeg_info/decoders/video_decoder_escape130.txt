@@ -1,0 +1,4 @@
+Decoder escape130 [Escape 130]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

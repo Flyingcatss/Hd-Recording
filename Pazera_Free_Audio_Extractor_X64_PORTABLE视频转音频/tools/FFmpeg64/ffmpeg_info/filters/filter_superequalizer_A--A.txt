@@ -1,0 +1,27 @@
+Filter superequalizer
+  Apply 18 band equalization filter.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+superequalizer AVOptions:
+  1b                <float>      ..F.A.... set 65Hz band gain (from 0 to 20) (default 1)
+  2b                <float>      ..F.A.... set 92Hz band gain (from 0 to 20) (default 1)
+  3b                <float>      ..F.A.... set 131Hz band gain (from 0 to 20) (default 1)
+  4b                <float>      ..F.A.... set 185Hz band gain (from 0 to 20) (default 1)
+  5b                <float>      ..F.A.... set 262Hz band gain (from 0 to 20) (default 1)
+  6b                <float>      ..F.A.... set 370Hz band gain (from 0 to 20) (default 1)
+  7b                <float>      ..F.A.... set 523Hz band gain (from 0 to 20) (default 1)
+  8b                <float>      ..F.A.... set 740Hz band gain (from 0 to 20) (default 1)
+  9b                <float>      ..F.A.... set 1047Hz band gain (from 0 to 20) (default 1)
+  10b               <float>      ..F.A.... set 1480Hz band gain (from 0 to 20) (default 1)
+  11b               <float>      ..F.A.... set 2093Hz band gain (from 0 to 20) (default 1)
+  12b               <float>      ..F.A.... set 2960Hz band gain (from 0 to 20) (default 1)
+  13b               <float>      ..F.A.... set 4186Hz band gain (from 0 to 20) (default 1)
+  14b               <float>      ..F.A.... set 5920Hz band gain (from 0 to 20) (default 1)
+  15b               <float>      ..F.A.... set 8372Hz band gain (from 0 to 20) (default 1)
+  16b               <float>      ..F.A.... set 11840Hz band gain (from 0 to 20) (default 1)
+  17b               <float>      ..F.A.... set 16744Hz band gain (from 0 to 20) (default 1)
+  18b               <float>      ..F.A.... set 20000Hz band gain (from 0 to 20) (default 1)
+
+

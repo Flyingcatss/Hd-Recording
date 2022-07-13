@@ -1,0 +1,7 @@
+Encoder aptx [aptX (Audio Processing Technology for Bluetooth)]:
+    General capabilities: small 
+    Threading capabilities: none
+    Supported sample rates: 8000 16000 24000 32000 44100 48000
+    Supported sample formats: s32p
+    Supported channel layouts: stereo
+

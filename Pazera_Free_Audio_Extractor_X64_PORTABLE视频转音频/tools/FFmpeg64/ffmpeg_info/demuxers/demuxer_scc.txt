@@ -1,0 +1,3 @@
+Demuxer scc [Scenarist Closed Captions]:
+    Common extensions: scc.
+

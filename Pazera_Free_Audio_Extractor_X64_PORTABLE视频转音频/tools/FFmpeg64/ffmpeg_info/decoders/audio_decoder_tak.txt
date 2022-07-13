@@ -1,0 +1,5 @@
+Decoder tak [TAK (Tom's lossless Audio Kompressor)]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame
+    Supported sample formats: u8p s16p s32p
+

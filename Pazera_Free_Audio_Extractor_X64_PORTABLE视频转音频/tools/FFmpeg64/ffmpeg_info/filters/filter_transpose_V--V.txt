@@ -1,0 +1,19 @@
+Filter transpose
+  Transpose input video.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+transpose AVOptions:
+  dir               <int>        ..FV..... set transpose direction (from 0 to 7) (default cclock_flip)
+     cclock_flip     0            ..FV..... rotate counter-clockwise with vertical flip
+     clock           1            ..FV..... rotate clockwise
+     cclock          2            ..FV..... rotate counter-clockwise
+     clock_flip      3            ..FV..... rotate clockwise with vertical flip
+  passthrough       <int>        ..FV..... do not apply transposition if the input matches the specified geometry (from 0 to INT_MAX) (default none)
+     none            0            ..FV..... always apply transposition
+     portrait        2            ..FV..... preserve portrait geometry
+     landscape       1            ..FV..... preserve landscape geometry
+
+

@@ -1,0 +1,3 @@
+Demuxer ape [Monkey's Audio]:
+    Common extensions: ape,apl,mac.
+

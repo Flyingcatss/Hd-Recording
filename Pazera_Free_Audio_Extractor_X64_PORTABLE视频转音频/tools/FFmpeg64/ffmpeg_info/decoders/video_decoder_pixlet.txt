@@ -1,0 +1,4 @@
+Decoder pixlet [Apple Pixlet]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame
+

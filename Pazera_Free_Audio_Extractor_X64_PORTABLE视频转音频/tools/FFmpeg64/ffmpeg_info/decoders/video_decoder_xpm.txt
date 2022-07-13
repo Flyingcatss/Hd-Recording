@@ -1,0 +1,4 @@
+Decoder xpm [XPM (X PixMap) image]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

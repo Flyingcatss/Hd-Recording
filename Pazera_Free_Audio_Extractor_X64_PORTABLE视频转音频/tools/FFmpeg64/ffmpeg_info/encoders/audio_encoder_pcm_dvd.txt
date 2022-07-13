@@ -1,0 +1,7 @@
+Encoder pcm_dvd [PCM signed 16|20|24-bit big-endian for DVD media]:
+    General capabilities: small 
+    Threading capabilities: none
+    Supported sample rates: 48000 96000
+    Supported sample formats: s16 s32
+    Supported channel layouts: mono stereo 5.1(side) 7.1
+

@@ -1,0 +1,7 @@
+Filter ashowinfo
+  Show textual information for each audio frame.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+

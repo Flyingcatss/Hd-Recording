@@ -1,0 +1,18 @@
+Filter lut1d
+  Adjust colors using a 1D LUT.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+lut1d AVOptions:
+  file              <string>     ..FV..... set 1D LUT file name
+  interp            <int>        ..FV..... select interpolation mode (from 0 to 4) (default linear)
+     nearest         0            ..FV..... use values from the nearest defined points
+     linear          1            ..FV..... use values from the linear interpolation
+     cosine          3            ..FV..... use values from the cosine interpolation
+     cubic           2            ..FV..... use values from the cubic interpolation
+     spline          4            ..FV..... use values from the spline interpolation
+
+This filter has support for timeline through the 'enable' option.
+

@@ -1,0 +1,25 @@
+Decoder exr [OpenEXR image]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame and slice
+EXR AVOptions:
+  -layer             <string>     .D.V..... Set the decoding layer (default "")
+  -gamma             <float>      .D.V..... Set the float gamma value when decoding (from 0.001 to FLT_MAX) (default 1)
+  -apply_trc         <int>        .D.V..... color transfer characteristics to apply to EXR linear input (from 1 to 18) (default gamma)
+     bt709           1            .D.V..... BT.709
+     gamma           2            .D.V..... gamma
+     gamma22         4            .D.V..... BT.470 M
+     gamma28         5            .D.V..... BT.470 BG
+     smpte170m       6            .D.V..... SMPTE 170 M
+     smpte240m       7            .D.V..... SMPTE 240 M
+     linear          8            .D.V..... Linear
+     log             9            .D.V..... Log
+     log_sqrt        10           .D.V..... Log square root
+     iec61966_2_4    11           .D.V..... IEC 61966-2-4
+     bt1361          12           .D.V..... BT.1361
+     iec61966_2_1    13           .D.V..... IEC 61966-2-1
+     bt2020_10bit    14           .D.V..... BT.2020 - 10 bit
+     bt2020_12bit    15           .D.V..... BT.2020 - 12 bit
+     smpte2084       16           .D.V..... SMPTE ST 2084
+     smpte428_1      17           .D.V..... SMPTE ST 428-1
+
+

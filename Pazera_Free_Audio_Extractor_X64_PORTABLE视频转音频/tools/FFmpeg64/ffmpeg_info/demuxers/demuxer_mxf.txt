@@ -1,0 +1,5 @@
+Demuxer mxf [MXF (Material eXchange Format)]:
+mxf AVOptions:
+  -eia608_extract    <boolean>    .D....... extract eia 608 captions from s436m track (default false)
+
+

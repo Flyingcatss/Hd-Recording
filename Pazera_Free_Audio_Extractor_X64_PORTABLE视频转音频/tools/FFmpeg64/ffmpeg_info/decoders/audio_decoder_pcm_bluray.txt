@@ -1,0 +1,5 @@
+Decoder pcm_bluray [PCM signed 16|20|24-bit big-endian for Blu-ray media]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: s16 s32
+

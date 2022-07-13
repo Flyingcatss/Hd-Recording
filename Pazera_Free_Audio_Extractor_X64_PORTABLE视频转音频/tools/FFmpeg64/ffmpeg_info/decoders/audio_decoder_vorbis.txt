@@ -1,0 +1,6 @@
+Decoder vorbis [Vorbis]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: fltp
+    Supported channel layouts: mono stereo 3.0 quad 5.0 5.1 6.1 7.1
+

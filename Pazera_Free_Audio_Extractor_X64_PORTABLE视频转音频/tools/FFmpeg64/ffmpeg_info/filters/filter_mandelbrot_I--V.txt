@@ -1,0 +1,33 @@
+Filter mandelbrot
+  Render a Mandelbrot fractal.
+    Inputs:
+        none (source filter)
+    Outputs:
+       #0: default (video)
+mandelbrot AVOptions:
+  size              <image_size> ..FV..... set frame size (default "640x480")
+  s                 <image_size> ..FV..... set frame size (default "640x480")
+  rate              <video_rate> ..FV..... set frame rate (default "25")
+  r                 <video_rate> ..FV..... set frame rate (default "25")
+  maxiter           <int>        ..FV..... set max iterations number (from 1 to INT_MAX) (default 7189)
+  start_x           <double>     ..FV..... set the initial x position (from -100 to 100) (default -0.743644)
+  start_y           <double>     ..FV..... set the initial y position (from -100 to 100) (default -0.131826)
+  start_scale       <double>     ..FV..... set the initial scale value (from 0 to FLT_MAX) (default 3)
+  end_scale         <double>     ..FV..... set the terminal scale value (from 0 to FLT_MAX) (default 0.3)
+  end_pts           <double>     ..FV..... set the terminal pts value (from 0 to I64_MAX) (default 400)
+  bailout           <double>     ..FV..... set the bailout value (from 0 to FLT_MAX) (default 10)
+  morphxf           <double>     ..FV..... set morph x frequency (from -FLT_MAX to FLT_MAX) (default 0.01)
+  morphyf           <double>     ..FV..... set morph y frequency (from -FLT_MAX to FLT_MAX) (default 0.0123)
+  morphamp          <double>     ..FV..... set morph amplitude (from -FLT_MAX to FLT_MAX) (default 0)
+  outer             <int>        ..FV..... set outer coloring mode (from 0 to INT_MAX) (default normalized_iteration_count)
+     iteration_count 0            ..FV..... set iteration count mode
+     normalized_iteration_count 1            ..FV..... set normalized iteration count mode
+     white           2            ..FV..... set white mode
+     outz            3            ..FV..... set outz mode
+  inner             <int>        ..FV..... set inner coloring mode (from 0 to INT_MAX) (default mincol)
+     black           0            ..FV..... set black mode
+     period          1            ..FV..... set period mode
+     convergence     2            ..FV..... show time until convergence
+     mincol          3            ..FV..... color based on point closest to the origin of the iterations
+
+

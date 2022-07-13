@@ -1,0 +1,3 @@
+Encoder text [Raw text subtitle]:
+    General capabilities: none
+

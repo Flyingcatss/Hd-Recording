@@ -1,0 +1,3 @@
+Demuxer vqf [Nippon Telegraph and Telephone Corporation (NTT) TwinVQ]:
+    Common extensions: vqf,vql,vqe.
+

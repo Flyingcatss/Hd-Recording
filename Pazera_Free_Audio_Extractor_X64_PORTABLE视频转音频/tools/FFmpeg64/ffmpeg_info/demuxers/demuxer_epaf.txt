@@ -1,0 +1,3 @@
+Demuxer epaf [Ensoniq Paris Audio File]:
+    Common extensions: paf,fap.
+

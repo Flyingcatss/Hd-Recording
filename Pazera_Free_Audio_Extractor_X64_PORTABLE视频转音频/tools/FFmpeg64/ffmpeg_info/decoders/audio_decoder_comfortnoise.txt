@@ -1,0 +1,5 @@
+Decoder comfortnoise [RFC 3389 comfort noise generator]:
+    General capabilities: dr1 delay 
+    Threading capabilities: none
+    Supported sample formats: s16
+

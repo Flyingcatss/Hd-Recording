@@ -1,0 +1,3 @@
+Decoder xsub [XSUB]:
+    General capabilities: none
+

@@ -1,0 +1,5 @@
+Decoder mp2float [MP2 (MPEG audio layer 2)]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: fltp flt
+

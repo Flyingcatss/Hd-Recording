@@ -1,0 +1,5 @@
+Encoder pcm_alaw [PCM A-law / G.711 A-law]:
+    General capabilities: variable 
+    Threading capabilities: none
+    Supported sample formats: s16
+

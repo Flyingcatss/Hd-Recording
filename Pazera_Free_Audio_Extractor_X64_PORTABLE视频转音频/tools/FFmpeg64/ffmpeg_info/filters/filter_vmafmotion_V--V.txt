@@ -1,0 +1,10 @@
+Filter vmafmotion
+  Calculate the VMAF Motion score.
+    Inputs:
+       #0: reference (video)
+    Outputs:
+       #0: default (video)
+vmafmotion AVOptions:
+  stats_file        <string>     ..FV..... Set file where to store per-frame difference information
+
+

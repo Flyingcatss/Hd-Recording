@@ -1,0 +1,5 @@
+Muxer film_cpk [Sega FILM / CPK]:
+    Common extensions: cpk.
+    Default video codec: cinepak.
+    Default audio codec: pcm_s16be_planar.
+

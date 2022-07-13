@@ -1,0 +1,17 @@
+Filter crop
+  Crop the input video.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+crop AVOptions:
+  out_w             <string>     ..FV..... set the width crop area expression (default "iw")
+  w                 <string>     ..FV..... set the width crop area expression (default "iw")
+  out_h             <string>     ..FV..... set the height crop area expression (default "ih")
+  h                 <string>     ..FV..... set the height crop area expression (default "ih")
+  x                 <string>     ..FV..... set the x crop area expression (default "(in_w-out_w)/2")
+  y                 <string>     ..FV..... set the y crop area expression (default "(in_h-out_h)/2")
+  keep_aspect       <boolean>    ..FV..... keep aspect ratio (default false)
+  exact             <boolean>    ..FV..... do exact cropping (default false)
+
+

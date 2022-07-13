@@ -1,0 +1,3 @@
+Demuxer mtaf [Konami PS2 MTAF]:
+    Common extensions: mtaf.
+

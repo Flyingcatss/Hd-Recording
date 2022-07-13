@@ -1,0 +1,9 @@
+Encoder wavpack [WavPack]:
+    General capabilities: small 
+    Threading capabilities: none
+    Supported sample formats: u8p s16p s32p fltp
+WavPack encoder AVOptions:
+  -joint_stereo      <boolean>    E...A....  (default auto)
+  -optimize_mono     <boolean>    E...A....  (default false)
+
+

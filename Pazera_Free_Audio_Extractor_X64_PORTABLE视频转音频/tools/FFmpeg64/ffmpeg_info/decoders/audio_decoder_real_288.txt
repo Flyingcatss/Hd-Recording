@@ -1,0 +1,4 @@
+Decoder real_288 [RealAudio 2.0 (28.8K)]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

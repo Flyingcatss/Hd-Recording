@@ -1,0 +1,3 @@
+Demuxer ty [TiVo TY Stream]:
+    Common extensions: ty,ty+.
+

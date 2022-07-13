@@ -1,0 +1,12 @@
+Filter extrastereo
+  Increase difference between stereo audio channels.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+extrastereo AVOptions:
+  m                 <float>      ..F.A.... set the difference coefficient (from -10 to 10) (default 2.5)
+  c                 <boolean>    ..F.A.... enable clipping (default true)
+
+This filter has support for timeline through the 'enable' option.
+

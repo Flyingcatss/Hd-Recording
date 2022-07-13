@@ -1,0 +1,4 @@
+Decoder vp4 [On2 VP4]:
+    General capabilities: horizband dr1 threads 
+    Threading capabilities: frame
+

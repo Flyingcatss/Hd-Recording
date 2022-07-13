@@ -1,0 +1,82 @@
+Filter v360
+  Convert 360 projection of video.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+v360 AVOptions:
+  input             <int>        ..FV..... set input projection (from 0 to 11) (default e)
+     e               0            ..FV..... equirectangular
+     equirect        0            ..FV..... equirectangular
+     c3x2            1            ..FV..... cubemap 3x2
+     c6x1            2            ..FV..... cubemap 6x1
+     eac             3            ..FV..... equi-angular cubemap
+     dfisheye        5            ..FV..... dual fisheye
+     barrel          6            ..FV..... barrel facebook's 360 format
+     fb              6            ..FV..... barrel facebook's 360 format
+     c1x6            7            ..FV..... cubemap 1x6
+     sg              8            ..FV..... stereographic
+     mercator        9            ..FV..... mercator
+     ball            10           ..FV..... ball
+     hammer          11           ..FV..... hammer
+  output            <int>        ..FV..... set output projection (from 0 to 11) (default c3x2)
+     e               0            ..FV..... equirectangular
+     equirect        0            ..FV..... equirectangular
+     c3x2            1            ..FV..... cubemap 3x2
+     c6x1            2            ..FV..... cubemap 6x1
+     eac             3            ..FV..... equi-angular cubemap
+     dfisheye        5            ..FV..... dual fisheye
+     flat            4            ..FV..... regular video
+     rectilinear     4            ..FV..... regular video
+     gnomonic        4            ..FV..... regular video
+     barrel          6            ..FV..... barrel facebook's 360 format
+     fb              6            ..FV..... barrel facebook's 360 format
+     c1x6            7            ..FV..... cubemap 1x6
+     sg              8            ..FV..... stereographic
+     mercator        9            ..FV..... mercator
+     ball            10           ..FV..... ball
+     hammer          11           ..FV..... hammer
+  interp            <int>        ..FV..... set interpolation method (from 0 to 3) (default line)
+     near            0            ..FV..... nearest neighbour
+     nearest         0            ..FV..... nearest neighbour
+     line            1            ..FV..... bilinear interpolation
+     linear          1            ..FV..... bilinear interpolation
+     cube            2            ..FV..... bicubic interpolation
+     cubic           2            ..FV..... bicubic interpolation
+     lanc            3            ..FV..... lanczos interpolation
+     lanczos         3            ..FV..... lanczos interpolation
+  w                 <int>        ..FV..... output width (from 0 to 32767) (default 0)
+  h                 <int>        ..FV..... output height (from 0 to 32767) (default 0)
+  in_stereo         <int>        ..FV..... input stereo format (from 0 to 2) (default 2d)
+     2d              0            ..FV..... 2d mono
+     sbs             1            ..FV..... side by side
+     tb              2            ..FV..... top bottom
+  out_stereo        <int>        ..FV..... output stereo format (from 0 to 2) (default 2d)
+     2d              0            ..FV..... 2d mono
+     sbs             1            ..FV..... side by side
+     tb              2            ..FV..... top bottom
+  in_forder         <string>     ..FV..... input cubemap face order (default "rludfb")
+  out_forder        <string>     ..FV..... output cubemap face order (default "rludfb")
+  in_frot           <string>     ..FV..... input cubemap face rotation (default "000000")
+  out_frot          <string>     ..FV..... output cubemap face rotation (default "000000")
+  in_pad            <float>      ..FV..... percent input cubemap pads (from 0 to 1) (default 0)
+  out_pad           <float>      ..FV..... percent output cubemap pads (from 0 to 1) (default 0)
+  fin_pad           <int>        ..FV..... fixed input cubemap pads (from 0 to 100) (default 0)
+  fout_pad          <int>        ..FV..... fixed output cubemap pads (from 0 to 100) (default 0)
+  yaw               <float>      ..FV..... yaw rotation (from -180 to 180) (default 0)
+  pitch             <float>      ..FV..... pitch rotation (from -180 to 180) (default 0)
+  roll              <float>      ..FV..... roll rotation (from -180 to 180) (default 0)
+  rorder            <string>     ..FV..... rotation order (default "ypr")
+  h_fov             <float>      ..FV..... horizontal field of view (from 1e-005 to 360) (default 90)
+  v_fov             <float>      ..FV..... vertical field of view (from 1e-005 to 360) (default 45)
+  d_fov             <float>      ..FV..... diagonal field of view (from 0 to 360) (default 0)
+  h_flip            <boolean>    ..FV..... flip out video horizontally (default false)
+  v_flip            <boolean>    ..FV..... flip out video vertically (default false)
+  d_flip            <boolean>    ..FV..... flip out video indepth (default false)
+  ih_flip           <boolean>    ..FV..... flip in video horizontally (default false)
+  iv_flip           <boolean>    ..FV..... flip in video vertically (default false)
+  in_trans          <boolean>    ..FV..... transpose video input (default false)
+  out_trans         <boolean>    ..FV..... transpose video output (default false)
+
+

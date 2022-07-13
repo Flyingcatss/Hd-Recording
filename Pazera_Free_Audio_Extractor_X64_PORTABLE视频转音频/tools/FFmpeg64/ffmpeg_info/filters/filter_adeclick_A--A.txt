@@ -1,0 +1,18 @@
+Filter adeclick
+  Remove impulsive noise from input audio.
+    slice threading supported
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+adeclick AVOptions:
+  w                 <double>     ..F.A.... set window size (from 10 to 100) (default 55)
+  o                 <double>     ..F.A.... set window overlap (from 50 to 95) (default 75)
+  a                 <double>     ..F.A.... set autoregression order (from 0 to 25) (default 2)
+  t                 <double>     ..F.A.... set threshold (from 1 to 100) (default 2)
+  b                 <double>     ..F.A.... set burst fusion (from 0 to 10) (default 2)
+  m                 <int>        ..F.A.... set overlap method (from 0 to 1) (default a)
+     a               0            ..F.A.... overlap-add
+     s               1            ..F.A.... overlap-save
+
+

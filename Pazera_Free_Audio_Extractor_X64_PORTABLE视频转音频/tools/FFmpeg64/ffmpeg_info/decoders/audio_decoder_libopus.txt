@@ -1,0 +1,8 @@
+Decoder libopus [libopus Opus]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: flt s16
+libopusdec AVOptions:
+  -apply_phase_inv   <boolean>    .D..A.... Apply intensity stereo phase inversion (default true)
+
+

@@ -1,0 +1,24 @@
+Filter aemphasis
+  Audio emphasis.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+aemphasis AVOptions:
+  level_in          <double>     ..F.A.... set input gain (from 0 to 64) (default 1)
+  level_out         <double>     ..F.A.... set output gain (from 0 to 64) (default 1)
+  mode              <int>        ..F.A.... set filter mode (from 0 to 1) (default reproduction)
+     reproduction    0            ..F.A....
+     production      1            ..F.A....
+  type              <int>        ..F.A.... set filter type (from 0 to 8) (default cd)
+     col             0            ..F.A.... Columbia
+     emi             1            ..F.A.... EMI
+     bsi             2            ..F.A.... BSI (78RPM)
+     riaa            3            ..F.A.... RIAA
+     cd              4            ..F.A.... Compact Disc (CD)
+     50fm            5            ..F.A.... 50µs (FM)
+     75fm            6            ..F.A.... 75µs (FM)
+     50kf            7            ..F.A.... 50µs (FM-KF)
+     75kf            8            ..F.A.... 75µs (FM-KF)
+
+

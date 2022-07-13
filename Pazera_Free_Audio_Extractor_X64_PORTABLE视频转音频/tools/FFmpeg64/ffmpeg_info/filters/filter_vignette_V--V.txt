@@ -1,0 +1,22 @@
+Filter vignette
+  Make or reverse a vignette effect.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+vignette AVOptions:
+  angle             <string>     ..FV..... set lens angle (default "PI/5")
+  a                 <string>     ..FV..... set lens angle (default "PI/5")
+  x0                <string>     ..FV..... set circle center position on x-axis (default "w/2")
+  y0                <string>     ..FV..... set circle center position on y-axis (default "h/2")
+  mode              <int>        ..FV..... set forward/backward mode (from 0 to 1) (default forward)
+     forward         0            ..FV.....
+     backward        1            ..FV.....
+  eval              <int>        ..FV..... specify when to evaluate expressions (from 0 to 1) (default init)
+     init            0            ..FV..... eval expressions once during initialization
+     frame           1            ..FV..... eval expressions for each frame
+  dither            <boolean>    ..FV..... set dithering (default true)
+  aspect            <rational>   ..FV..... set aspect ratio (from 0 to DBL_MAX) (default 1/1)
+
+This filter has support for timeline through the 'enable' option.
+

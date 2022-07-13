@@ -1,0 +1,7 @@
+Decoder v210 [Uncompressed 4:2:2 10-bit]:
+    General capabilities: dr1 
+    Threading capabilities: none
+V210 Decoder AVOptions:
+  -custom_stride     <int>        .D.V..... Custom V210 stride (from INT_MIN to INT_MAX) (default 0)
+
+

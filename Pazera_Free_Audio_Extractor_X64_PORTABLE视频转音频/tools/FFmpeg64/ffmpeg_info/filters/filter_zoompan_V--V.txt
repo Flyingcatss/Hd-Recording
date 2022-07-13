@@ -1,0 +1,16 @@
+Filter zoompan
+  Apply Zoom & Pan effect.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+zoompan AVOptions:
+  zoom              <string>     ..FV..... set the zoom expression (default "1")
+  z                 <string>     ..FV..... set the zoom expression (default "1")
+  x                 <string>     ..FV..... set the x expression (default "0")
+  y                 <string>     ..FV..... set the y expression (default "0")
+  d                 <string>     ..FV..... set the duration expression (default "90")
+  s                 <image_size> ..FV..... set the output image size (default "hd720")
+  fps               <video_rate> ..FV..... set the output framerate (default "25")
+
+

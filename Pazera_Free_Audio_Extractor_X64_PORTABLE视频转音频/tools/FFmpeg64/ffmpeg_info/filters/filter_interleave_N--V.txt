@@ -1,0 +1,11 @@
+Filter interleave
+  Temporally interleave video inputs.
+    Inputs:
+        dynamic (depending on the options)
+    Outputs:
+       #0: default (video)
+interleave AVOptions:
+  nb_inputs         <int>        ..FV..... set number of inputs (from 1 to INT_MAX) (default 2)
+  n                 <int>        ..FV..... set number of inputs (from 1 to INT_MAX) (default 2)
+
+

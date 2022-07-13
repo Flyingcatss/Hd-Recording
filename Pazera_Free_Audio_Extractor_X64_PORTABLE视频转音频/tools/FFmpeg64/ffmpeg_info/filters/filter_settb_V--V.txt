@@ -1,0 +1,11 @@
+Filter settb
+  Set timebase for the video output link.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+settb AVOptions:
+  expr              <string>     ..FV..... set expression determining the output timebase (default "intb")
+  tb                <string>     ..FV..... set expression determining the output timebase (default "intb")
+
+

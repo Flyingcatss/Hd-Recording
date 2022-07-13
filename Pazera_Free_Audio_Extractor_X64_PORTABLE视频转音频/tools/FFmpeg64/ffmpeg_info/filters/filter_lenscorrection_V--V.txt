@@ -1,0 +1,14 @@
+Filter lenscorrection
+  Rectify the image by correcting for lens distortion.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+lenscorrection AVOptions:
+  cx                <double>     ..FV..... set relative center x (from 0 to 1) (default 0.5)
+  cy                <double>     ..FV..... set relative center y (from 0 to 1) (default 0.5)
+  k1                <double>     ..FV..... set quadratic distortion factor (from -1 to 1) (default 0)
+  k2                <double>     ..FV..... set double quadratic distortion factor (from -1 to 1) (default 0)
+
+

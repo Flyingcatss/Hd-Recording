@@ -1,0 +1,4 @@
+Decoder truemotion2 [Duck TrueMotion 2.0]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

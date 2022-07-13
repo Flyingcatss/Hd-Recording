@@ -1,0 +1,6 @@
+Demuxer ac3 [raw AC-3]:
+    Common extensions: ac3.
+ac3 demuxer AVOptions:
+  -raw_packet_size   <int>        .D.......  (from 1 to INT_MAX) (default 1024)
+
+

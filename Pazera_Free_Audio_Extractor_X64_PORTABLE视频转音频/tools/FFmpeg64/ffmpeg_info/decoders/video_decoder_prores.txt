@@ -1,0 +1,4 @@
+Decoder prores [ProRes (iCodec Pro)]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame and slice
+

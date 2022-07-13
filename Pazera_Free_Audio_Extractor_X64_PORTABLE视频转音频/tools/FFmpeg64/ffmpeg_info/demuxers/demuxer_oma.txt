@@ -1,0 +1,3 @@
+Demuxer oma [Sony OpenMG audio]:
+    Common extensions: oma,omg,aa3.
+

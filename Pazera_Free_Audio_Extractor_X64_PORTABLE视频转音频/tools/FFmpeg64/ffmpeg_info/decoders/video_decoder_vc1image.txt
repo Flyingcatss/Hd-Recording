@@ -1,0 +1,5 @@
+Decoder vc1image [Windows Media Video 9 Image v2]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported pixel formats: yuv420p
+

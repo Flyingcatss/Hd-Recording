@@ -1,0 +1,4 @@
+Decoder theora [Theora]:
+    General capabilities: horizband dr1 threads 
+    Threading capabilities: frame
+

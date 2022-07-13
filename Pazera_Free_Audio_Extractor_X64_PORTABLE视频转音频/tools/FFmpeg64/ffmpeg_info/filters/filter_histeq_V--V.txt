@@ -1,0 +1,16 @@
+Filter histeq
+  Apply global color histogram equalization.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+histeq AVOptions:
+  strength          <float>      ..FV..... set the strength (from 0 to 1) (default 0.2)
+  intensity         <float>      ..FV..... set the intensity (from 0 to 1) (default 0.21)
+  antibanding       <int>        ..FV..... set the antibanding level (from 0 to 2) (default none)
+     none            0            ..FV..... apply no antibanding
+     weak            1            ..FV..... apply weak antibanding
+     strong          2            ..FV..... apply strong antibanding
+
+This filter has support for timeline through the 'enable' option.
+

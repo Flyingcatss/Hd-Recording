@@ -1,0 +1,4 @@
+Muxer lrc [LRC lyrics]:
+    Common extensions: lrc.
+    Default subtitle codec: subrip.
+

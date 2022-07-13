@@ -1,0 +1,12 @@
+Filter aeval
+  Filter audio signal according to a specified expression.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+aeval AVOptions:
+  exprs             <string>     ..F.A.... set the '|'-separated list of channels expressions
+  channel_layout    <string>     ..F.A.... set channel layout
+  c                 <string>     ..F.A.... set channel layout
+
+

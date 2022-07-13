@@ -1,0 +1,5 @@
+Encoder tta [TTA (True Audio)]:
+    General capabilities: small lossless 
+    Threading capabilities: none
+    Supported sample formats: u8 s16 s32
+

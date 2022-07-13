@@ -1,0 +1,20 @@
+Filter phase
+  Phase shift fields.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+phase AVOptions:
+  mode              <int>        ..FV..... set phase mode (from 0 to 8) (default A)
+     p               0            ..FV..... progressive
+     t               1            ..FV..... top first
+     b               2            ..FV..... bottom first
+     T               3            ..FV..... top first analyze
+     B               4            ..FV..... bottom first analyze
+     u               5            ..FV..... analyze
+     U               6            ..FV..... full analyze
+     a               7            ..FV..... auto
+     A               8            ..FV..... auto analyze
+
+This filter has support for timeline through the 'enable' option.
+

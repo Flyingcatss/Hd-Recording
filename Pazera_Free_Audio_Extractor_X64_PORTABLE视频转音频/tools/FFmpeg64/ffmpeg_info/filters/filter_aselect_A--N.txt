@@ -1,0 +1,13 @@
+Filter aselect
+  Select audio frames to pass in output.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+        dynamic (depending on the options)
+aselect AVOptions:
+  expr              <string>     ..F.A.... set an expression to use for selecting frames (default "1")
+  e                 <string>     ..F.A.... set an expression to use for selecting frames (default "1")
+  outputs           <int>        ..F.A.... set the number of outputs (from 1 to INT_MAX) (default 1)
+  n                 <int>        ..F.A.... set the number of outputs (from 1 to INT_MAX) (default 1)
+
+

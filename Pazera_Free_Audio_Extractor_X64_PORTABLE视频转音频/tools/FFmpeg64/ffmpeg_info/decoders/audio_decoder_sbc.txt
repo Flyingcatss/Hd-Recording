@@ -1,0 +1,7 @@
+Decoder sbc [SBC (low-complexity subband codec)]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample rates: 16000 32000 44100 48000
+    Supported sample formats: s16p
+    Supported channel layouts: mono stereo
+

@@ -1,0 +1,4 @@
+Decoder eamad [Electronic Arts Madcow Video]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

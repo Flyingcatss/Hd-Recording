@@ -1,0 +1,5 @@
+Decoder 8svx_fib [8SVX fibonacci]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: u8p
+

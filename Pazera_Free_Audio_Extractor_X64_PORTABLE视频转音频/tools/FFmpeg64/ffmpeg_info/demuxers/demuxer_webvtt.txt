@@ -1,0 +1,10 @@
+Demuxer webvtt [WebVTT subtitle]:
+    Common extensions: vtt.
+WebVTT demuxer AVOptions:
+  -kind              <int>        .D...S... Set kind of WebVTT track (from 0 to INT_MAX) (default subtitles)
+     subtitles       0            .D...S... WebVTT subtitles kind
+     captions        65536        .D...S... WebVTT captions kind
+     descriptions    131072       .D...S... WebVTT descriptions kind
+     metadata        262144       .D...S... WebVTT metadata kind
+
+

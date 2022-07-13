@@ -1,0 +1,4 @@
+Decoder speedhq [NewTek SpeedHQ]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

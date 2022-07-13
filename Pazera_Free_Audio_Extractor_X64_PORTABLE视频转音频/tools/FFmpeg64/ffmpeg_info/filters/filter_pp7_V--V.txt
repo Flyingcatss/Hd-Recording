@@ -1,0 +1,15 @@
+Filter pp7
+  Apply Postprocessing 7 filter.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+pp7 AVOptions:
+  qp                <int>        ..FV..... force a constant quantizer parameter (from 0 to 64) (default 0)
+  mode              <int>        ..FV..... set thresholding mode (from 0 to 2) (default medium)
+     hard            0            ..FV..... hard thresholding
+     soft            1            ..FV..... soft thresholding
+     medium          2            ..FV..... medium thresholding
+
+This filter has support for timeline through the 'enable' option.
+

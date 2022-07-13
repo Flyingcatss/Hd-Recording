@@ -1,0 +1,4 @@
+Decoder idcinvideo [id Quake II CIN video]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

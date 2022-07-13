@@ -1,0 +1,15 @@
+Filter deflate
+  Apply deflate effect.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+deflate AVOptions:
+  threshold0        <int>        ..FV..... set threshold for 1st plane (from 0 to 65535) (default 65535)
+  threshold1        <int>        ..FV..... set threshold for 2nd plane (from 0 to 65535) (default 65535)
+  threshold2        <int>        ..FV..... set threshold for 3rd plane (from 0 to 65535) (default 65535)
+  threshold3        <int>        ..FV..... set threshold for 4th plane (from 0 to 65535) (default 65535)
+
+This filter has support for timeline through the 'enable' option.
+

@@ -1,0 +1,7 @@
+Demuxer avs2 [raw AVS2-P2/IEEE1857.4]:
+    Common extensions: avs,avs2.
+avs2 demuxer AVOptions:
+  -framerate         <video_rate> .D.......  (default "25")
+  -raw_packet_size   <int>        .D.......  (from 1 to INT_MAX) (default 1024)
+
+

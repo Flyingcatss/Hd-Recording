@@ -1,0 +1,13 @@
+Filter aecho
+  Add echoing to the audio.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+aecho AVOptions:
+  in_gain           <float>      ..F.A.... set signal input gain (from 0 to 1) (default 0.6)
+  out_gain          <float>      ..F.A.... set signal output gain (from 0 to 1) (default 0.3)
+  delays            <string>     ..F.A.... set list of signal delays (default "1000")
+  decays            <string>     ..F.A.... set list of signal decays (default "0.5")
+
+

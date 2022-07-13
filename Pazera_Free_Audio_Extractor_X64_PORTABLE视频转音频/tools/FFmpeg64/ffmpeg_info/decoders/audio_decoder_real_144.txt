@@ -1,0 +1,4 @@
+Decoder real_144 [RealAudio 1.0 (14.4K)]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

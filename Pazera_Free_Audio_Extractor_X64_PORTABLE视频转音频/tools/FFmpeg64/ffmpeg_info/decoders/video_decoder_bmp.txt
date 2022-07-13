@@ -1,0 +1,4 @@
+Decoder bmp [BMP (Windows and OS/2 bitmap)]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

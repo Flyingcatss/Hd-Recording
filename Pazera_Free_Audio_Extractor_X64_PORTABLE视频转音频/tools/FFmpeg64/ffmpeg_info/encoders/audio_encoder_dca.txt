@@ -1,0 +1,10 @@
+Encoder dca [DCA (DTS Coherent Acoustics)]:
+    General capabilities: exp 
+    Threading capabilities: none
+    Supported sample rates: 8000 16000 32000 11025 22050 44100 12000 24000 48000
+    Supported sample formats: s32
+    Supported channel layouts: mono stereo quad(side) 5.0(side) 5.1(side)
+DCA (DTS Coherent Acoustics) AVOptions:
+  -dca_adpcm         <boolean>    E...A.... Use ADPCM encoding (default false)
+
+

@@ -1,0 +1,4 @@
+Decoder mimic [Mimic]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame
+

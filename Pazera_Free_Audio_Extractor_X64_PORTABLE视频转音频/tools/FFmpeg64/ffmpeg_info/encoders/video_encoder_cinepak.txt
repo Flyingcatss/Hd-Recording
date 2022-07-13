@@ -1,0 +1,12 @@
+Encoder cinepak [Cinepak]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported pixel formats: rgb24 gray
+cinepak AVOptions:
+  -max_extra_cb_iterations <int>        E..V..... Max extra codebook recalculation passes, more is better and slower (from 0 to INT_MAX) (default 2)
+  -skip_empty_cb     <boolean>    E..V..... Avoid wasting bytes, ignore vintage MacOS decoder (default false)
+  -max_strips        <int>        E..V..... Limit strips/frame, vintage compatible is 1..3, otherwise the more the better (from 1 to 32) (default 3)
+  -min_strips        <int>        E..V..... Enforce min strips/frame, more is worse and faster, must be <= max_strips (from 1 to 32) (default 1)
+  -strip_number_adaptivity <int>        E..V..... How fast the strip number adapts, more is slightly better, much slower (from 0 to 31) (default 0)
+
+

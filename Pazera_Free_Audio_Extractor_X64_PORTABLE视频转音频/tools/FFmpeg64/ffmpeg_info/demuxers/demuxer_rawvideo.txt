@@ -1,0 +1,8 @@
+Demuxer rawvideo [raw video]:
+    Common extensions: yuv,cif,qcif,rgb.
+rawvideo demuxer AVOptions:
+  -video_size        <image_size> .D....... set frame size
+  -pixel_format      <string>     .D....... set pixel format (default "yuv420p")
+  -framerate         <video_rate> .D....... set frame rate (default "25")
+
+

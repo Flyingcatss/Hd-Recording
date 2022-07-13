@@ -1,0 +1,8 @@
+Filter amultiply
+  Multiply two audio streams.
+    Inputs:
+       #0: multiply0 (audio)
+       #1: multiply1 (audio)
+    Outputs:
+       #0: default (audio)
+

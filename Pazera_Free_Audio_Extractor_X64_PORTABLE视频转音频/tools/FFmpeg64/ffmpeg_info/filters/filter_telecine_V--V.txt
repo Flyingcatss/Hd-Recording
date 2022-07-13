@@ -1,0 +1,15 @@
+Filter telecine
+  Apply a telecine pattern.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+telecine AVOptions:
+  first_field       <int>        ..FV..... select first field (from 0 to 1) (default top)
+     top             0            ..FV..... select top field first
+     t               0            ..FV..... select top field first
+     bottom          1            ..FV..... select bottom field first
+     b               1            ..FV..... select bottom field first
+  pattern           <string>     ..FV..... pattern that describe for how many fields a frame is to be displayed (default "23")
+
+

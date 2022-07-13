@@ -1,0 +1,8 @@
+Decoder dca [DCA (DTS Coherent Acoustics)]:
+    General capabilities: dr1 chconf 
+    Threading capabilities: none
+    Supported sample formats: s16p s32p fltp
+DCA decoder AVOptions:
+  -core_only         <boolean>    .D..A.... Decode core only without extensions (default false)
+
+

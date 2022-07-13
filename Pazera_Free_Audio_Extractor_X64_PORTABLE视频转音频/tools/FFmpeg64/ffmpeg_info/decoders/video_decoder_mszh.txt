@@ -1,0 +1,4 @@
+Decoder mszh [LCL (LossLess Codec Library) MSZH]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame
+

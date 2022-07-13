@@ -1,0 +1,5 @@
+Decoder adpcm_ima_dk3 [ADPCM IMA Duck DK3]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: s16
+

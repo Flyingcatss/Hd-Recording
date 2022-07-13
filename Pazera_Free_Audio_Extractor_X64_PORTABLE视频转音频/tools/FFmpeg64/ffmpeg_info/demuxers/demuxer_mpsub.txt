@@ -1,0 +1,3 @@
+Demuxer mpsub [MPlayer subtitles]:
+    Common extensions: sub.
+

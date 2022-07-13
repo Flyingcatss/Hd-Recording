@@ -1,0 +1,5 @@
+Encoder nellymoser [Nellymoser Asao]:
+    General capabilities: delay small 
+    Threading capabilities: none
+    Supported sample formats: flt
+

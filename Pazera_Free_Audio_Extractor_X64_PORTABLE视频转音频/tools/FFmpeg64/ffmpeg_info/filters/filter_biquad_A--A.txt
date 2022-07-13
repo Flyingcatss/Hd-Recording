@@ -1,0 +1,21 @@
+Filter biquad
+  Apply a biquad IIR filter with the given coefficients.
+    slice threading supported
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+biquad AVOptions:
+  a0                <double>     ..F.A.... (from INT_MIN to INT_MAX) (default 1)
+  a1                <double>     ..F.A.... (from INT_MIN to INT_MAX) (default 0)
+  a2                <double>     ..F.A.... (from INT_MIN to INT_MAX) (default 0)
+  b0                <double>     ..F.A.... (from INT_MIN to INT_MAX) (default 0)
+  b1                <double>     ..F.A.... (from INT_MIN to INT_MAX) (default 0)
+  b2                <double>     ..F.A.... (from INT_MIN to INT_MAX) (default 0)
+  mix               <double>     ..F.A.... set mix (from 0 to 1) (default 1)
+  m                 <double>     ..F.A.... set mix (from 0 to 1) (default 1)
+  channels          <channel_layout> ..F.A.... set channels to filter (default 0xffffffffffffffff)
+  c                 <channel_layout> ..F.A.... set channels to filter (default 0xffffffffffffffff)
+
+This filter has support for timeline through the 'enable' option.
+

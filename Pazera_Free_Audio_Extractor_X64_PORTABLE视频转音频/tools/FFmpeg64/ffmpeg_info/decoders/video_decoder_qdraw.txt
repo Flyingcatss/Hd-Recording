@@ -1,0 +1,4 @@
+Decoder qdraw [Apple QuickDraw]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

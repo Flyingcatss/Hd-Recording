@@ -1,0 +1,17 @@
+Filter dctdnoiz
+  Denoise frames using 2D DCT.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+dctdnoiz AVOptions:
+  sigma             <float>      ..FV..... set noise sigma constant (from 0 to 999) (default 0)
+  s                 <float>      ..FV..... set noise sigma constant (from 0 to 999) (default 0)
+  overlap           <int>        ..FV..... set number of block overlapping pixels (from -1 to 15) (default -1)
+  expr              <string>     ..FV..... set coefficient factor expression
+  e                 <string>     ..FV..... set coefficient factor expression
+  n                 <int>        ..FV..... set the block size, expressed in bits (from 3 to 4) (default 3)
+
+This filter has support for timeline through the 'enable' option.
+

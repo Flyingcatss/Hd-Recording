@@ -1,0 +1,4 @@
+Decoder dxv [Resolume DXV]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame and slice
+

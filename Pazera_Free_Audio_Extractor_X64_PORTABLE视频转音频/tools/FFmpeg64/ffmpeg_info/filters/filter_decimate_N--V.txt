@@ -1,0 +1,16 @@
+Filter decimate
+  Decimate frames (post field matching filter).
+    Inputs:
+        dynamic (depending on the options)
+    Outputs:
+       #0: default (video)
+decimate AVOptions:
+  cycle             <int>        ..FV..... set the number of frame from which one will be dropped (from 2 to 25) (default 5)
+  dupthresh         <double>     ..FV..... set duplicate threshold (from 0 to 100) (default 1.1)
+  scthresh          <double>     ..FV..... set scene change threshold (from 0 to 100) (default 15)
+  blockx            <int>        ..FV..... set the size of the x-axis blocks used during metric calculations (from 4 to 512) (default 32)
+  blocky            <int>        ..FV..... set the size of the y-axis blocks used during metric calculations (from 4 to 512) (default 32)
+  ppsrc             <boolean>    ..FV..... mark main input as a pre-processed input and activate clean source input stream (default false)
+  chroma            <boolean>    ..FV..... set whether or not chroma is considered in the metric calculations (default true)
+
+

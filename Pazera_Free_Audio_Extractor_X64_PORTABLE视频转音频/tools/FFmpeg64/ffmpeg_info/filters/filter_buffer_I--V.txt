@@ -1,0 +1,18 @@
+Filter buffer
+  Buffer video frames, and make them accessible to the filterchain.
+    Inputs:
+        none (source filter)
+    Outputs:
+       #0: default (video)
+buffer AVOptions:
+  width             <int>        ..FV..... (from 0 to INT_MAX) (default 0)
+  video_size        <image_size> ..FV.....
+  height            <int>        ..FV..... (from 0 to INT_MAX) (default 0)
+  pix_fmt           <pix_fmt>    ..FV..... (default none)
+  sar               <rational>   ..FV..... sample aspect ratio (from 0 to DBL_MAX) (default 0/1)
+  pixel_aspect      <rational>   ..FV..... sample aspect ratio (from 0 to DBL_MAX) (default 0/1)
+  time_base         <rational>   ..FV..... (from 0 to DBL_MAX) (default 0/1)
+  frame_rate        <rational>   ..FV..... (from 0 to DBL_MAX) (default 0/1)
+  sws_param         <string>     ..FV.....
+
+

@@ -1,0 +1,4 @@
+Decoder hap [Vidvox Hap]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame and slice
+

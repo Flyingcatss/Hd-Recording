@@ -1,0 +1,7 @@
+Demuxer v210 [Uncompressed 4:2:2 10-bit]:
+    Common extensions: v210.
+v210 demuxer AVOptions:
+  -video_size        <image_size> .D....... set frame size
+  -framerate         <video_rate> .D....... set frame rate (default "25")
+
+

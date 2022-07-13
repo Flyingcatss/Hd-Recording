@@ -1,0 +1,4 @@
+Decoder tdsc [TDSC]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

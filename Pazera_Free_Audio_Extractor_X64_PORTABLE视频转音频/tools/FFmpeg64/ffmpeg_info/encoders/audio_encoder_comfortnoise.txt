@@ -1,0 +1,5 @@
+Encoder comfortnoise [RFC 3389 comfort noise generator]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported sample formats: s16
+

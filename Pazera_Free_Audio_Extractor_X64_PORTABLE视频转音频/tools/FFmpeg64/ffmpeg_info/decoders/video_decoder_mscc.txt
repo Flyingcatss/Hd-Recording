@@ -1,0 +1,4 @@
+Decoder mscc [Mandsoft Screen Capture Codec]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

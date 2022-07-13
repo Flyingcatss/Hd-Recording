@@ -1,0 +1,12 @@
+Filter dcshift
+  Apply a DC shift to the audio.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+dcshift AVOptions:
+  shift             <double>     ..F.A.... set DC shift (from -1 to 1) (default 0)
+  limitergain       <double>     ..F.A.... set limiter gain (from 0 to 1) (default 0)
+
+This filter has support for timeline through the 'enable' option.
+

@@ -1,0 +1,5 @@
+Encoder qtrle [QuickTime Animation (RLE) video]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported pixel formats: rgb24 rgb555be argb gray
+

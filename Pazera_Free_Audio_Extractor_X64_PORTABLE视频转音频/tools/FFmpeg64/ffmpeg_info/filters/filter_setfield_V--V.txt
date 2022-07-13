@@ -1,0 +1,14 @@
+Filter setfield
+  Force field for the output video frame.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+setfield AVOptions:
+  mode              <int>        ..FV..... select interlace mode (from -1 to 2) (default auto)
+     auto            -1           ..FV..... keep the same input field
+     bff             0            ..FV..... mark as bottom-field-first
+     tff             1            ..FV..... mark as top-field-first
+     prog            2            ..FV..... mark as progressive
+
+

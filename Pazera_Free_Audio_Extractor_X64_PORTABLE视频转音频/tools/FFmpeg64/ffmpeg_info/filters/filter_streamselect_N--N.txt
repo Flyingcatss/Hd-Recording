@@ -1,0 +1,11 @@
+Filter streamselect
+  Select video streams
+    Inputs:
+        dynamic (depending on the options)
+    Outputs:
+        dynamic (depending on the options)
+streamselect AVOptions:
+  inputs            <int>        ..FVA.... number of input streams (from 2 to INT_MAX) (default 2)
+  map               <string>     ..FVA.... input indexes to remap to outputs
+
+

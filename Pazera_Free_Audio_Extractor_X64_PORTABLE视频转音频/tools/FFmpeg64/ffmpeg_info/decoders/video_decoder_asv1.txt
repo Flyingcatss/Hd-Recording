@@ -1,0 +1,4 @@
+Decoder asv1 [ASUS V1]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

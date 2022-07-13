@@ -1,0 +1,14 @@
+Filter acrossover
+  Split audio into per-bands streams.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+        dynamic (depending on the options)
+acrossover AVOptions:
+  split             <string>     ..F.A.... set split frequencies (default "500")
+  order             <int>        ..F.A.... set order (from 0 to 2) (default 4th)
+     2nd             0            ..F.A.... 2nd order
+     4th             1            ..F.A.... 4th order
+     8th             2            ..F.A.... 8th order
+
+

@@ -1,0 +1,10 @@
+Decoder ac3_fixed [ATSC A/52A (AC-3)]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: s16p
+Fixed-Point AC-3 Decoder AVOptions:
+  -cons_noisegen     <boolean>    .D..A.... enable consistent noise generation (default false)
+  -drc_scale         <float>      .D..A.... percentage of dynamic range compression to apply (from 0 to 6) (default 1)
+  -heavy_compr       <boolean>    .D..A.... enable heavy dynamic range compression (default false)
+
+

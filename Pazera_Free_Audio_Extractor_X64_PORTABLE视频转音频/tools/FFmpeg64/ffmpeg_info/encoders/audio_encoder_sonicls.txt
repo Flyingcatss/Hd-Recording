@@ -1,0 +1,5 @@
+Encoder sonicls [Sonic lossless]:
+    General capabilities: exp 
+    Threading capabilities: none
+    Supported sample formats: s16
+

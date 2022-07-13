@@ -1,0 +1,4 @@
+Decoder wavesynth [Wave synthesis pseudo-codec]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

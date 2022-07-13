@@ -1,0 +1,5 @@
+Demuxer tedcaptions [TED Talks captions]:
+tedcaptions_demuxer AVOptions:
+  -start_time        <int64>      .D...S... set the start time (offset) of the subtitles, in ms (from I64_MIN to I64_MAX) (default 15000)
+
+

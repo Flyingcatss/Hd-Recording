@@ -1,0 +1,5 @@
+Encoder pcm_f32be [PCM 32-bit floating point big-endian]:
+    General capabilities: variable 
+    Threading capabilities: none
+    Supported sample formats: flt
+

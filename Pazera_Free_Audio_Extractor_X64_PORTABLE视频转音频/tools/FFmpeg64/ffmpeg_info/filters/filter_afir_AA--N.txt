@@ -1,0 +1,30 @@
+Filter afir
+  Apply Finite Impulse Response filter with supplied coefficients in 2nd stream.
+    slice threading supported
+    Inputs:
+       #0: main (audio)
+       #1: ir (audio)
+    Outputs:
+        dynamic (depending on the options)
+afir AVOptions:
+  dry               <float>      ..F.A.... set dry gain (from 0 to 10) (default 1)
+  wet               <float>      ..F.A.... set wet gain (from 0 to 10) (default 1)
+  length            <float>      ..F.A.... set IR length (from 0 to 1) (default 1)
+  gtype             <int>        ..F.A.... set IR auto gain type (from -1 to 2) (default peak)
+     none            -1           ..F.A.... without auto gain
+     peak            0            ..F.A.... peak gain
+     dc              1            ..F.A.... DC gain
+     gn              2            ..F.A.... gain to noise
+  irgain            <float>      ..F.A.... set IR gain (from 0 to 1) (default 1)
+  irfmt             <int>        ..F.A.... set IR format (from 0 to 1) (default input)
+     mono            0            ..F.A.... single channel
+     input           1            ..F.A.... same as input
+  maxir             <float>      ..F.A.... set max IR length (from 0.1 to 60) (default 30)
+  response          <boolean>    ..FV..... show IR frequency response (default false)
+  channel           <int>        ..FV..... set IR channel to display frequency response (from 0 to 1024) (default 0)
+  size              <image_size> ..FV..... set video size (default "hd720")
+  rate              <video_rate> ..FV..... set video rate (default "25")
+  minp              <int>        ..F.A.... set min partition size (from 8 to 32768) (default 8192)
+  maxp              <int>        ..F.A.... set max partition size (from 8 to 32768) (default 8192)
+
+

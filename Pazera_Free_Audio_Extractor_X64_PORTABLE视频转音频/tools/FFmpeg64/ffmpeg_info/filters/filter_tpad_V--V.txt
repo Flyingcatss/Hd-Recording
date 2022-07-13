@@ -1,0 +1,20 @@
+Filter tpad
+  Temporarily pad video frames.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+tpad AVOptions:
+  start             <int>        ..FV..... set the number of frames to delay input (from 0 to INT_MAX) (default 0)
+  stop              <int>        ..FV..... set the number of frames to add after input finished (from -1 to INT_MAX) (default 0)
+  start_mode        <int>        ..FV..... set the mode of added frames to start (from 0 to 1) (default add)
+     add             0            ..FV..... add solid-color frames
+     clone           1            ..FV..... clone first/last frame
+  stop_mode         <int>        ..FV..... set the mode of added frames to end (from 0 to 1) (default add)
+     add             0            ..FV..... add solid-color frames
+     clone           1            ..FV..... clone first/last frame
+  start_duration    <duration>   ..FV..... set the duration to delay input (default 0)
+  stop_duration     <duration>   ..FV..... set the duration to pad input (default 0)
+  color             <color>      ..FV..... set the color of the added frames (default "black")
+
+

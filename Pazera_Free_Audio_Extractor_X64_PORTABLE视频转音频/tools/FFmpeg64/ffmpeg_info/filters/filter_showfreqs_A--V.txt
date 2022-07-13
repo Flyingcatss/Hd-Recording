@@ -1,0 +1,53 @@
+Filter showfreqs
+  Convert input audio to a frequencies video output.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (video)
+showfreqs AVOptions:
+  size              <image_size> ..FV..... set video size (default "1024x512")
+  s                 <image_size> ..FV..... set video size (default "1024x512")
+  mode              <int>        ..FV..... set display mode (from 0 to 2) (default bar)
+     line            0            ..FV..... show lines
+     bar             1            ..FV..... show bars
+     dot             2            ..FV..... show dots
+  ascale            <int>        ..FV..... set amplitude scale (from 0 to 3) (default log)
+     lin             0            ..FV..... linear
+     sqrt            1            ..FV..... square root
+     cbrt            2            ..FV..... cubic root
+     log             3            ..FV..... logarithmic
+  fscale            <int>        ..FV..... set frequency scale (from 0 to 2) (default lin)
+     lin             0            ..FV..... linear
+     log             1            ..FV..... logarithmic
+     rlog            2            ..FV..... reverse logarithmic
+  win_size          <int>        ..FV..... set window size (from 16 to 65536) (default 2048)
+  win_func          <int>        ..FV..... set window function (from 0 to 19) (default hanning)
+     rect            0            ..FV..... Rectangular
+     bartlett        4            ..FV..... Bartlett
+     hanning         1            ..FV..... Hanning
+     hamming         2            ..FV..... Hamming
+     blackman        3            ..FV..... Blackman
+     welch           5            ..FV..... Welch
+     flattop         6            ..FV..... Flat-top
+     bharris         7            ..FV..... Blackman-Harris
+     bnuttall        8            ..FV..... Blackman-Nuttall
+     bhann           11           ..FV..... Bartlett-Hann
+     sine            9            ..FV..... Sine
+     nuttall         10           ..FV..... Nuttall
+     lanczos         12           ..FV..... Lanczos
+     gauss           13           ..FV..... Gauss
+     tukey           14           ..FV..... Tukey
+     dolph           15           ..FV..... Dolph-Chebyshev
+     cauchy          16           ..FV..... Cauchy
+     parzen          17           ..FV..... Parzen
+     poisson         18           ..FV..... Poisson
+     bohman          19           ..FV..... Bohman
+  overlap           <float>      ..FV..... set window overlap (from 0 to 1) (default 1)
+  averaging         <int>        ..FV..... set time averaging (from 0 to INT_MAX) (default 1)
+  colors            <string>     ..FV..... set channels colors (default "red|green|blue|yellow|orange|lime|pink|magenta|brown")
+  cmode             <int>        ..FV..... set channel mode (from 0 to 1) (default combined)
+     combined        0            ..FV..... show all channels in same window
+     separate        1            ..FV..... show each channel in own window
+  minamp            <float>      ..FV..... set minimum amplitude (from FLT_MIN to 1e-006) (default 1e-006)
+
+

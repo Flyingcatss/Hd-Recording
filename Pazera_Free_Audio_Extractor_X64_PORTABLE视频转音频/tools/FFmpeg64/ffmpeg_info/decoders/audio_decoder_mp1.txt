@@ -1,0 +1,5 @@
+Decoder mp1 [MP1 (MPEG audio layer 1)]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: s16p s16
+

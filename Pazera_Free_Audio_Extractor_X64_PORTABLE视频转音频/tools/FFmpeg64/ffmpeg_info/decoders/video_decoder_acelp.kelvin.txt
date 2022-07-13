@@ -1,0 +1,4 @@
+Decoder acelp.kelvin [Sipro ACELP.KELVIN]:
+    General capabilities: dr1 subframes 
+    Threading capabilities: none
+

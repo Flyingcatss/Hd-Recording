@@ -1,0 +1,6 @@
+Demuxer f32le [PCM 32-bit floating-point little-endian]:
+f32le demuxer AVOptions:
+  -sample_rate       <int>        .D.......  (from 0 to INT_MAX) (default 44100)
+  -channels          <int>        .D.......  (from 0 to INT_MAX) (default 1)
+
+

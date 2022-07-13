@@ -1,0 +1,18 @@
+Filter vaguedenoiser
+  Apply a Wavelet based Denoiser.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+vaguedenoiser AVOptions:
+  threshold         <float>      ..FV..... set filtering strength (from 0 to DBL_MAX) (default 2)
+  method            <int>        ..FV..... set filtering method (from 0 to 2) (default garrote)
+     hard            0            ..FV..... hard thresholding
+     soft            1            ..FV..... soft thresholding
+     garrote         2            ..FV..... garotte thresholding
+  nsteps            <int>        ..FV..... set number of steps (from 1 to 32) (default 6)
+  percent           <float>      ..FV..... set percent of full denoising (from 0 to 100) (default 85)
+  planes            <int>        ..FV..... set planes to filter (from 0 to 15) (default 15)
+
+This filter has support for timeline through the 'enable' option.
+

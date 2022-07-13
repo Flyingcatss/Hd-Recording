@@ -1,0 +1,16 @@
+Filter interlace
+  Convert progressive video into interlaced.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+interlace AVOptions:
+  scan              <int>        ..FV..... scanning mode (from 0 to 1) (default tff)
+     tff             0            ..FV..... top field first
+     bff             1            ..FV..... bottom field first
+  lowpass           <flags>      ..FV..... set vertical low-pass filter (default linear)
+     off                          ..FV..... disable vertical low-pass filter
+     linear                       ..FV..... linear vertical low-pass filter
+     complex                      ..FV..... complex vertical low-pass filter
+
+

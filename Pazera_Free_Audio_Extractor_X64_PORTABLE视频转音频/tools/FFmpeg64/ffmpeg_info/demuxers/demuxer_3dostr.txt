@@ -1,0 +1,3 @@
+Demuxer 3dostr [3DO STR]:
+    Common extensions: str.
+

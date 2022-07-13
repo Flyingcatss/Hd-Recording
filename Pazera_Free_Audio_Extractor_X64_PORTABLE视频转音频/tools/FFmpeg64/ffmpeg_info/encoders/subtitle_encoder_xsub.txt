@@ -1,0 +1,3 @@
+Encoder xsub [DivX subtitles (XSUB)]:
+    General capabilities: none
+

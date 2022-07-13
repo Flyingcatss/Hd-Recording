@@ -1,0 +1,11 @@
+Filter random
+  Return random frames.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+random AVOptions:
+  frames            <int>        ..FV..... set number of frames in cache (from 2 to 512) (default 30)
+  seed              <int64>      ..FV..... set the seed (from -1 to UINT32_MAX) (default -1)
+
+

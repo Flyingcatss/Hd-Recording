@@ -1,0 +1,4 @@
+Decoder indeo3 [Intel Indeo 3]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

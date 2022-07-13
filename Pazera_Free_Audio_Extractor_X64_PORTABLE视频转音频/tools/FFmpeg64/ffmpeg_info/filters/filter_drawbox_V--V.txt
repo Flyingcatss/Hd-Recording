@@ -1,0 +1,21 @@
+Filter drawbox
+  Draw a colored box on the input video.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+drawbox AVOptions:
+  x                 <string>     ..FV..... set horizontal position of the left box edge (default "0")
+  y                 <string>     ..FV..... set vertical position of the top box edge (default "0")
+  width             <string>     ..FV..... set width of the box (default "0")
+  w                 <string>     ..FV..... set width of the box (default "0")
+  height            <string>     ..FV..... set height of the box (default "0")
+  h                 <string>     ..FV..... set height of the box (default "0")
+  color             <string>     ..FV..... set color of the box (default "black")
+  c                 <string>     ..FV..... set color of the box (default "black")
+  thickness         <string>     ..FV..... set the box thickness (default "3")
+  t                 <string>     ..FV..... set the box thickness (default "3")
+  replace           <boolean>    ..FV..... replace color & alpha (default false)
+
+This filter has support for timeline through the 'enable' option.
+

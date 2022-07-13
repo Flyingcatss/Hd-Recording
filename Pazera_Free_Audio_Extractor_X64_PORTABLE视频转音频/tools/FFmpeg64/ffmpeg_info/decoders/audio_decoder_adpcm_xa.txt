@@ -1,0 +1,5 @@
+Decoder adpcm_xa [ADPCM CDROM XA]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: s16p
+

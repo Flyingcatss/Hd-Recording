@@ -1,0 +1,5 @@
+Encoder r10k [AJA Kona 10-bit RGB Codec]:
+    General capabilities: intraonly 
+    Threading capabilities: none
+    Supported pixel formats: gbrp10le
+

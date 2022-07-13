@@ -1,0 +1,21 @@
+Filter drawgrid
+  Draw a colored grid on the input video.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+drawgrid AVOptions:
+  x                 <string>     ..FV..... set horizontal offset (default "0")
+  y                 <string>     ..FV..... set vertical offset (default "0")
+  width             <string>     ..FV..... set width of grid cell (default "0")
+  w                 <string>     ..FV..... set width of grid cell (default "0")
+  height            <string>     ..FV..... set height of grid cell (default "0")
+  h                 <string>     ..FV..... set height of grid cell (default "0")
+  color             <string>     ..FV..... set color of the grid (default "black")
+  c                 <string>     ..FV..... set color of the grid (default "black")
+  thickness         <string>     ..FV..... set grid line thickness (default "1")
+  t                 <string>     ..FV..... set grid line thickness (default "1")
+  replace           <boolean>    ..FV..... replace color & alpha (default false)
+
+This filter has support for timeline through the 'enable' option.
+

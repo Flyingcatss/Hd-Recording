@@ -1,0 +1,5 @@
+Decoder adpcm_ima_rad [ADPCM IMA Radical]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: s16
+

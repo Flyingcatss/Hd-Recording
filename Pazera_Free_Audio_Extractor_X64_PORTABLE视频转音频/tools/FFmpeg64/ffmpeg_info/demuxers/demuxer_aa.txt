@@ -1,0 +1,6 @@
+Demuxer aa [Audible AA format files]:
+    Common extensions: aa.
+aa AVOptions:
+  -aa_fixed_key      <binary>     .D....... Fixed key used for handling Audible AA files
+
+

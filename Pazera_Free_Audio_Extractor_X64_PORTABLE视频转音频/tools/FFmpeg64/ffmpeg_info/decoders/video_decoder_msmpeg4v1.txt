@@ -1,0 +1,5 @@
+Decoder msmpeg4v1 [MPEG-4 part 2 Microsoft variant version 1]:
+    General capabilities: horizband dr1 
+    Threading capabilities: none
+    Supported pixel formats: yuv420p
+

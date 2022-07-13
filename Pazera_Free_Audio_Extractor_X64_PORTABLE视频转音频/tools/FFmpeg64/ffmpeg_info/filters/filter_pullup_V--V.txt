@@ -1,0 +1,18 @@
+Filter pullup
+  Pullup from field sequence to frames.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+pullup AVOptions:
+  jl                <int>        ..FV..... set left junk size (from 0 to INT_MAX) (default 1)
+  jr                <int>        ..FV..... set right junk size (from 0 to INT_MAX) (default 1)
+  jt                <int>        ..FV..... set top junk size (from 1 to INT_MAX) (default 4)
+  jb                <int>        ..FV..... set bottom junk size (from 1 to INT_MAX) (default 4)
+  sb                <boolean>    ..FV..... set strict breaks (default false)
+  mp                <int>        ..FV..... set metric plane (from 0 to 2) (default y)
+     y               0            ..FV..... luma
+     u               1            ..FV..... chroma blue
+     v               2            ..FV..... chroma red
+
+

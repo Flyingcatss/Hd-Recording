@@ -1,0 +1,18 @@
+Filter aphasemeter
+  Convert input audio to phase meter video output.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+        dynamic (depending on the options)
+aphasemeter AVOptions:
+  rate              <video_rate> ..FV..... set video rate (default "25")
+  r                 <video_rate> ..FV..... set video rate (default "25")
+  size              <image_size> ..FV..... set video size (default "800x400")
+  s                 <image_size> ..FV..... set video size (default "800x400")
+  rc                <int>        ..FV..... set red contrast (from 0 to 255) (default 2)
+  gc                <int>        ..FV..... set green contrast (from 0 to 255) (default 7)
+  bc                <int>        ..FV..... set blue contrast (from 0 to 255) (default 1)
+  mpc               <string>     ..FV..... set median phase color (default "none")
+  video             <boolean>    ..FV..... set video output (default true)
+
+

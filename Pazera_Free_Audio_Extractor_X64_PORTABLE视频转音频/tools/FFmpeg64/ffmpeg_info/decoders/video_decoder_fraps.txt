@@ -1,0 +1,4 @@
+Decoder fraps [Fraps]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame
+

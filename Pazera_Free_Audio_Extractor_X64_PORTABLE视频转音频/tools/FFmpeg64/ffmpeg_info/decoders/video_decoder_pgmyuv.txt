@@ -1,0 +1,4 @@
+Decoder pgmyuv [PGMYUV (Portable GrayMap YUV) image]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

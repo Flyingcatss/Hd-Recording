@@ -1,0 +1,5 @@
+Decoder adpcm_ima_qt [ADPCM IMA QuickTime]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: s16p
+

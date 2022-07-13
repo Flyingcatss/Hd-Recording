@@ -1,0 +1,5 @@
+Decoder adpcm_ima_dat4 [ADPCM IMA Eurocom DAT4]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: s16
+

@@ -1,0 +1,19 @@
+Filter deblock
+  Deblock video.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+deblock AVOptions:
+  filter            <int>        ..FV..... set type of filter (from 0 to 1) (default strong)
+     weak            0            ..FV.....
+     strong          1            ..FV.....
+  block             <int>        ..FV..... set size of block (from 4 to 512) (default 8)
+  alpha             <float>      ..FV..... set 1st detection threshold (from 0 to 1) (default 0.098)
+  beta              <float>      ..FV..... set 2nd detection threshold (from 0 to 1) (default 0.05)
+  gamma             <float>      ..FV..... set 3rd detection threshold (from 0 to 1) (default 0.05)
+  delta             <float>      ..FV..... set 4th detection threshold (from 0 to 1) (default 0.05)
+  planes            <int>        ..FV..... set planes to filter (from 0 to 15) (default 15)
+
+This filter has support for timeline through the 'enable' option.
+

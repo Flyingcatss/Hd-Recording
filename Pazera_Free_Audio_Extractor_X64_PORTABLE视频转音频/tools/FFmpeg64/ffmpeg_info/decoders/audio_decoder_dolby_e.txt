@@ -1,0 +1,5 @@
+Decoder dolby_e [Dolby E]:
+    General capabilities: dr1 chconf 
+    Threading capabilities: none
+    Supported sample formats: fltp
+

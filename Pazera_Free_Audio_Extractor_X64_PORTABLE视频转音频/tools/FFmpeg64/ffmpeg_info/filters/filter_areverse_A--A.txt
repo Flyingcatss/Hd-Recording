@@ -1,0 +1,7 @@
+Filter areverse
+  Reverse an audio clip.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+

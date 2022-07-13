@@ -1,0 +1,6 @@
+Decoder h263 [H.263 / H.263-1996, H.263+ / H.263-1998 / H.263 version 2]:
+    General capabilities: horizband dr1 trunc delay 
+    Threading capabilities: none
+    Supported hardware devices: cuda 
+    Supported pixel formats: cuda yuv420p
+

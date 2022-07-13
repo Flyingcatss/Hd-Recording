@@ -1,0 +1,11 @@
+Filter asettb
+  Set timebase for the audio output link.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+asettb AVOptions:
+  expr              <string>     ..F.A.... set expression determining the output timebase (default "intb")
+  tb                <string>     ..F.A.... set expression determining the output timebase (default "intb")
+
+

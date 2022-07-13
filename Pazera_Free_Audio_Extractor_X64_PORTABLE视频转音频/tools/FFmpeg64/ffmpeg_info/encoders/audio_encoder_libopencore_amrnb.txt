@@ -1,0 +1,8 @@
+Encoder libopencore_amrnb [OpenCORE AMR-NB (Adaptive Multi-Rate Narrow-Band)]:
+    General capabilities: delay small 
+    Threading capabilities: none
+    Supported sample formats: s16
+libopencore_amrnb AVOptions:
+  -dtx               <int>        E...A.... Allow DTX (generate comfort noise) (from 0 to 1) (default 0)
+
+

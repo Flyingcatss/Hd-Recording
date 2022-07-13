@@ -1,0 +1,18 @@
+Filter tinterlace
+  Perform temporal field interlacing.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+tinterlace AVOptions:
+  mode              <int>        ..FV..... select interlace mode (from 0 to 7) (default merge)
+     merge           0            ..FV..... merge fields
+     drop_even       1            ..FV..... drop even fields
+     drop_odd        2            ..FV..... drop odd fields
+     pad             3            ..FV..... pad alternate lines with black
+     interleave_top  4            ..FV..... interleave top and bottom fields
+     interleave_bottom 5            ..FV..... interleave bottom and top fields
+     interlacex2     6            ..FV..... interlace fields from two consecutive frames
+     mergex2         7            ..FV..... merge fields keeping same frame rate
+
+

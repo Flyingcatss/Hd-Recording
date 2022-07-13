@@ -1,0 +1,6 @@
+Demuxer aptx_hd [raw aptX HD]:
+    Common extensions: aptxhd.
+aptx hd demuxer AVOptions:
+  -sample_rate       <int>        .D.......  (from 0 to INT_MAX) (default 48000)
+
+

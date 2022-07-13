@@ -1,0 +1,24 @@
+Filter haldclut
+  Adjust colors using a Hald CLUT.
+    slice threading supported
+    Inputs:
+       #0: main (video)
+       #1: clut (video)
+    Outputs:
+       #0: default (video)
+haldclut AVOptions:
+  interp            <int>        ..FV..... select interpolation mode (from 0 to 2) (default tetrahedral)
+     nearest         0            ..FV..... use values from the nearest defined points
+     trilinear       1            ..FV..... interpolate values using the 8 points defining a cube
+     tetrahedral     2            ..FV..... interpolate values using a tetrahedron
+
+framesync AVOptions:
+  eof_action        <int>        ..FV..... Action to take when encountering EOF from secondary input  (from 0 to 2) (default repeat)
+     repeat          0            ..FV..... Repeat the previous frame.
+     endall          1            ..FV..... End both streams.
+     pass            2            ..FV..... Pass through the main input.
+  shortest          <boolean>    ..FV..... force termination when the shortest input terminates (default false)
+  repeatlast        <boolean>    ..FV..... extend last frame of secondary streams beyond EOF (default true)
+
+This filter has support for timeline through the 'enable' option.
+

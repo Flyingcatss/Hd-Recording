@@ -1,0 +1,3 @@
+Demuxer nsp [Computerized Speech Lab NSP]:
+    Common extensions: nsp.
+

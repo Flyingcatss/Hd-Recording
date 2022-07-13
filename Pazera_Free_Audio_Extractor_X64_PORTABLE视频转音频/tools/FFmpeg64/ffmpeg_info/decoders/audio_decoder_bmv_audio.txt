@@ -1,0 +1,4 @@
+Decoder bmv_audio [Discworld II BMV audio]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

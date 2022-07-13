@@ -1,0 +1,3 @@
+Muxer f32le [PCM 32-bit floating-point little-endian]:
+    Default audio codec: pcm_f32le.
+

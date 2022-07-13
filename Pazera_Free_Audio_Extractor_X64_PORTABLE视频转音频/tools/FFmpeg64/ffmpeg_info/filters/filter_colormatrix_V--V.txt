@@ -1,0 +1,29 @@
+Filter colormatrix
+  Convert color matrix.
+    slice threading supported
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+colormatrix AVOptions:
+  src               <int>        ..FV..... set source color matrix (from -1 to 4) (default -1)
+     bt709           0            ..FV..... set BT.709 colorspace
+     fcc             1            ..FV..... set FCC colorspace   
+     bt601           2            ..FV..... set BT.601 colorspace
+     bt470           2            ..FV..... set BT.470 colorspace
+     bt470bg         2            ..FV..... set BT.470 colorspace
+     smpte170m       2            ..FV..... set SMTPE-170M colorspace
+     smpte240m       3            ..FV..... set SMPTE-240M colorspace
+     bt2020          4            ..FV..... set BT.2020 colorspace
+  dst               <int>        ..FV..... set destination color matrix (from -1 to 4) (default -1)
+     bt709           0            ..FV..... set BT.709 colorspace
+     fcc             1            ..FV..... set FCC colorspace   
+     bt601           2            ..FV..... set BT.601 colorspace
+     bt470           2            ..FV..... set BT.470 colorspace
+     bt470bg         2            ..FV..... set BT.470 colorspace
+     smpte170m       2            ..FV..... set SMTPE-170M colorspace
+     smpte240m       3            ..FV..... set SMPTE-240M colorspace
+     bt2020          4            ..FV..... set BT.2020 colorspace
+
+This filter has support for timeline through the 'enable' option.
+

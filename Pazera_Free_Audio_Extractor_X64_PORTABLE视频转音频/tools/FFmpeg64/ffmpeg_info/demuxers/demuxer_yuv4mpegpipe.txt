@@ -1,0 +1,3 @@
+Demuxer yuv4mpegpipe [YUV4MPEG pipe]:
+    Common extensions: y4m.
+

@@ -1,0 +1,7 @@
+Demuxer sln [Asterisk raw pcm]:
+    Common extensions: sln.
+sln demuxer AVOptions:
+  -sample_rate       <int>        .D.......  (from 0 to INT_MAX) (default 8000)
+  -channels          <int>        .D.......  (from 0 to INT_MAX) (default 1)
+
+

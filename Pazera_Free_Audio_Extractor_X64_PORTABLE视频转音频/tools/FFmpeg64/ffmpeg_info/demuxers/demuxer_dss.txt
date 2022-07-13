@@ -1,0 +1,3 @@
+Demuxer dss [Digital Speech Standard (DSS)]:
+    Common extensions: dss.
+

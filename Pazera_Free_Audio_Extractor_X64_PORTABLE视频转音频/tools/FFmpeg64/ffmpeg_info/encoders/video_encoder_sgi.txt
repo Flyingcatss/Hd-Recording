@@ -1,0 +1,8 @@
+Encoder sgi [SGI image]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported pixel formats: rgb24 rgba rgb48le rgb48be rgba64le rgba64be gray16le gray16be gray
+sgi AVOptions:
+  -rle               <int>        E..V..... Use run-length compression (from 0 to 1) (default 1)
+
+

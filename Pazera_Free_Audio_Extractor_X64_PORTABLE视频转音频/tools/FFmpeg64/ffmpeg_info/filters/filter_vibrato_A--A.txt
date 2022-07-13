@@ -1,0 +1,11 @@
+Filter vibrato
+  Apply vibrato effect.
+    Inputs:
+       #0: default (audio)
+    Outputs:
+       #0: default (audio)
+vibrato AVOptions:
+  f                 <double>     ..F.A.... set frequency in hertz (from 0.1 to 20000) (default 5)
+  d                 <double>     ..F.A.... set depth as percentage (from 0 to 1) (default 0.5)
+
+

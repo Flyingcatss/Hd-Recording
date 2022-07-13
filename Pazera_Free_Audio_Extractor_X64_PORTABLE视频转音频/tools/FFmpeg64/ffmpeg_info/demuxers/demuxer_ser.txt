@@ -1,0 +1,6 @@
+Demuxer ser [SER (Simple uncompressed video format for astronomical capturing)]:
+    Common extensions: ser.
+ser demuxer AVOptions:
+  -framerate         <video_rate> .D....... set frame rate (default "25")
+
+

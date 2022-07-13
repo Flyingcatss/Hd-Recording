@@ -1,0 +1,3 @@
+Demuxer tta [TTA (True Audio)]:
+    Common extensions: tta.
+

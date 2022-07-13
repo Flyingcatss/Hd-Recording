@@ -1,0 +1,23 @@
+Filter edgedetect
+  Detect and draw edge.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+edgedetect AVOptions:
+  high              <double>     ..FV..... set high threshold (from 0 to 1) (default 0.196078)
+  low               <double>     ..FV..... set low threshold (from 0 to 1) (default 0.0784314)
+  mode              <int>        ..FV..... set mode (from 0 to 2) (default wires)
+     wires           0            ..FV..... white/gray wires on black
+     colormix        1            ..FV..... mix colors
+     canny           2            ..FV..... detect edges on planes
+  planes            <flags>      ..FV..... set planes to filter (default y+u+v+r+g+b)
+     y                            ..FV..... filter luma plane
+     u                            ..FV..... filter u plane
+     v                            ..FV..... filter v plane
+     r                            ..FV..... filter red plane
+     g                            ..FV..... filter green plane
+     b                            ..FV..... filter blue plane
+
+This filter has support for timeline through the 'enable' option.
+

@@ -1,0 +1,4 @@
+Decoder iff [IFF ACBM/ANIM/DEEP/ILBM/PBM/RGB8/RGBN]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

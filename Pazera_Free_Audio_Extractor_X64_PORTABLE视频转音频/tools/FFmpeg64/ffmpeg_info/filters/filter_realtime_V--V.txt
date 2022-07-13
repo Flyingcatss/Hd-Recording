@@ -1,0 +1,11 @@
+Filter realtime
+  Slow down filtering to match realtime.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+realtime AVOptions:
+  limit             <duration>   ..FVA.... sleep time limit (default 2)
+  speed             <double>     ..FVA.... speed factor (from DBL_MIN to DBL_MAX) (default 1)
+
+

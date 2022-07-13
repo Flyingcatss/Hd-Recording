@@ -1,0 +1,4 @@
+Decoder mss2 [MS Windows Media Video V9 Screen]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

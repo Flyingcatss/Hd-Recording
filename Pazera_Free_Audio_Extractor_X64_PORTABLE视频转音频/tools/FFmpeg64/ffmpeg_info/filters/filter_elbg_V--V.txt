@@ -1,0 +1,16 @@
+Filter elbg
+  Apply posterize effect, using the ELBG algorithm.
+    Inputs:
+       #0: default (video)
+    Outputs:
+       #0: default (video)
+elbg AVOptions:
+  codebook_length   <int>        ..FV..... set codebook length (from 1 to INT_MAX) (default 256)
+  l                 <int>        ..FV..... set codebook length (from 1 to INT_MAX) (default 256)
+  nb_steps          <int>        ..FV..... set max number of steps used to compute the mapping (from 1 to INT_MAX) (default 1)
+  n                 <int>        ..FV..... set max number of steps used to compute the mapping (from 1 to INT_MAX) (default 1)
+  seed              <int>        ..FV..... set the random seed (from -1 to UINT32_MAX) (default -1)
+  s                 <int>        ..FV..... set the random seed (from -1 to UINT32_MAX) (default -1)
+  pal8              <boolean>    ..FV..... set the pal8 output (default false)
+
+

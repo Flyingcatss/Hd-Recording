@@ -1,0 +1,4 @@
+Decoder 4xm [4X Movie]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

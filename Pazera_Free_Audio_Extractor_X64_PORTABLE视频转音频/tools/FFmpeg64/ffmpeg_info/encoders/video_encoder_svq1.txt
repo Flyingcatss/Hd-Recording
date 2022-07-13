@@ -1,0 +1,11 @@
+Encoder svq1 [Sorenson Vector Quantizer 1 / Sorenson Video 1 / SVQ1]:
+    General capabilities: none
+    Threading capabilities: none
+    Supported pixel formats: yuv410p
+svq1enc AVOptions:
+  -motion-est        <int>        E..V..... Motion estimation algorithm (from 0 to 2) (default epzs)
+     zero            0            E..V.....
+     epzs            1            E..V.....
+     xone            2            E..V.....
+
+

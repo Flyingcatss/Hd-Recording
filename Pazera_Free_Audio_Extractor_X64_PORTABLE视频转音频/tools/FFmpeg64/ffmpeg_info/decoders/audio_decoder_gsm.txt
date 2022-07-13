@@ -1,0 +1,4 @@
+Decoder gsm [GSM]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

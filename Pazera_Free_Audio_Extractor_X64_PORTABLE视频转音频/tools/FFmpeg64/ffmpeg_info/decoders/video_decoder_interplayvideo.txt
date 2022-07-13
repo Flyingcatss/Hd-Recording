@@ -1,0 +1,4 @@
+Decoder interplayvideo [Interplay MVE video]:
+    General capabilities: dr1 paramchange 
+    Threading capabilities: none
+

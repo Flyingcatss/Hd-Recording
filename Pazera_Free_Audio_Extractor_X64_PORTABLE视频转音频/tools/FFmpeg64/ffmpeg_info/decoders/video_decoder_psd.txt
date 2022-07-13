@@ -1,0 +1,4 @@
+Decoder psd [Photoshop PSD file]:
+    General capabilities: dr1 threads 
+    Threading capabilities: frame
+

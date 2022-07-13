@@ -1,0 +1,13 @@
+Encoder tiff [TIFF image]:
+    General capabilities: threads intraonly 
+    Threading capabilities: frame
+    Supported pixel formats: rgb24 rgb48le pal8 rgba rgba64le gray ya8 gray16le ya16le monob monow yuv420p yuv422p yuv440p yuv444p yuv410p yuv411p
+TIFF encoder AVOptions:
+  -dpi               <int>        E..V..... set the image resolution (in dpi) (from 1 to 65536) (default 72)
+  -compression_algo  <int>        E..V..... (from 1 to 32946) (default packbits)
+     packbits        32773        E..V.....
+     raw             1            E..V.....
+     lzw             5            E..V.....
+     deflate         32946        E..V.....
+
+

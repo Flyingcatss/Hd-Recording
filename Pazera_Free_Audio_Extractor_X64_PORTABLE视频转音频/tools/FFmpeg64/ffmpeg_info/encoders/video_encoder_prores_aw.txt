@@ -1,0 +1,8 @@
+Encoder prores_aw [Apple ProRes]:
+    General capabilities: threads intraonly 
+    Threading capabilities: frame
+    Supported pixel formats: yuv422p10le yuv444p10le yuva444p10le
+ProResAw encoder AVOptions:
+  -vendor            <string>     E..V..... vendor ID (default "fmpg")
+
+

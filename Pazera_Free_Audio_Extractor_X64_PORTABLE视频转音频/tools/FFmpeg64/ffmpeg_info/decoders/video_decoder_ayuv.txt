@@ -1,0 +1,4 @@
+Decoder ayuv [Uncompressed packed MS 4:4:4:4]:
+    General capabilities: dr1 
+    Threading capabilities: none
+

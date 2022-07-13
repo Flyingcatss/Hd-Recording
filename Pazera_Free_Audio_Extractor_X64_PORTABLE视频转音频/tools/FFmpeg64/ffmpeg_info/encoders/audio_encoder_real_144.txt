@@ -1,0 +1,7 @@
+Encoder real_144 [RealAudio 1.0 (14.4K)]:
+    General capabilities: delay small 
+    Threading capabilities: none
+    Supported sample rates: 8000
+    Supported sample formats: s16
+    Supported channel layouts: mono
+

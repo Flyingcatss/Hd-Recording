@@ -1,0 +1,5 @@
+Decoder amrnb [AMR-NB (Adaptive Multi-Rate NarrowBand)]:
+    General capabilities: dr1 
+    Threading capabilities: none
+    Supported sample formats: flt
+
